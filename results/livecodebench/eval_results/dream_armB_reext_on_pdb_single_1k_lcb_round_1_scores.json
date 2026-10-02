@@ -1,0 +1,4106 @@
+{
+  "Unit score": {
+    "2730_19": 0,
+    "2873_2": 0,
+    "2878_52": 0,
+    "2882_45": 0,
+    "2915_46": 0,
+    "2916_54": 0,
+    "2921_48": 0,
+    "3032_63": 0,
+    "3032_66": 0,
+    "3114_18": 0,
+    "3184_56": 0,
+    "3192_9": 0,
+    "3196_48": 0,
+    "3211_27": 0,
+    "3219_7": 0,
+    "2884_28": 0,
+    "3046_37": 0,
+    "3223_59": 0,
+    "3231_47": 0,
+    "3236_10": 0,
+    "3251_29": 0,
+    "3267_35": 0,
+    "3355_21": 0,
+    "3360_26": 0,
+    "3375_22": 0,
+    "3382_35": 0,
+    "3398_8": 0,
+    "3436_11": 1,
+    "3438_66": 0,
+    "3475_34": 0,
+    "3533_34": 1,
+    "3345_21": 0,
+    "3354_40": 0,
+    "3395_31": 0,
+    "3588_19": 0,
+    "3594_17": 0,
+    "3629_45": 0,
+    "3631_19": 0,
+    "3657_26": 0,
+    "3657_34": 0,
+    "3659_26": 0,
+    "3754_39": 0,
+    "3754_43": 0,
+    "3764_33": 0,
+    "3626_3": 0,
+    "3626_8": 0,
+    "3627_24": 0,
+    "3648_43": 0,
+    "3682_23": 0,
+    "3714_32": 0,
+    "3722_38": 0,
+    "3753_9": 0,
+    "3779_9": 0,
+    "3604_3": 0,
+    "3637_13": 0,
+    "3771_7": 0,
+    "3783_22": 0
+  },
+  "Symbolic block scores": {
+    "2730_19": {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5,
+      "matched_blocks": {
+        "2730_19_em_0": {
+          "block_start": 6,
+          "block_end": 6,
+          "diff": {
+            "6": {
+              "type": "Modify",
+              "original": "            suf[i] = suf[i + 1] | nums[i - 1]",
+              "modified": "            suf[i] = suf[i + 1] | nums[i]"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {
+        "12": {
+          "type": "Delete",
+          "original": "        return ans",
+          "modified": ""
+        }
+      },
+      "unmatched_gt": {
+        "9": {
+          "type": "Delete",
+          "original": "            x >>= 1",
+          "modified": ""
+        }
+      }
+    },
+    "2873_2": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "2873_2_0": {
+          "pred_block": {
+            "block_start": 12,
+            "block_end": 12,
+            "diff": {
+              "12": {
+                "type": "Modify",
+                "original": "                ans.append([x, y])",
+                "modified": "                ans.append([x,"
+              }
+            },
+            "stride_before": 5,
+            "stride_after": null,
+            "block_id": 2
+          },
+          "gt_blocks": [
+            {
+              "block_start": 13,
+              "block_end": 13,
+              "diff": {
+                "13": {
+                  "type": "Add",
+                  "original": "",
+                  "modified": "        return ans"
+                }
+              },
+              "stride_before": 12,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {
+        "6": {
+          "type": "Modify",
+          "original": "                for j in range(i + i, n, i):",
+          "modified": "                for j in range(i + i, n + 1, i):"
+        },
+        "3": {
+          "type": "Modify",
+          "original": "        primes = [True] * n",
+          "modified": "        primes = [True] * (n + 1)"
+        }
+      },
+      "unmatched_gt": {}
+    },
+    "2878_52": {
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1": 0.5,
+      "matched_blocks": {
+        "2878_52_em_0": {
+          "block_start": 4,
+          "block_end": 4,
+          "diff": {
+            "4": {
+              "type": "Modify",
+              "original": "        d = np.zeros(n + 1, dtype=int)",
+              "modified": "        d = [0] * (n + 1)"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "14": {
+          "type": "Modify",
+          "original": "            d[i + k - 1] += x",
+          "modified": "            d[i + k] += x"
+        },
+        "8": {
+          "type": "Modify",
+          "original": "            x -= s",
+          "modified": "            x += s"
+        }
+      }
+    },
+    "2882_45": {
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "f1": 0.6666666666666666,
+      "matched_blocks": {
+        "2882_45_em_0": {
+          "block_start": 16,
+          "block_end": 16,
+          "diff": {
+            "16": {
+              "type": "Modify",
+              "original": "        for num in candidates.items():",
+              "modified": "        for num in candidates:"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        },
+        "2882_45_em_1": {
+          "block_start": 3,
+          "block_end": 3,
+          "diff": {
+            "3": {
+              "type": "Modify",
+              "original": "        MOD = numpy.int64(10**9 + 7)",
+              "modified": "        MOD = 10**9 + 7"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {
+        "20": {
+          "type": "Modify",
+          "original": "        return dp[n] % MOD",
+          "modified": "        return dp[n]"
+        }
+      },
+      "unmatched_gt": {
+        "7": {
+          "type": "Modify",
+          "original": "            current = i ** (x + 1)",
+          "modified": "            current = i ** x"
+        }
+      }
+    },
+    "2915_46": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8,
+      "matched_blocks": {
+        "2915_46_em_0": {
+          "block_start": 11,
+          "block_end": 11,
+          "diff": {
+            "11": {
+              "type": "Modify",
+              "original": "        return str(ans)",
+              "modified": "        return ans"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        },
+        "2915_46_em_1": {
+          "block_start": 3,
+          "block_end": 3,
+          "diff": {
+            "3": {
+              "type": "Modify",
+              "original": "        arr = [int(x % modulo <= k) for x in nums]",
+              "modified": "        arr = [int(x % modulo == k) for x in nums]"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "6": {
+          "type": "Modify",
+          "original": "        ans = s = cnt[0]",
+          "modified": "        ans = s = 0"
+        }
+      }
+    },
+    "2916_54": {
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1": 0.4,
+      "matched_blocks": {
+        "2916_54_em_0": {
+          "block_start": 6,
+          "block_end": 6,
+          "diff": {
+            "6": {
+              "type": "Modify",
+              "original": "                return dfs(i, j)",
+              "modified": "                return True"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "15": {
+          "type": "Modify",
+          "original": "        return dfs(0, len(nums) - 2)",
+          "modified": "        return dfs(0, len(nums) - 1)"
+        },
+        "9": {
+          "type": "Modify",
+          "original": "                b = k == j - 1 and s[j + 1] - s[k + 1] >= m",
+          "modified": "                b = k == j - 1 or s[j + 1] - s[k + 1] >= m"
+        },
+        "3": {
+          "type": "Modify",
+          "original": "        @cached_property",
+          "modified": "        @cache"
+        }
+      }
+    },
+    "2921_48": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "21": {
+          "type": "Modify",
+          "original": "        num = low",
+          "modified": "        num = str(int(low) - 1)"
+        },
+        "14": {
+          "type": "Delete",
+          "original": "            ans += 1",
+          "modified": ""
+        },
+        "3": {
+          "type": "Modify",
+          "original": "        @cache(maxsize=None)",
+          "modified": "        @cache"
+        }
+      }
+    },
+    "3032_63": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "3032_63_0": {
+          "pred_block": {
+            "block_start": 20,
+            "block_end": 23,
+            "diff": {
+              "20": {
+                "type": "Modify",
+                "original": "                    p = f[p][j]",
+                "modified": "                    p = f[p][j"
+              },
+              "21": {
+                "type": "Delete",
+                "original": "            p = 0",
+                "modified": ""
+              },
+              "22": {
+                "type": "Delete",
+                "original": "            ans = max(ans, t + p)",
+                "modified": ""
+              },
+              "23": {
+                "type": "Delete",
+                "original": "        return ans",
+                "modified": ""
+              }
+            },
+            "stride_before": 19,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 21,
+              "block_end": 21,
+              "diff": {
+                "21": {
+                  "type": "Delete",
+                  "original": "            p = 0",
+                  "modified": ""
+                }
+              },
+              "stride_before": 2,
+              "stride_after": null,
+              "block_id": 3
+            }
+          ],
+          "gt_match_ids": [
+            3
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "18": {
+          "type": "Modify",
+          "original": "                if (k >> j & 1) == 0:",
+          "modified": "                if k >> j & 1:"
+        },
+        "13": {
+          "type": "Delete",
+          "original": "        k = max(0, k - 1)",
+          "modified": ""
+        },
+        "5": {
+          "type": "Modify",
+          "original": "        g = np.zeros((n, m), dtype=int)",
+          "modified": "        g = [[0] * m for _ in range(n)]"
+        }
+      }
+    },
+    "3032_66": {
+      "precision": 0.25,
+      "recall": 0.25,
+      "f1": 0.25,
+      "matched_blocks": {
+        "3032_66_em_0": {
+          "block_start": 3,
+          "block_end": 3,
+          "diff": {
+            "3": {
+              "type": "Delete",
+              "original": "        receiver.sort()",
+              "modified": ""
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {
+        "21": {
+          "type": "Modify",
+          "original": "                    p = f[p][j]",
+          "modified": "                    p = f[p"
+        },
+        "22": {
+          "type": "Delete",
+          "original": "            ans = max(ans, t + p)",
+          "modified": ""
+        },
+        "23": {
+          "type": "Delete",
+          "original": "        return ans",
+          "modified": ""
+        }
+      },
+      "unmatched_gt": {
+        "19": {
+          "type": "Modify",
+          "original": "                if (k >> j & 1) == 0:",
+          "modified": "                if k >> j & 1:"
+        },
+        "14": {
+          "type": "Delete",
+          "original": "        k = max(0, k - 1)",
+          "modified": ""
+        },
+        "9": {
+          "type": "Modify",
+          "original": "            g[i][0] = receiver[i]",
+          "modified": "            g[i][0] = i"
+        }
+      }
+    },
+    "3114_18": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "3114_18_2": {
+          "pred_block": {
+            "block_start": 22,
+            "block_end": 22,
+            "diff": {
+              "22": {
+                "type": "Modify",
+                "original": "                right[pos_in_right] = min(heights[j], right[pos_in_right - 1])",
+                "modified": "                right[pos_in_right] = min(maxHeights[j], right[pos_in_right - 1])"
+              }
+            },
+            "stride_before": 2,
+            "stride_after": 5,
+            "block_id": 4
+          },
+          "gt_blocks": [
+            {
+              "block_start": 21,
+              "block_end": 21,
+              "diff": {
+                "21": {
+                  "type": "Modify",
+                  "original": "                pos_in_right = j - i - 1",
+                  "modified": "                pos_in_right = j - i"
+                }
+              },
+              "stride_before": 20,
+              "stride_after": 4,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {
+        "30": {
+          "type": "Delete",
+          "original": "        return max_total",
+          "modified": ""
+        },
+        "28": {
+          "type": "Modify",
+          "original": "                max_total = current_total",
+          "modified": "                max_total ="
+        },
+        "19": {
+          "type": "Modify",
+          "original": "            right[0] = heights[i]",
+          "modified": "            right[0] = maxHeights[i]"
+        },
+        "13": {
+          "type": "Modify",
+          "original": "                left[j] = min(heights[j], left[j + 1])",
+          "modified": "                left[j] = min(maxHeights[j], left[j + 1])"
+        },
+        "11": {
+          "type": "Modify",
+          "original": "            left[i] = heights[i]",
+          "modified": "            left[i] = maxHeights[i]"
+        },
+        "4": {
+          "type": "Modify",
+          "original": "    def maximumSumOfHeights(self, heights: List[int]) -> int:",
+          "modified": "    def maximumSumOfHeights(self, maxHeights: List[int]) -> int:"
+        },
+        "5": {
+          "type": "Modify",
+          "original": "        n = len(heights)",
+          "modified": "        n = len(maxHeights)"
+        }
+      },
+      "unmatched_gt": {
+        "26": {
+          "type": "Modify",
+          "original": "            current_total = left_sum + right_sum",
+          "modified": "            current_total = left_sum + right_sum - heights[i]"
+        }
+      }
+    },
+    "3184_56": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "26": {
+          "type": "Modify",
+          "original": "            v = tree.query(j) + x",
+          "modified": "            v = max(tree.query(j), 0) + x"
+        },
+        "21": {
+          "type": "Delete",
+          "original": "        arr = [x + i for i, x in enumerate(nums)]",
+          "modified": ""
+        },
+        "14": {
+          "type": "Add",
+          "original": "",
+          "modified": "            mx = max(mx, self.c[x])"
+        },
+        "4": {
+          "type": "Modify",
+          "original": "        self.c = [0] * (n + 1)",
+          "modified": "        self.c = [-inf] * (n + 1)"
+        }
+      }
+    },
+    "3192_9": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {
+        "16": {
+          "type": "Delete",
+          "original": "        return ax * bx % mod",
+          "modified": ""
+        }
+      },
+      "unmatched_gt": {
+        "5": {
+          "type": "Delete",
+          "original": "        ax, bx = a, b",
+          "modified": ""
+        }
+      }
+    },
+    "3196_48": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8,
+      "matched_blocks": {
+        "3196_48_em_0": {
+          "block_start": 16,
+          "block_end": 16,
+          "diff": {
+            "16": {
+              "type": "Add",
+              "original": "",
+              "modified": "                    ok = True"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        },
+        "3196_48_em_1": {
+          "block_start": 3,
+          "block_end": 3,
+          "diff": {
+            "3": {
+              "type": "Modify",
+              "original": "        nums.sorted()",
+              "modified": "        nums.sort()"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "6": {
+          "type": "Modify",
+          "original": "        l, r = 0, n - 1",
+          "modified": "        l, r = 0, n"
+        }
+      }
+    },
+    "3211_27": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "3211_27_0": {
+          "pred_block": {
+            "block_start": 13,
+            "block_end": 13,
+            "diff": {
+              "13": {
+                "type": "Delete",
+                "original": "        return f[n - 1]",
+                "modified": ""
+              }
+            },
+            "stride_before": 12,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 13,
+              "block_end": 13,
+              "diff": {
+                "13": {
+                  "type": "Modify",
+                  "original": "        return f[n - 1]",
+                  "modified": "        return f[n]"
+                }
+              },
+              "stride_before": 5,
+              "stride_after": null,
+              "block_id": 2
+            }
+          ],
+          "gt_match_ids": [
+            2
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "7": {
+          "type": "Modify",
+          "original": "        pre = [0] * (n + 1)",
+          "modified": "        pre = [0] * (n + 2)"
+        },
+        "3": {
+          "type": "Delete",
+          "original": "        nums = sorted(nums)",
+          "modified": ""
+        }
+      }
+    },
+    "3219_7": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "3219_7_0": {
+          "pred_block": {
+            "block_start": 12,
+            "block_end": 12,
+            "diff": {
+              "12": {
+                "type": "Modify",
+                "original": "            for k, (x, _) in zip(idx, arr[i:j]):",
+                "modified": "            for k, x in zip(idx, arr[i:j]):"
+              }
+            },
+            "stride_before": 11,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 11,
+              "block_end": 11,
+              "diff": {
+                "11": {
+                  "type": "Modify",
+                  "original": "            idx = sorted(k for x, k in arr[i:j] if x <= limit)",
+                  "modified": "            idx = sorted(k for _, k in arr[i:j])"
+                }
+              },
+              "stride_before": 10,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "2884_28": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {
+        "11": {
+          "type": "Modify",
+          "original": "            ans = max(ans, j - i + 1)",
+          "modified": "            ans = max(ans, j -"
+        },
+        "12": {
+          "type": "Delete",
+          "original": "        return ans",
+          "modified": ""
+        }
+      },
+      "unmatched_gt": {
+        "10": {
+          "type": "Delete",
+          "original": "            i = max(i, j - 5)",
+          "modified": ""
+        },
+        "7": {
+          "type": "Modify",
+          "original": "                if s.contains(word[k : j + 1]):",
+          "modified": "                if word[k : j + 1] in s:"
+        },
+        "4": {
+          "type": "Modify",
+          "original": "        ans = i = len(word)",
+          "modified": "        ans = i = 0"
+        }
+      }
+    },
+    "3046_37": {
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1": 0.5,
+      "matched_blocks": {
+        "3046_37_em_0": {
+          "block_start": 12,
+          "block_end": 12,
+          "diff": {
+            "12": {
+              "type": "Add",
+              "original": "",
+              "modified": "        return dfs(0, 0)"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "8": {
+          "type": "Modify",
+          "original": "            ans = min(ans, dfs(i + 1, (k * 10 + int(num[i]))))",
+          "modified": "            ans = min(ans, dfs(i + 1, (k * 10 + int(num[i])) % 25))"
+        },
+        "5": {
+          "type": "Modify",
+          "original": "            if i == n or k == 0:",
+          "modified": "            if i == n:"
+        }
+      }
+    },
+    "3223_59": {
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1": 0.4,
+      "matched_blocks": {
+        "3223_59_em_0": {
+          "block_start": 29,
+          "block_end": 29,
+          "diff": {
+            "29": {
+              "type": "Delete",
+              "original": "            j = n",
+              "modified": ""
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "11": {
+          "type": "Modify",
+          "original": "                freq = Counter.most_common(cnt.values())",
+          "modified": "                freq = Counter(cnt.values())"
+        },
+        "8": {
+          "type": "Modify",
+          "original": "                if l >= m:",
+          "modified": "                if l > m:"
+        },
+        "5": {
+          "type": "Modify",
+          "original": "            ans = 1",
+          "modified": "            ans = 0"
+        }
+      }
+    },
+    "3231_47": {
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1": 0.5,
+      "matched_blocks": {
+        "3231_47_em_0": {
+          "block_start": 12,
+          "block_end": 12,
+          "diff": {
+            "12": {
+              "type": "Modify",
+              "original": "                ans += long(1)",
+              "modified": "                ans += 1"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "7": {
+          "type": "Modify",
+          "original": "            if i < len(coins) and coins[i] <= target:",
+          "modified": "            if i < len(coins) and coins[i] <= s:"
+        },
+        "3": {
+          "type": "Modify",
+          "original": "        coins.sort(reverse=True)",
+          "modified": "        coins.sort()"
+        }
+      }
+    },
+    "3236_10": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {
+        "9": {
+          "type": "Modify",
+          "original": "        for x in count(s):",
+          "modified": "        while s in vis:"
+        },
+        "10": {
+          "type": "Modify",
+          "original": "            if x not in vis:",
+          "modified": "            s += 1"
+        },
+        "11": {
+          "type": "Modify",
+          "original": "                return x",
+          "modified": "        return s"
+        }
+      },
+      "unmatched_gt": {
+        "3": {
+          "type": "Delete",
+          "original": "        nums.sort()",
+          "modified": ""
+        }
+      }
+    },
+    "3251_29": {
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "f1": 0.6666666666666666,
+      "matched_blocks": {
+        "3251_29_em_0": {
+          "block_start": 8,
+          "block_end": 8,
+          "diff": {
+            "8": {
+              "type": "Delete",
+              "original": "                continue",
+              "modified": ""
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        },
+        "3251_29_0": {
+          "pred_block": {
+            "block_start": 12,
+            "block_end": 12,
+            "diff": {
+              "12": {
+                "type": "Delete",
+                "original": "        return ans.item()",
+                "modified": ""
+              }
+            },
+            "stride_before": 6,
+            "stride_after": null,
+            "block_id": 1
+          },
+          "gt_blocks": [
+            {
+              "block_start": 12,
+              "block_end": 12,
+              "diff": {
+                "12": {
+                  "type": "Modify",
+                  "original": "        return ans.item()",
+                  "modified": "        return ans"
+                }
+              },
+              "stride_before": 3,
+              "stride_after": null,
+              "block_id": 2
+            }
+          ],
+          "gt_match_ids": [
+            2
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        },
+        "3251_29_1": {
+          "pred_block": {
+            "block_start": 5,
+            "block_end": 5,
+            "diff": {
+              "5": {
+                "type": "Modify",
+                "original": "            t = pow(l, w, 2)",
+                "modified": "            t = pow(l, 2) + pow(w, 2)"
+              }
+            },
+            "stride_before": 4,
+            "stride_after": 6,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 5,
+              "block_end": 5,
+              "diff": {
+                "5": {
+                  "type": "Modify",
+                  "original": "            t = pow(l, w, 2)",
+                  "modified": "            t = l**2 + w**2"
+                }
+              },
+              "stride_before": 4,
+              "stride_after": 2,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "3267_35": {
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "f1": 0.6666666666666666,
+      "matched_blocks": {
+        "3267_35_em_0": {
+          "block_start": 12,
+          "block_end": 12,
+          "diff": {
+            "12": {
+              "type": "Add",
+              "original": "",
+              "modified": "            return max(cnt.values()) >= 3"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        },
+        "3267_35_1": {
+          "pred_block": {
+            "block_start": 16,
+            "block_end": 16,
+            "diff": {
+              "16": {
+                "type": "Modify",
+                "original": "            mid = (l + r + 1) / 2",
+                "modified": "            mid = (l + r + 1) // 2"
+              }
+            },
+            "stride_before": 15,
+            "stride_after": 4,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 16,
+              "block_end": 16,
+              "diff": {
+                "16": {
+                  "type": "Modify",
+                  "original": "            mid = (l + r + 1) / 2",
+                  "modified": "            mid = (l + r + 1) >> 1"
+                }
+              },
+              "stride_before": 4,
+              "stride_after": null,
+              "block_id": 2
+            }
+          ],
+          "gt_match_ids": [
+            2
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {
+        "21": {
+          "type": "Modify",
+          "original": "        return -1 if l == 0 else l",
+          "modified": "        return l if check(l) else -1"
+        }
+      },
+      "unmatched_gt": {
+        "8": {
+          "type": "Modify",
+          "original": "                while j < n - 1 and s[j] == s[i]:",
+          "modified": "                while j < n and s[j] == s[i]:"
+        }
+      }
+    },
+    "3355_21": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "matched_blocks": {
+        "3355_21_em_0": {
+          "block_start": 6,
+          "block_end": 6,
+          "diff": {
+            "6": {
+              "type": "Modify",
+              "original": "            t = -1 if x == 0 else 1",
+              "modified": "            t += -1 if x == 0 else 1"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "3": {
+          "type": "Modify",
+          "original": "        s = sum(-1 if x == 0 else 1 for x in possible[:-1])",
+          "modified": "        s = sum(-1 if x == 0 else 1 for x in possible)"
+        }
+      }
+    },
+    "3360_26": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "3360_26_0": {
+          "pred_block": {
+            "block_start": 14,
+            "block_end": 15,
+            "diff": {
+              "14": {
+                "type": "Modify",
+                "original": "        nums = [x for x in nums if x > k]",
+                "modified": "        nums.sort()"
+              },
+              "15": {
+                "type": "Delete",
+                "original": "        return min(f(v) for v in range(len(word) + 1))",
+                "modified": ""
+              }
+            },
+            "stride_before": 13,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 14,
+              "block_end": 14,
+              "diff": {
+                "14": {
+                  "type": "Delete",
+                  "original": "        nums = [x for x in nums if x > k]",
+                  "modified": ""
+                }
+              },
+              "stride_before": 3,
+              "stride_after": null,
+              "block_id": 2
+            }
+          ],
+          "gt_match_ids": [
+            2
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "10": {
+          "type": "Modify",
+          "original": "                    ans += x - v - k - 1",
+          "modified": "                    ans += x - v - k"
+        },
+        "6": {
+          "type": "Delete",
+          "original": "                if x > v + k: continue",
+          "modified": ""
+        }
+      }
+    },
+    "3375_22": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "3375_22_0": {
+          "pred_block": {
+            "block_start": 19,
+            "block_end": 19,
+            "diff": {
+              "19": {
+                "type": "Modify",
+                "original": "        return bisect_left((i for i in range(10**11)), True, key=check)",
+                "modified": "        return bisect_left(range(10**11), True, key=check"
+              }
+            },
+            "stride_before": 18,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 19,
+              "block_end": 19,
+              "diff": {
+                "19": {
+                  "type": "Modify",
+                  "original": "        return bisect_left((i for i in range(10**11)), True, key=check)",
+                  "modified": "        return bisect_left(range(10**11), True, key=check)"
+                }
+              },
+              "stride_before": 6,
+              "stride_after": null,
+              "block_id": 1
+            }
+          ],
+          "gt_match_ids": [
+            1
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "12": {
+          "type": "Modify",
+          "original": "                m = bin(i).bit_count()",
+          "modified": "                m = i.bit_count()"
+        }
+      }
+    },
+    "3382_35": {
+      "precision": 0.3333333333333333,
+      "recall": 0.3333333333333333,
+      "f1": 0.3333333333333333,
+      "matched_blocks": {
+        "3382_35_em_0": {
+          "block_start": 4,
+          "block_end": 4,
+          "diff": {
+            "4": {
+              "type": "Modify",
+              "original": "        ans = len(nums)",
+              "modified": "        ans = 0"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        },
+        "3382_35_0": {
+          "pred_block": {
+            "block_start": 12,
+            "block_end": 13,
+            "diff": {
+              "12": {
+                "type": "Modify",
+                "original": "            ans += stk[-1][1]",
+                "modified": "            ans += len(stk)"
+              },
+              "13": {
+                "type": "Modify",
+                "original": "        return ans - len(nums)",
+                "modified": "        return ans"
+              }
+            },
+            "stride_before": 11,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 13,
+              "block_end": 13,
+              "diff": {
+                "13": {
+                  "type": "Modify",
+                  "original": "        return ans - len(nums)",
+                  "modified": "        return ans"
+                }
+              },
+              "stride_before": 5,
+              "stride_after": null,
+              "block_id": 2
+            }
+          ],
+          "gt_match_ids": [
+            2
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "7": {
+          "type": "Modify",
+          "original": "                ans += stk.pop()[1]",
+          "modified": "                stk.pop()"
+        }
+      }
+    },
+    "3398_8": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "3398_8_1": {
+          "pred_block": {
+            "block_start": 6,
+            "block_end": 6,
+            "diff": {
+              "6": {
+                "type": "Modify",
+                "original": "                for a, b in pairwise((0, 0, 1, 1, 0)):",
+                "modified": "                for a, b in (0, 0, 1, 1, 0):"
+              }
+            },
+            "stride_before": 5,
+            "stride_after": 5,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 10,
+              "block_end": 10,
+              "diff": {
+                "10": {
+                  "type": "Modify",
+                  "original": "                if cnt1 == 3 or cnt2 == 3:",
+                  "modified": "                if cnt1 != cnt2:"
+                }
+              },
+              "stride_before": 9,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {
+        "12": {
+          "type": "Delete",
+          "original": "        return False",
+          "modified": ""
+        }
+      },
+      "unmatched_gt": {}
+    },
+    "3436_11": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "3436_11_em_0": {
+          "block_start": 20,
+          "block_end": 20,
+          "diff": {
+            "20": {
+              "type": "Modify",
+              "original": "                j += 1",
+              "modified": "                i += 1"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        },
+        "3436_11_0": {
+          "pred_block": {
+            "block_start": 8,
+            "block_end": 8,
+            "diff": {
+              "8": {
+                "type": "Modify",
+                "original": "            s = s.union(x)",
+                "modified": "            s = s | x"
+              }
+            },
+            "stride_before": 7,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 8,
+              "block_end": 8,
+              "diff": {
+                "8": {
+                  "type": "Modify",
+                  "original": "            s = s.union(x)",
+                  "modified": "            s |= x"
+                }
+              },
+              "stride_before": 7,
+              "stride_after": 11,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "3438_66": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "matched_blocks": {
+        "3438_66_em_0": {
+          "block_start": 16,
+          "block_end": 16,
+          "diff": {
+            "16": {
+              "type": "Modify",
+              "original": "            x = x.subtract(x & -x)",
+              "modified": "            x -= x & -x"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        },
+        "3438_66_em_1": {
+          "block_start": 11,
+          "block_end": 11,
+          "diff": {
+            "11": {
+              "type": "Add",
+              "original": "",
+              "modified": "            x += x & -x"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "36": {
+          "type": "Modify",
+          "original": "                l, r = q[1], q[2] - 1",
+          "modified": "                l, r = q[1] + 1, q[2] - 1"
+        },
+        "26": {
+          "type": "Delete",
+          "original": "                val = 1",
+          "modified": ""
+        }
+      }
+    },
+    "3475_34": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8,
+      "matched_blocks": {
+        "3475_34_em_0": {
+          "block_start": 11,
+          "block_end": 11,
+          "diff": {
+            "11": {
+              "type": "Modify",
+              "original": "        return ans.item()",
+              "modified": "        return ans"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        },
+        "3475_34_em_1": {
+          "block_start": 8,
+          "block_end": 8,
+          "diff": {
+            "8": {
+              "type": "Modify",
+              "original": "                nums[i + 1] = str(nums[i + 1] ^ 1)",
+              "modified": "                nums[i + 1] ^= 1"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "4": {
+          "type": "Modify",
+          "original": "        for i, x in enumerate(nums[:-2]):",
+          "modified": "        for i, x in enumerate(nums):"
+        }
+      }
+    },
+    "3533_34": {
+      "precision": 0.2727272727272727,
+      "recall": 1.0,
+      "f1": 0.42857142857142855,
+      "matched_blocks": {
+        "3533_34_0": {
+          "pred_block": {
+            "block_start": 5,
+            "block_end": 15,
+            "diff": {
+              "5": {
+                "type": "Modify",
+                "original": "            x = y = 0",
+                "modified": "            if c == \"UP\":"
+              },
+              "6": {
+                "type": "Modify",
+                "original": "            match c[0]:",
+                "modified": "                x -= 1"
+              },
+              "7": {
+                "type": "Modify",
+                "original": "                case \"U\":",
+                "modified": "            elif c == \"DOWN\":"
+              },
+              "8": {
+                "type": "Modify",
+                "original": "                    x -= 1",
+                "modified": "                x += 1"
+              },
+              "9": {
+                "type": "Modify",
+                "original": "                case \"DOWN\":",
+                "modified": "            elif c == \"LEFT\":"
+              },
+              "10": {
+                "type": "Modify",
+                "original": "                    x += 1",
+                "modified": "                y -= 1"
+              },
+              "11": {
+                "type": "Modify",
+                "original": "                case \"L\":",
+                "modified": "            elif c == \"RIGHT\":"
+              },
+              "12": {
+                "type": "Modify",
+                "original": "                    y -= 1",
+                "modified": "                y += 1"
+              },
+              "13": {
+                "type": "Delete",
+                "original": "                case \"R\":",
+                "modified": ""
+              },
+              "14": {
+                "type": "Delete",
+                "original": "                    y += 1",
+                "modified": ""
+              },
+              "15": {
+                "type": "Delete",
+                "original": "        x, y = y, x",
+                "modified": ""
+              }
+            },
+            "stride_before": 4,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 15,
+              "block_end": 15,
+              "diff": {
+                "15": {
+                  "type": "Delete",
+                  "original": "        x, y = y, x",
+                  "modified": ""
+                }
+              },
+              "stride_before": 5,
+              "stride_after": null,
+              "block_id": 2
+            },
+            {
+              "block_start": 9,
+              "block_end": 9,
+              "diff": {
+                "9": {
+                  "type": "Modify",
+                  "original": "                case \"DOWN\":",
+                  "modified": "                case \"D\":"
+                }
+              },
+              "stride_before": 3,
+              "stride_after": 5,
+              "block_id": 1
+            },
+            {
+              "block_start": 5,
+              "block_end": 5,
+              "diff": {
+                "5": {
+                  "type": "Delete",
+                  "original": "            x = y = 0",
+                  "modified": ""
+                }
+              },
+              "stride_before": 4,
+              "stride_after": 3,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            2,
+            1,
+            0
+          ],
+          "gt_match_count": 3,
+          "tolerance": 0,
+          "success": true,
+          "effective_starter": "10"
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "3345_21": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "matched_blocks": {
+        "3345_21_em_0": {
+          "block_start": 11,
+          "block_end": 11,
+          "diff": {
+            "11": {
+              "type": "Modify",
+              "original": "                    f[i][j] = (f[i - 1][j] + f[i - 1][j - x]) % mod",
+              "modified": "                    f[i][j] = (f[i][j] + f[i - 1][j - x]) % mod"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "7": {
+          "type": "Modify",
+          "original": "        for i, x in enumerate(nums, begin=1):",
+          "modified": "        for i, x in enumerate(nums, 1):"
+        }
+      }
+    },
+    "3354_40": {
+      "precision": 0.3333333333333333,
+      "recall": 0.3333333333333333,
+      "f1": 0.3333333333333333,
+      "matched_blocks": {
+        "3354_40_em_0": {
+          "block_start": 13,
+          "block_end": 13,
+          "diff": {
+            "13": {
+              "type": "Delete",
+              "original": "        cs.sort()",
+              "modified": ""
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        },
+        "3354_40_0": {
+          "pred_block": {
+            "block_start": 18,
+            "block_end": 19,
+            "diff": {
+              "18": {
+                "type": "Modify",
+                "original": "                j = j",
+                "modified": "                j += 1"
+              },
+              "19": {
+                "type": "Modify",
+                "original": "        return \"\".join(cs)",
+                "modified": "        return \"\".join(cs"
+              }
+            },
+            "stride_before": 17,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 18,
+              "block_end": 18,
+              "diff": {
+                "18": {
+                  "type": "Modify",
+                  "original": "                j = j",
+                  "modified": "                j += 1"
+                }
+              },
+              "stride_before": 4,
+              "stride_after": null,
+              "block_id": 2
+            }
+          ],
+          "gt_match_ids": [
+            2
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "10": {
+          "type": "Modify",
+          "original": "            heapreplace(pq, (cnt[c] + 1, c))",
+          "modified": "            heapreplace(pq, (v + 1, c))"
+        }
+      }
+    },
+    "3395_31": {
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1": 0.5,
+      "matched_blocks": {
+        "3395_31_em_0": {
+          "block_start": 6,
+          "block_end": 6,
+          "diff": {
+            "6": {
+              "type": "Modify",
+              "original": "                for c, v in cnt.iteritems():",
+              "modified": "                for c, v in cnt.items():"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "15": {
+          "type": "Modify",
+          "original": "                return n // i",
+          "modified": "                return i"
+        },
+        "11": {
+          "type": "Modify",
+          "original": "        cnt = Counter()",
+          "modified": "        cnt = Counter(s)"
+        }
+      }
+    },
+    "3588_19": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "3588_19_0": {
+          "pred_block": {
+            "block_start": 26,
+            "block_end": 26,
+            "diff": {
+              "26": {
+                "type": "Delete",
+                "original": "        ans = dfs(0, 0, -1)",
+                "modified": ""
+              }
+            },
+            "stride_before": 25,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 20,
+              "block_end": 20,
+              "diff": {
+                "20": {
+                  "type": "Delete",
+                  "original": "                j = j + calc(d[s[i]], l)",
+                  "modified": ""
+                }
+              },
+              "stride_before": 4,
+              "stride_after": null,
+              "block_id": 2
+            }
+          ],
+          "gt_match_ids": [
+            2
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "15": {
+          "type": "Modify",
+          "original": "                return int(j >= 0)",
+          "modified": "                return int(j < 0)"
+        },
+        "10": {
+          "type": "Modify",
+          "original": "        @lru_cache",
+          "modified": "        @cache"
+        }
+      }
+    },
+    "3594_17": {
+      "precision": 0.3333333333333333,
+      "recall": 0.3333333333333333,
+      "f1": 0.3333333333333333,
+      "matched_blocks": {
+        "3594_17_0": {
+          "pred_block": {
+            "block_start": 11,
+            "block_end": 12,
+            "diff": {
+              "11": {
+                "type": "Modify",
+                "original": "                ans = max(ans, x, key=abs)",
+                "modified": "                max = max(max, x, key=abs)"
+              },
+              "12": {
+                "type": "Modify",
+                "original": "        return ans",
+                "modified": "        return max"
+              }
+            },
+            "stride_before": 2,
+            "stride_after": null,
+            "block_id": 1
+          },
+          "gt_blocks": [
+            {
+              "block_start": 11,
+              "block_end": 11,
+              "diff": {
+                "11": {
+                  "type": "Modify",
+                  "original": "                ans = max(ans, x, key=abs)",
+                  "modified": "                ans = max(ans, x)"
+                }
+              },
+              "stride_before": 2,
+              "stride_after": null,
+              "block_id": 2
+            }
+          ],
+          "gt_match_ids": [
+            2
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        },
+        "3594_17_1": {
+          "pred_block": {
+            "block_start": 8,
+            "block_end": 8,
+            "diff": {
+              "8": {
+                "type": "Modify",
+                "original": "            if t % 2 or cnt.get(t // 2, default=0) == 0:",
+                "modified": "            if t % 2 or t // 2 not in cnt:"
+              }
+            },
+            "stride_before": 7,
+            "stride_after": 2,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 8,
+              "block_end": 8,
+              "diff": {
+                "8": {
+                  "type": "Modify",
+                  "original": "            if t % 2 or cnt.get(t // 2, default=0) == 0:",
+                  "modified": "            if t % 2 or cnt[t // 2] == 0:"
+                }
+              },
+              "stride_before": 2,
+              "stride_after": 2,
+              "block_id": 1
+            }
+          ],
+          "gt_match_ids": [
+            1
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "5": {
+          "type": "Modify",
+          "original": "        max = -inf",
+          "modified": "        ans = -inf"
+        }
+      }
+    },
+    "3629_45": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "3629_45_0": {
+          "pred_block": {
+            "block_start": 19,
+            "block_end": 20,
+            "diff": {
+              "19": {
+                "type": "Modify",
+                "original": "    sum = count",
+                "modified": "        return sum(count)"
+              },
+              "20": {
+                "type": "Delete",
+                "original": "    return sum(count) % MOD",
+                "modified": ""
+              }
+            },
+            "stride_before": 1,
+            "stride_after": null,
+            "block_id": 3
+          },
+          "gt_blocks": [
+            {
+              "block_start": 19,
+              "block_end": 19,
+              "diff": {
+                "19": {
+                  "type": "Delete",
+                  "original": "    sum = count",
+                  "modified": ""
+                }
+              },
+              "stride_before": 3,
+              "stride_after": null,
+              "block_id": 3
+            }
+          ],
+          "gt_match_ids": [
+            3
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        },
+        "3629_45_1": {
+          "pred_block": {
+            "block_start": 9,
+            "block_end": 17,
+            "diff": {
+              "9": {
+                "type": "Modify",
+                "original": "    for _ in range(t - 1):",
+                "modified": "        for _ in range(t - 1):"
+              },
+              "10": {
+                "type": "Modify",
+                "original": "      newCount = [0] * 26",
+                "modified": "            newCount = [0] * 26"
+              },
+              "11": {
+                "type": "Modify",
+                "original": "      # 'a' -> 'b', 'b' -> 'c', ..., 'y' -> 'z'",
+                "modified": "            # 'a' -> 'b', 'b' -> 'c', ..., 'y' -> 'z'"
+              },
+              "12": {
+                "type": "Modify",
+                "original": "      for i in range(24):",
+                "modified": "            for i in range(25):"
+              },
+              "13": {
+                "type": "Modify",
+                "original": "        newCount[i + 1] = count[i]",
+                "modified": "                newCount[i + 1] = count[i]"
+              },
+              "14": {
+                "type": "Modify",
+                "original": "      # 'z' -> 'ab'",
+                "modified": "            # 'z' -> 'ab'"
+              },
+              "15": {
+                "type": "Modify",
+                "original": "      newCount[0] = newCount[25]",
+                "modified": "            newCount[0] = newCount[25]"
+              },
+              "16": {
+                "type": "Modify",
+                "original": "      newCount[1] = (newCount[1] + count[25]) % MOD",
+                "modified": "            newCount[1] = (newCount[1] + count[25]) % MOD"
+              },
+              "17": {
+                "type": "Modify",
+                "original": "      count = newCount",
+                "modified": "            count = newCount"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": 1,
+            "block_id": 2
+          },
+          "gt_blocks": [
+            {
+              "block_start": 15,
+              "block_end": 15,
+              "diff": {
+                "15": {
+                  "type": "Modify",
+                  "original": "      newCount[0] = newCount[25]",
+                  "modified": "      newCount[0] = count[25]"
+                }
+              },
+              "stride_before": 2,
+              "stride_after": 3,
+              "block_id": 2
+            },
+            {
+              "block_start": 12,
+              "block_end": 12,
+              "diff": {
+                "12": {
+                  "type": "Modify",
+                  "original": "      for i in range(24):",
+                  "modified": "      for i in range(25):"
+                }
+              },
+              "stride_before": 2,
+              "stride_after": 2,
+              "block_id": 1
+            },
+            {
+              "block_start": 9,
+              "block_end": 9,
+              "diff": {
+                "9": {
+                  "type": "Modify",
+                  "original": "    for _ in range(t - 1):",
+                  "modified": "    for _ in range(t):"
+                }
+              },
+              "stride_before": 8,
+              "stride_after": 2,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            2,
+            1,
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {
+        "6": {
+          "type": "Modify",
+          "original": "    for c in s:",
+          "modified": "        for c in s:"
+        },
+        "7": {
+          "type": "Modify",
+          "original": "      count[ord(c) - ord('a')] += 1",
+          "modified": "            count[ord(c) - ord('a')] += 1"
+        },
+        "2": {
+          "type": "Modify",
+          "original": "  def lengthAfterTransformations(self, s: str, t: int) -> int:",
+          "modified": "    def lengthAfterTransformations(self, s: str, t: int) -> int:"
+        },
+        "3": {
+          "type": "Modify",
+          "original": "    MOD = 1_000_000_007",
+          "modified": "        MOD = 1_000_000_007"
+        },
+        "4": {
+          "type": "Modify",
+          "original": "    count = [0] * 26",
+          "modified": "        count = [0] * 26"
+        }
+      },
+      "unmatched_gt": {}
+    },
+    "3631_19": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "3631_19_4": {
+          "pred_block": {
+            "block_start": 6,
+            "block_end": 15,
+            "diff": {
+              "6": {
+                "type": "Modify",
+                "original": "    @functools.lru_cache(None)",
+                "modified": "        @functools.lru_cache(None)"
+              },
+              "7": {
+                "type": "Modify",
+                "original": "    def dp(i: int, setBits: int, tight: bool) -> int:",
+                "modified": "        def dp(i: int, setBits: int, tight: bool) -> int:"
+              },
+              "8": {
+                "type": "Modify",
+                "original": "      \"\"\"",
+                "modified": "            \"\"\""
+              },
+              "9": {
+                "type": "Modify",
+                "original": "      Returns the number of positive integers less than n that are k-reducible,",
+                "modified": "            Returns the number of positive integers less than n that are k-reducible,"
+              },
+              "10": {
+                "type": "Modify",
+                "original": "      considering the i-th digit, where `setBits` is the number of set bits in",
+                "modified": "            considering the i-th digit, where `setBits` is the number of set bits in"
+              },
+              "11": {
+                "type": "Modify",
+                "original": "      the current number, and `tight` indicates if the current digit is",
+                "modified": "            the current number, and `tight` indicates if the current digit is"
+              },
+              "12": {
+                "type": "Modify",
+                "original": "      tightly bound.",
+                "modified": "            tightly bound."
+              },
+              "13": {
+                "type": "Modify",
+                "original": "      \"\"\"",
+                "modified": "            \"\"\""
+              },
+              "14": {
+                "type": "Modify",
+                "original": "      if i == len(s):",
+                "modified": "            if i == len(s):"
+              },
+              "15": {
+                "type": "Modify",
+                "original": "        return int(ops[setBits] < k and not tight == False)",
+                "modified": "                return int(ops[setBits] < k and not tight == False)"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": 1,
+            "block_id": 1
+          },
+          "gt_blocks": [
+            {
+              "block_start": 15,
+              "block_end": 15,
+              "diff": {
+                "15": {
+                  "type": "Modify",
+                  "original": "        return int(ops[setBits] < k and not tight == False)",
+                  "modified": "        return int(ops[setBits] < k and not tight)"
+                }
+              },
+              "stride_before": 14,
+              "stride_after": 8,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {
+        "27": {
+          "type": "Modify",
+          "original": "  def _getOps(self, s: str) -> int:",
+          "modified": "        return dp(0, 0, True) - 1  # - 0"
+        },
+        "28": {
+          "type": "Modify",
+          "original": "    \"\"\"Returns the number of operations to reduce a number to 0.\"\"\"",
+          "modified": ""
+        },
+        "29": {
+          "type": "Modify",
+          "original": "    ops = [0] * (len(s) + 1)",
+          "modified": "    def _getOps(self, s: str) -> int:"
+        },
+        "30": {
+          "type": "Modify",
+          "original": "    for num in range(2, len(s) + 1):",
+          "modified": "        \"\"\"Returns the number of operations to reduce a number to 0.\"\"\""
+        },
+        "31": {
+          "type": "Modify",
+          "original": "      ops[num] = 1 + ops[num.bit_count()]",
+          "modified": "        ops = [0] * (len(s) + 1)"
+        },
+        "32": {
+          "type": "Modify",
+          "original": "    return ops",
+          "modified": "        for num in range(2, len(s) + 1):"
+        },
+        "33": {
+          "type": "Add",
+          "original": "",
+          "modified": "            ops[num] = 1 + ops[num.bit_count()]"
+        },
+        "33 ": {
+          "type": "Add",
+          "original": "",
+          "modified": "        return ops"
+        },
+        "25": {
+          "type": "Modify",
+          "original": "    return dp(0, 0, True) - 1  # - 0",
+          "modified": "            return res"
+        },
+        "20": {
+          "type": "Modify",
+          "original": "      for d in range(maxDigit + 1):",
+          "modified": "            for d in range(maxDigit + 1):"
+        },
+        "21": {
+          "type": "Modify",
+          "original": "        nextTight = tight and (d == maxDigit)",
+          "modified": "                nextTight = tight and (d == maxDigit)"
+        },
+        "22": {
+          "type": "Modify",
+          "original": "        res += dp(i + 1, setBits + d, nextTight)",
+          "modified": "                res += dp(i + 1, setBits + d, nextTight)"
+        },
+        "23": {
+          "type": "Modify",
+          "original": "        res %= MOD",
+          "modified": "                res %= MOD"
+        },
+        "17": {
+          "type": "Modify",
+          "original": "      res = 0",
+          "modified": "            res = 0"
+        },
+        "18": {
+          "type": "Modify",
+          "original": "      maxDigit = int(s[i]) if tight else 1",
+          "modified": "            maxDigit = int(s[i]) if tight else 1"
+        },
+        "2": {
+          "type": "Modify",
+          "original": "  def countKReducibleNumbers(self, s: str, k: int) -> int:",
+          "modified": "    def countKReducibleNumbers(self, s: str, k: int) -> int:"
+        },
+        "3": {
+          "type": "Modify",
+          "original": "    MOD = 1_000_000_007",
+          "modified": "        MOD = 1_000_000_007"
+        },
+        "4": {
+          "type": "Modify",
+          "original": "    ops = self._getOps(s)",
+          "modified": "        ops = self._getOps(s)"
+        }
+      },
+      "unmatched_gt": {
+        "24": {
+          "type": "Add",
+          "original": "",
+          "modified": "      return res"
+        }
+      }
+    },
+    "3657_26": {
+      "precision": 0.25,
+      "recall": 0.3333333333333333,
+      "f1": 0.28571428571428575,
+      "matched_blocks": {
+        "3657_26_1": {
+          "pred_block": {
+            "block_start": 4,
+            "block_end": 4,
+            "diff": {
+              "4": {
+                "type": "Add",
+                "original": "",
+                "modified": "        lines = 0"
+              }
+            },
+            "stride_before": 3,
+            "stride_after": 29,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 3,
+              "block_end": 3,
+              "diff": {
+                "3": {
+                  "type": "Add",
+                  "original": "",
+                  "modified": "        lines = 0"
+                }
+              },
+              "stride_before": 2,
+              "stride_after": 9,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {
+        "33": {
+          "type": "Modify",
+          "original": "        return self.countLineIntersections(",
+          "modified": "        return self.countLineIntersections(y"
+        },
+        "34": {
+          "type": "Delete",
+          "original": "            y_coordinates",
+          "modified": ""
+        },
+        "35": {
+          "type": "Delete",
+          "original": "        ) or self.countLineIntersections(x_coordinates)",
+          "modified": ""
+        }
+      },
+      "unmatched_gt": {
+        "23": {
+          "type": "Delete",
+          "original": "            y_coordinates.append((y1, 0))",
+          "modified": ""
+        },
+        "12": {
+          "type": "Delete",
+          "original": "                overlap = 1",
+          "modified": ""
+        }
+      }
+    },
+    "3657_34": {
+      "precision": 0.4,
+      "recall": 0.5,
+      "f1": 0.4444444444444445,
+      "matched_blocks": {
+        "3657_34_em_0": {
+          "block_start": 31,
+          "block_end": 31,
+          "diff": {
+            "31": {
+              "type": "Modify",
+              "original": "        x_coordinates.sort(keys=lambda x: (x[0], x[1]))",
+              "modified": "        x_coordinates.sort(key=lambda x: (x[0], x[1]))"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        },
+        "3657_34_1": {
+          "pred_block": {
+            "block_start": 4,
+            "block_end": 4,
+            "diff": {
+              "4": {
+                "type": "Add",
+                "original": "",
+                "modified": "        lines = 0"
+              }
+            },
+            "stride_before": 3,
+            "stride_after": 29,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 3,
+              "block_end": 3,
+              "diff": {
+                "3": {
+                  "type": "Add",
+                  "original": "",
+                  "modified": "        lines = 0"
+                }
+              },
+              "stride_before": 2,
+              "stride_after": 9,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {
+        "33": {
+          "type": "Modify",
+          "original": "        return self.countLineIntersections(",
+          "modified": "        return self.countLineIntersections(y"
+        },
+        "34": {
+          "type": "Delete",
+          "original": "            y_coordinates",
+          "modified": ""
+        },
+        "35": {
+          "type": "Delete",
+          "original": "        ) or self.countLineIntersections(x_coordinates)",
+          "modified": ""
+        }
+      },
+      "unmatched_gt": {
+        "23": {
+          "type": "Delete",
+          "original": "            y_coordinates.append((y1, 0))",
+          "modified": ""
+        },
+        "12": {
+          "type": "Delete",
+          "original": "        lines += 1",
+          "modified": ""
+        }
+      }
+    },
+    "3659_26": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "3659_26_0": {
+          "pred_block": {
+            "block_start": 23,
+            "block_end": 23,
+            "diff": {
+              "23": {
+                "type": "Modify",
+                "original": "    return count(0, 0, grid[0][0])",
+                "modified": "        return count(0, 0,"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": null,
+            "block_id": 2
+          },
+          "gt_blocks": [
+            {
+              "block_start": 23,
+              "block_end": 23,
+              "diff": {
+                "23": {
+                  "type": "Modify",
+                  "original": "    return count(0, 0, grid[0][0])",
+                  "modified": "    return count(0, 0, 0)"
+                }
+              },
+              "stride_before": 5,
+              "stride_after": null,
+              "block_id": 2
+            }
+          ],
+          "gt_match_ids": [
+            2
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        },
+        "3659_26_1": {
+          "pred_block": {
+            "block_start": 7,
+            "block_end": 21,
+            "diff": {
+              "7": {
+                "type": "Modify",
+                "original": "    @functools.lru_cache(maxsize=128)",
+                "modified": "        @functools.lru_cache(maxsize=128)"
+              },
+              "8": {
+                "type": "Modify",
+                "original": "    def count(i: int, j: int, xors: int) -> int:",
+                "modified": "        def count(i: int, j: int, xors: int) -> int:"
+              },
+              "9": {
+                "type": "Modify",
+                "original": "      \"\"\"",
+                "modified": "            \"\"\""
+              },
+              "10": {
+                "type": "Modify",
+                "original": "      Return the number of paths from (i, j) to (m - 1, n - 1) with XOR value",
+                "modified": "            Return the number of paths from (i, j) to (m - 1, n - 1) with XOR value"
+              },
+              "11": {
+                "type": "Modify",
+                "original": "      `xors`.",
+                "modified": "            `xors`."
+              },
+              "12": {
+                "type": "Modify",
+                "original": "      \"\"\"",
+                "modified": "            \"\"\""
+              },
+              "13": {
+                "type": "Modify",
+                "original": "      if i == m or j == n:",
+                "modified": "            if i == m or j == n:"
+              },
+              "14": {
+                "type": "Modify",
+                "original": "        return 0",
+                "modified": "                return 0"
+              },
+              "15": {
+                "type": "Modify",
+                "original": "      xors ^= grid[i][j]",
+                "modified": "            xors ^= grid[i][j]"
+              },
+              "16": {
+                "type": "Modify",
+                "original": "      if i == m - 1 and j == n - 1:",
+                "modified": "            if i == m - 1 and j == n - 1:"
+              },
+              "17": {
+                "type": "Modify",
+                "original": "        xors ^= grid[i][j]",
+                "modified": "                return int(xors == k)"
+              },
+              "18": {
+                "type": "Modify",
+                "original": "        return int(xors == k)",
+                "modified": "            right = count(i, j + 1, xors)"
+              },
+              "19": {
+                "type": "Modify",
+                "original": "      right = count(i, j + 1, xors)",
+                "modified": "            down = count(i + 1, j, xors)"
+              },
+              "20": {
+                "type": "Modify",
+                "original": "      down = count(i + 1, j, xors)",
+                "modified": "            return (right + down) % MOD"
+              },
+              "21": {
+                "type": "Delete",
+                "original": "      return (right + down) % MOD",
+                "modified": ""
+              }
+            },
+            "stride_before": 1,
+            "stride_after": 1,
+            "block_id": 1
+          },
+          "gt_blocks": [
+            {
+              "block_start": 17,
+              "block_end": 17,
+              "diff": {
+                "17": {
+                  "type": "Delete",
+                  "original": "        xors ^= grid[i][j]",
+                  "modified": ""
+                }
+              },
+              "stride_before": 9,
+              "stride_after": 5,
+              "block_id": 1
+            },
+            {
+              "block_start": 7,
+              "block_end": 7,
+              "diff": {
+                "7": {
+                  "type": "Modify",
+                  "original": "    @functools.lru_cache(maxsize=128)",
+                  "modified": "    @functools.lru_cache(None)"
+                }
+              },
+              "stride_before": 6,
+              "stride_after": 9,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            1,
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {
+        "2": {
+          "type": "Modify",
+          "original": "  def countPathsWithXorValue(self, grid: list[list[int]], k: int) -> int:",
+          "modified": "    def countPathsWithXorValue(self, grid: list[list[int]], k: int) -> int:"
+        },
+        "3": {
+          "type": "Modify",
+          "original": "    MOD = 1_000_000_007",
+          "modified": "        MOD = 1_000_000_007"
+        },
+        "4": {
+          "type": "Modify",
+          "original": "    m = len(grid)",
+          "modified": "        m = len(grid)"
+        },
+        "5": {
+          "type": "Modify",
+          "original": "    n = len(grid[0])",
+          "modified": "        n = len(grid[0])"
+        }
+      },
+      "unmatched_gt": {}
+    },
+    "3754_39": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "3754_39_0": {
+          "pred_block": {
+            "block_start": 21,
+            "block_end": 21,
+            "diff": {
+              "21": {
+                "type": "Modify",
+                "original": "        return max(a, b, c, d) == max(a, b, c)",
+                "modified": "        return max(a, b, c,"
+              }
+            },
+            "stride_before": 20,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 21,
+              "block_end": 21,
+              "diff": {
+                "21": {
+                  "type": "Modify",
+                  "original": "        return max(a, b, c, d) == max(a, b, c)",
+                  "modified": "        return max(a, b, c, d)"
+                }
+              },
+              "stride_before": 8,
+              "stride_after": null,
+              "block_id": 2
+            }
+          ],
+          "gt_match_ids": [
+            2
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "12": {
+          "type": "Delete",
+          "original": "                    cnt = 0",
+          "modified": ""
+        },
+        "4": {
+          "type": "Modify",
+          "original": "            mx = cnt = 0",
+          "modified": "            ans = mx = cnt = 0"
+        }
+      }
+    },
+    "3754_43": {
+      "precision": 0.5,
+      "recall": 0.25,
+      "f1": 0.3333333333333333,
+      "matched_blocks": {
+        "3754_43_em_0": {
+          "block_start": 5,
+          "block_end": 5,
+          "diff": {
+            "5": {
+              "type": "Modify",
+              "original": "            for s in s:",
+              "modified": "            for c in s:"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        },
+        "3754_43_0": {
+          "pred_block": {
+            "block_start": 21,
+            "block_end": 21,
+            "diff": {
+              "21": {
+                "type": "Modify",
+                "original": "        return max(a, b, c, d).item()",
+                "modified": "        return max(a, b,"
+              }
+            },
+            "stride_before": 20,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 21,
+              "block_end": 21,
+              "diff": {
+                "21": {
+                  "type": "Modify",
+                  "original": "        return max(a, b, c, d).item()",
+                  "modified": "        return max(a, b, c, d)"
+                }
+              },
+              "stride_before": 8,
+              "stride_after": null,
+              "block_id": 3
+            }
+          ],
+          "gt_match_ids": [
+            3
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "12": {
+          "type": "Delete",
+          "original": "                    cnt = 0",
+          "modified": ""
+        },
+        "8": {
+          "type": "Modify",
+          "original": "                elif cnt <= k:",
+          "modified": "                elif cnt < k:"
+        }
+      }
+    },
+    "3764_33": {
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "f1": 0.6666666666666666,
+      "matched_blocks": {
+        "3764_33_em_0": {
+          "block_start": 3,
+          "block_end": 3,
+          "diff": {
+            "3": {
+              "type": "Add",
+              "original": "",
+              "modified": "        pq = []"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        },
+        "3764_33_0": {
+          "pred_block": {
+            "block_start": 9,
+            "block_end": 9,
+            "diff": {
+              "9": {
+                "type": "Add",
+                "original": "",
+                "modified": "        return sum"
+              }
+            },
+            "stride_before": 3,
+            "stride_after": null,
+            "block_id": 1
+          },
+          "gt_blocks": [
+            {
+              "block_start": 9,
+              "block_end": 9,
+              "diff": {
+                "9": {
+                  "type": "Add",
+                  "original": "",
+                  "modified": "        return sum(pq)"
+                }
+              },
+              "stride_before": 3,
+              "stride_after": null,
+              "block_id": 2
+            }
+          ],
+          "gt_match_ids": [
+            2
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        },
+        "3764_33_1": {
+          "pred_block": {
+            "block_start": 5,
+            "block_end": 5,
+            "diff": {
+              "5": {
+                "type": "Modify",
+                "original": "            for _ in range(min(limit, len(pq))):",
+                "modified": "            for _ in range(min(limit, len(nums))):"
+              }
+            },
+            "stride_before": 4,
+            "stride_after": 3,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 5,
+              "block_end": 5,
+              "diff": {
+                "5": {
+                  "type": "Modify",
+                  "original": "            for _ in range(min(limit, len(pq))):",
+                  "modified": "            for _ in range(limit):"
+                }
+              },
+              "stride_before": 2,
+              "stride_after": 3,
+              "block_id": 1
+            }
+          ],
+          "gt_match_ids": [
+            1
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "3626_3": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {
+        "3": {
+          "type": "Modify",
+          "original": "        for i in count(n):",
+          "modified": "        for i in range(n, 100):"
+        }
+      },
+      "unmatched_gt": {
+        "9": {
+          "type": "Modify",
+          "original": "            if p % t:",
+          "modified": "            if p % t == 0:"
+        }
+      }
+    },
+    "3626_8": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "3626_8_0": {
+          "pred_block": {
+            "block_start": 3,
+            "block_end": 4,
+            "diff": {
+              "3": {
+                "type": "Modify",
+                "original": "        for i in count(n):",
+                "modified": "        for i in range(n, 100):"
+              },
+              "4": {
+                "type": "Modify",
+                "original": "            p = 0",
+                "modified": "            p = 1"
+              }
+            },
+            "stride_before": 2,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 4,
+              "block_end": 4,
+              "diff": {
+                "4": {
+                  "type": "Modify",
+                  "original": "            p = 0",
+                  "modified": "            p = 1"
+                }
+              },
+              "stride_before": 3,
+              "stride_after": 4,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "9": {
+          "type": "Modify",
+          "original": "            if p % t:",
+          "modified": "            if p % t == 0:"
+        }
+      }
+    },
+    "3627_24": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "3627_24_0": {
+          "pred_block": {
+            "block_start": 20,
+            "block_end": 20,
+            "diff": {
+              "20": {
+                "type": "Modify",
+                "original": "                        heappush(pq, t, x, y)",
+                "modified": "                        heappush(pq, t, x,"
+              }
+            },
+            "stride_before": 11,
+            "stride_after": null,
+            "block_id": 1
+          },
+          "gt_blocks": [
+            {
+              "block_start": 20,
+              "block_end": 20,
+              "diff": {
+                "20": {
+                  "type": "Modify",
+                  "original": "                        heappush(pq, t, x, y)",
+                  "modified": "                        heappush(pq, (t, x, y))"
+                }
+              },
+              "stride_before": 2,
+              "stride_after": null,
+              "block_id": 2
+            }
+          ],
+          "gt_match_ids": [
+            2
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        },
+        "3627_24_1": {
+          "pred_block": {
+            "block_start": 8,
+            "block_end": 8,
+            "diff": {
+              "8": {
+                "type": "Modify",
+                "original": "        while 1:",
+                "modified": "        while pq:"
+              }
+            },
+            "stride_before": 7,
+            "stride_after": 11,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 14,
+              "block_end": 14,
+              "diff": {
+                "14": {
+                  "type": "Modify",
+                  "original": "            for a, b in zip(dirs, dirs):",
+                  "modified": "            for a, b in pairwise(dirs):"
+                }
+              },
+              "stride_before": 13,
+              "stride_after": 2,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "17": {
+          "type": "Modify",
+          "original": "                    t = max(moveTime[x][y], dist[i][j] + 1) + 1",
+          "modified": "                    t = max(moveTime[x][y], dist[i][j]) + 1"
+        }
+      }
+    },
+    "3648_43": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "3648_43_1": {
+          "pred_block": {
+            "block_start": 27,
+            "block_end": 44,
+            "diff": {
+              "27": {
+                "type": "Modify",
+                "original": "    def getBottomLeft() -> int:",
+                "modified": "        def getBottomLeft() -> int:"
+              },
+              "28": {
+                "type": "Modify",
+                "original": "      # dp[i][j] := the number of fruits collected from (n - 1, 0) to (i, j)",
+                "modified": "            # dp[i][j] := the number of fruits collected from (n - 1, 0) to (i, j)"
+              },
+              "29": {
+                "type": "Modify",
+                "original": "      dp = [[0] * n for _ in range(n)]",
+                "modified": "            dp = [[0] * n for _ in range(n)]"
+              },
+              "30": {
+                "type": "Modify",
+                "original": "      dp[-1][0] = fruits[-1][0]",
+                "modified": "            dp[-1][0] = fruits[-1][0]"
+              },
+              "31": {
+                "type": "Modify",
+                "original": "      for y in range(n):",
+                "modified": "            for y in range(n):"
+              },
+              "32": {
+                "type": "Modify",
+                "original": "        for x in range(n):",
+                "modified": "                for x in range(n):"
+              },
+              "33": {
+                "type": "Modify",
+                "original": "          if x <= y and (x, y) != (n - 1, n - 1):",
+                "modified": "                    if x <= y and (x, y) != (n - 1, n - 1):"
+              },
+              "34": {
+                "type": "Modify",
+                "original": "            continue",
+                "modified": "                        continue"
+              },
+              "35": {
+                "type": "Modify",
+                "original": "          for dx, dy in [(-1, 1), (0, 1), (1, 1)]:",
+                "modified": "                    for dx, dy in [(-1, 1), (0, 1), (1, 1)]:"
+              },
+              "36": {
+                "type": "Modify",
+                "original": "            x = x - dx",
+                "modified": "                        x = x - dx"
+              },
+              "37": {
+                "type": "Modify",
+                "original": "            j = y - dy",
+                "modified": "                        j = y - dy"
+              },
+              "38": {
+                "type": "Modify",
+                "original": "            if i < 0 or i == n or j < 0 or j == n:",
+                "modified": "                        if i < 0 or i == n or j < 0 or j == n:"
+              },
+              "39": {
+                "type": "Modify",
+                "original": "              continue",
+                "modified": "                            continue"
+              },
+              "40": {
+                "type": "Modify",
+                "original": "            j = j - 1",
+                "modified": "                        j = j - 1"
+              },
+              "41": {
+                "type": "Modify",
+                "original": "            if j < i < n - 1 - j:",
+                "modified": "                        if j < i < n - 1 - j:"
+              },
+              "42": {
+                "type": "Modify",
+                "original": "              continue",
+                "modified": "                            continue"
+              },
+              "43": {
+                "type": "Modify",
+                "original": "            dp[x][y] = max(dp[x][y], dp[i][j] + fruits[x][y])",
+                "modified": "                        dp[x][y] = max(dp[x][y], dp[i][j] + fruits[x][y])"
+              },
+              "44": {
+                "type": "Modify",
+                "original": "      return dp[-1][-1]",
+                "modified": "            return dp[-1][-1]"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": 1,
+            "block_id": 3
+          },
+          "gt_blocks": [
+            {
+              "block_start": 40,
+              "block_end": 40,
+              "diff": {
+                "40": {
+                  "type": "Delete",
+                  "original": "            j = j - 1",
+                  "modified": ""
+                }
+              },
+              "stride_before": 3,
+              "stride_after": null,
+              "block_id": 2
+            },
+            {
+              "block_start": 36,
+              "block_end": 36,
+              "diff": {
+                "36": {
+                  "type": "Modify",
+                  "original": "            x = x - dx",
+                  "modified": "            i = x - dx"
+                }
+              },
+              "stride_before": 14,
+              "stride_after": 3,
+              "block_id": 1
+            }
+          ],
+          "gt_match_ids": [
+            2,
+            1
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        },
+        "3648_43_2": {
+          "pred_block": {
+            "block_start": 8,
+            "block_end": 25,
+            "diff": {
+              "8": {
+                "type": "Modify",
+                "original": "    def getTopRight() -> int:",
+                "modified": "        def getTopRight() -> int:"
+              },
+              "9": {
+                "type": "Modify",
+                "original": "      # dp[i][j] := the number of fruits collected from (0, n - 1) to (i, j)",
+                "modified": "            # dp[i][j] := the number of fruits collected from (0, n - 1) to (i, j)"
+              },
+              "10": {
+                "type": "Modify",
+                "original": "      dp = [[0] * n for _ in range(n)]",
+                "modified": "            dp = [[0] * n for _ in range(n)]"
+              },
+              "11": {
+                "type": "Modify",
+                "original": "      dp[0][-1] = fruits[0][-1]",
+                "modified": "            dp[0][-1] = fruits[0][-1]"
+              },
+              "12": {
+                "type": "Modify",
+                "original": "      for x in range(n):",
+                "modified": "            for x in range(n):"
+              },
+              "13": {
+                "type": "Modify",
+                "original": "        for y in range(n):",
+                "modified": "                for y in range(n):"
+              },
+              "14": {
+                "type": "Modify",
+                "original": "          if x >= y and (x, y) != (n - 1, n - 1):",
+                "modified": "                    if x >= y and (x, y) != (n - 1, n - 1):"
+              },
+              "15": {
+                "type": "Modify",
+                "original": "            continue",
+                "modified": "                        continue"
+              },
+              "16": {
+                "type": "Modify",
+                "original": "          for dx, dy in [(1, -1), (1, 0), (1, 1)]:",
+                "modified": "                    for dx, dy in [(1, -1), (1, 0), (1, 1)]:"
+              },
+              "17": {
+                "type": "Modify",
+                "original": "            i = x - dx",
+                "modified": "                        i = x - dx"
+              },
+              "18": {
+                "type": "Modify",
+                "original": "            j = y - dy",
+                "modified": "                        j = y - dy"
+              },
+              "19": {
+                "type": "Modify",
+                "original": "            if i < 0 or i == n or j < 0 or j == n:",
+                "modified": "                        if i < 0 or i == n or j < 0 or j == n:"
+              },
+              "20": {
+                "type": "Modify",
+                "original": "              continue",
+                "modified": "                            continue"
+              },
+              "21": {
+                "type": "Modify",
+                "original": "            i = i + 1",
+                "modified": "                        i = i + 1"
+              },
+              "22": {
+                "type": "Modify",
+                "original": "            if i < j < n - 1 - i:",
+                "modified": "                        if i < j < n - 1 - i:"
+              },
+              "23": {
+                "type": "Modify",
+                "original": "              continue",
+                "modified": "                            continue"
+              },
+              "24": {
+                "type": "Modify",
+                "original": "            dp[x][y] = max(dp[x][y], dp[i][j] + fruits[x][y])",
+                "modified": "                        dp[x][y] = max(dp[x][y], dp[i][j] + fruits[x][y])"
+              },
+              "25": {
+                "type": "Modify",
+                "original": "      return dp[-1][-1]",
+                "modified": "            return dp[-1][-1]"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": 1,
+            "block_id": 2
+          },
+          "gt_blocks": [
+            {
+              "block_start": 21,
+              "block_end": 21,
+              "diff": {
+                "21": {
+                  "type": "Delete",
+                  "original": "            i = i + 1",
+                  "modified": ""
+                }
+              },
+              "stride_before": 20,
+              "stride_after": 14,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {
+        "46": {
+          "type": "Modify",
+          "original": "    return getTopLeft() + getTopRight() + getBottomLeft() - 2 * fruits[-1][-1]",
+          "modified": "        return getTopLeft() + getTopRight()"
+        },
+        "5": {
+          "type": "Modify",
+          "original": "    def getTopLeft() -> int:",
+          "modified": "        def getTopLeft() -> int:"
+        },
+        "6": {
+          "type": "Modify",
+          "original": "      return sum(fruits[i][i] for i in range(n))",
+          "modified": "            return sum(fruits[i][i] for i in range(n))"
+        },
+        "2": {
+          "type": "Modify",
+          "original": "  def maxCollectedFruits(self, fruits: list[list[int]]) -> int:",
+          "modified": "    def maxCollectedFruits(self, fruits: list[list[int]]) -> int:"
+        },
+        "3": {
+          "type": "Modify",
+          "original": "    n = len(fruits)",
+          "modified": "        n = len(fruits)"
+        }
+      },
+      "unmatched_gt": {}
+    },
+    "3682_23": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "29": {
+          "type": "Delete",
+          "original": "        k = k + 1",
+          "modified": ""
+        },
+        "26": {
+          "type": "Add",
+          "original": "",
+          "modified": "        max_needed = n - 1"
+        },
+        "20": {
+          "type": "Modify",
+          "original": "            cls._inv_fact[i] = cls._inv_fact[i + 1] * (i + 1)",
+          "modified": "            cls._inv_fact[i] = cls._inv_fact[i + 1] * (i + 1) % cls.MOD"
+        },
+        "12": {
+          "type": "Delete",
+          "original": "        max_n = max_n - 1",
+          "modified": ""
+        }
+      }
+    },
+    "3714_32": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "3714_32_0": {
+          "pred_block": {
+            "block_start": 40,
+            "block_end": 40,
+            "diff": {
+              "40": {
+                "type": "Delete",
+                "original": "      ans += nums[-1 - i] * count",
+                "modified": ""
+              }
+            },
+            "stride_before": 39,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 39,
+              "block_end": 39,
+              "diff": {
+                "39": {
+                  "type": "Delete",
+                  "original": "      count = (count + comb[n - 1 - i][0]) % MOD",
+                  "modified": ""
+                }
+              },
+              "stride_before": 2,
+              "stride_after": null,
+              "block_id": 2
+            }
+          ],
+          "gt_match_ids": [
+            2
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "36": {
+          "type": "Modify",
+          "original": "      for j in range(k - 1):",
+          "modified": "      for j in range(k):  # selected numbers"
+        },
+        "23": {
+          "type": "Modify",
+          "original": "        for j in range(1, k):",
+          "modified": "        for j in range(1, k + 1):"
+        }
+      }
+    },
+    "3722_38": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "3722_38_0": {
+          "pred_block": {
+            "block_start": 27,
+            "block_end": 27,
+            "diff": {
+              "27": {
+                "type": "Modify",
+                "original": "    return dp(0, 0, k).cache_info()",
+                "modified": "        return dp(0, 0, k)."
+              }
+            },
+            "stride_before": 1,
+            "stride_after": null,
+            "block_id": 2
+          },
+          "gt_blocks": [
+            {
+              "block_start": 27,
+              "block_end": 27,
+              "diff": {
+                "27": {
+                  "type": "Modify",
+                  "original": "    return dp(0, 0, k).cache_info()",
+                  "modified": "    return dp(0, 0, k)"
+                }
+              },
+              "stride_before": 5,
+              "stride_after": null,
+              "block_id": 2
+            }
+          ],
+          "gt_match_ids": [
+            2
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        },
+        "3722_38_1": {
+          "pred_block": {
+            "block_start": 7,
+            "block_end": 25,
+            "diff": {
+              "7": {
+                "type": "Modify",
+                "original": "    @functools.lru_cache(maxsize=None)",
+                "modified": "        @functools.lru_cache(maxsize=None)"
+              },
+              "8": {
+                "type": "Modify",
+                "original": "    def dp(i: int, ongoing: int, k: int) -> int:",
+                "modified": "        def dp(i: int, ongoing: int, k: int) -> int:"
+              },
+              "9": {
+                "type": "Modify",
+                "original": "      if k < 0:",
+                "modified": "            if k < 0:"
+              },
+              "10": {
+                "type": "Modify",
+                "original": "        return -INF",
+                "modified": "                return -INF"
+              },
+              "11": {
+                "type": "Modify",
+                "original": "      if i == n:",
+                "modified": "            if i == n:"
+              },
+              "12": {
+                "type": "Modify",
+                "original": "        return 0 if k == 0 else -INF",
+                "modified": "                return 0 if k == 0 else -INF"
+              },
+              "13": {
+                "type": "Modify",
+                "original": "      if ongoing == 1:",
+                "modified": "            if ongoing == 1:"
+              },
+              "14": {
+                "type": "Modify",
+                "original": "        # 1. End the current subarray (transition to state 0, same index i)",
+                "modified": "                # 1. End the current subarray (transition to state 0, same index i)"
+              },
+              "15": {
+                "type": "Modify",
+                "original": "        # 2. Extend the current subarray by picking nums[i] and move to i + 1",
+                "modified": "                # 2. Extend the current subarray by picking nums[i] and move to i + 1"
+              },
+              "16": {
+                "type": "Modify",
+                "original": "        return max(dp(i, 0, k),",
+                "modified": "                return max(dp(i, 0, k),"
+              },
+              "17": {
+                "type": "Modify",
+                "original": "                   dp(i + 1, 1, k) + nums[i])",
+                "modified": "                           dp(i + 1, 1, k) + nums[i])"
+              },
+              "18": {
+                "type": "Modify",
+                "original": "      # ongoing == 0",
+                "modified": "            # ongoing == 0"
+              },
+              "19": {
+                "type": "Modify",
+                "original": "      # 1. Skip nums[i]",
+                "modified": "            # 1. Skip nums[i]"
+              },
+              "20": {
+                "type": "Modify",
+                "original": "      # 2. Pick nums[i:i+m] (only if k > 0 and there're enough elements)",
+                "modified": "            # 2. Pick nums[i:i+m] (only if k > 0 and there're enough elements)"
+              },
+              "21": {
+                "type": "Modify",
+                "original": "      k = dp(i + 1, 0, k)",
+                "modified": "            k = dp(i + 1, 0, k)"
+              },
+              "22": {
+                "type": "Modify",
+                "original": "      if i + m <= n:  # If we have enough elements for a new segment",
+                "modified": "            if i + m <= n:  # If we have enough elements for a new segment"
+              },
+              "23": {
+                "type": "Modify",
+                "original": "        res = max(res,",
+                "modified": "                res = max(res,"
+              },
+              "24": {
+                "type": "Modify",
+                "original": "                  dp(i + m, 1, k - 1) + (prefix[i + m] - prefix[i]))",
+                "modified": "                          dp(i + m, 1, k - 1) + (prefix[i + m] - prefix[i]))"
+              },
+              "25": {
+                "type": "Modify",
+                "original": "      return res",
+                "modified": "            return res"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": 1,
+            "block_id": 1
+          },
+          "gt_blocks": [
+            {
+              "block_start": 21,
+              "block_end": 21,
+              "diff": {
+                "21": {
+                  "type": "Modify",
+                  "original": "      k = dp(i + 1, 0, k)",
+                  "modified": "      res = dp(i + 1, 0, k)"
+                }
+              },
+              "stride_before": 13,
+              "stride_after": 5,
+              "block_id": 1
+            },
+            {
+              "block_start": 7,
+              "block_end": 7,
+              "diff": {
+                "7": {
+                  "type": "Modify",
+                  "original": "    @functools.lru_cache(maxsize=None)",
+                  "modified": "    @functools.lru_cache(None)"
+                }
+              },
+              "stride_before": 6,
+              "stride_after": 13,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            1,
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {
+        "2": {
+          "type": "Modify",
+          "original": "  def maxSum(self, nums: list[int], k: int, m: int) -> int:",
+          "modified": "    def maxSum(self, nums: list[int], k: int, m: int) -> int:"
+        },
+        "3": {
+          "type": "Modify",
+          "original": "    INF = 20_000_000",
+          "modified": "        INF = 20_000_000"
+        },
+        "4": {
+          "type": "Modify",
+          "original": "    n = len(nums)",
+          "modified": "        n = len(nums)"
+        },
+        "5": {
+          "type": "Modify",
+          "original": "    prefix = list(itertools.accumulate(nums, initial=0))",
+          "modified": "        prefix = list(itertools.accumulate(nums, initial=0))"
+        }
+      },
+      "unmatched_gt": {}
+    },
+    "3753_9": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "3753_9_0": {
+          "pred_block": {
+            "block_start": 9,
+            "block_end": 9,
+            "diff": {
+              "9": {
+                "type": "Modify",
+                "original": "                b = min(b, v)",
+                "modified": "                b = v"
+              }
+            },
+            "stride_before": 4,
+            "stride_after": null,
+            "block_id": 2
+          },
+          "gt_blocks": [
+            {
+              "block_start": 10,
+              "block_end": 10,
+              "diff": {
+                "10": {
+                  "type": "Add",
+                  "original": "",
+                  "modified": "        return a - b"
+                }
+              },
+              "stride_before": 3,
+              "stride_after": null,
+              "block_id": 1
+            }
+          ],
+          "gt_match_ids": [
+            1
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {
+        "4": {
+          "type": "Modify",
+          "original": "        a, b = 0, inf",
+          "modified": "        a, b = 0, 0"
+        },
+        "3": {
+          "type": "Add",
+          "original": "",
+          "modified": "        from collections import Counter"
+        }
+      },
+      "unmatched_gt": {
+        "6": {
+          "type": "Modify",
+          "original": "            if v % 2 == 0:",
+          "modified": "            if v % 2:"
+        }
+      }
+    },
+    "3779_9": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "3779_9_0": {
+          "pred_block": {
+            "block_start": 7,
+            "block_end": 7,
+            "diff": {
+              "7": {
+                "type": "Modify",
+                "original": "        ans = sum(pizzas[-odd:])",
+                "modified": "        ans = sum(pizzas[odd:])"
+              }
+            },
+            "stride_before": 6,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 4,
+              "block_end": 4,
+              "diff": {
+                "4": {
+                  "type": "Modify",
+                  "original": "        pizzas.sort(reverse=True)",
+                  "modified": "        pizzas.sort()"
+                }
+              },
+              "stride_before": 3,
+              "stride_after": 6,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "11": {
+          "type": "Modify",
+          "original": "            i -= 1",
+          "modified": "            i -= 2"
+        }
+      }
+    },
+    "3604_3": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "3604_3_0": {
+          "pred_block": {
+            "block_start": 12,
+            "block_end": 12,
+            "diff": {
+              "12": {
+                "type": "Add",
+                "original": "",
+                "modified": "            p = (p * y) % mod"
+              }
+            },
+            "stride_before": 11,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 11,
+              "block_end": 11,
+              "diff": {
+                "11": {
+                  "type": "Add",
+                  "original": "",
+                  "modified": "            p = p * y % mod"
+                }
+              },
+              "stride_before": 10,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "3637_13": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "3637_13_1": {
+          "pred_block": {
+            "block_start": 4,
+            "block_end": 4,
+            "diff": {
+              "4": {
+                "type": "Add",
+                "original": "",
+                "modified": "        from collections import Counter"
+              }
+            },
+            "stride_before": 3,
+            "stride_after": 20,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 3,
+              "block_end": 3,
+              "diff": {
+                "3": {
+                  "type": "Modify",
+                  "original": "        from functools import lru_cache as cache",
+                  "modified": "        @cache"
+                }
+              },
+              "stride_before": 2,
+              "stride_after": 6,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {
+        "24": {
+          "type": "Modify",
+          "original": "        return dfs(0, s // 2, n // 2, (n + 1) // 2)",
+          "modified": "        return dfs(0, s // 2, n // 2, n // 2"
+        }
+      },
+      "unmatched_gt": {
+        "10": {
+          "type": "Modify",
+          "original": "            for l in range(min(cnt[i], a)):",
+          "modified": "            for l in range(min(cnt[i], a) + 1):"
+        }
+      }
+    },
+    "3771_7": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {
+        "32": {
+          "type": "Delete",
+          "original": "    return dp[n] >= k",
+          "modified": ""
+        },
+        "30": {
+          "type": "Modify",
+          "original": "        dp[i + 1] = max(dp[i], 1 + dp[first[a]])",
+          "modified": "        dp[i + 1] = max(dp[i], 1 + dp[first[a"
+        }
+      },
+      "unmatched_gt": {
+        "27": {
+          "type": "Modify",
+          "original": "      if last[a] != i or (first[a] == 0 and i > n - 1):",
+          "modified": "      if last[a] != i or (first[a] == 0 and i == n - 1):"
+        },
+        "18": {
+          "type": "Delete",
+          "original": "      first = [n] * 26",
+          "modified": ""
+        }
+      }
+    },
+    "3783_22": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "3783_22_1": {
+          "pred_block": {
+            "block_start": 7,
+            "block_end": 21,
+            "diff": {
+              "7": {
+                "type": "Modify",
+                "original": "    for turn in range(n):",
+                "modified": "        for turn in range(n):"
+              },
+              "8": {
+                "type": "Modify",
+                "original": "      remainingPermutations = (math.factorial((n - 1 - turn) // 2) *",
+                "modified": "            remainingPermutations = (math.factorial((n - 1 - turn) // 2) *"
+              },
+              "9": {
+                "type": "Modify",
+                "original": "                               math.factorial((n - turn) // 2))",
+                "modified": "                                   math.factorial((n - turn) // 2))"
+              },
+              "10": {
+                "type": "Modify",
+                "original": "      for index, number in enumerate(remainingNumbers):",
+                "modified": "            for index, number in enumerate(remainingNumbers):"
+              },
+              "11": {
+                "type": "Modify",
+                "original": "        if number % 2 != isLookingForEven and (turn > 0 or n % 2 == 1):",
+                "modified": "                if number % 2 != isLookingForEven and (turn > 0 or n % 2 == 1):"
+              },
+              "12": {
+                "type": "Modify",
+                "original": "          continue",
+                "modified": "                    continue"
+              },
+              "13": {
+                "type": "Modify",
+                "original": "        remainingPermutations = remainingPermutations // 2",
+                "modified": "                remainingPermutations = remainingPermutations // 2"
+              },
+              "14": {
+                "type": "Modify",
+                "original": "        if k <= remainingPermutations:",
+                "modified": "                if k <= remainingPermutations:"
+              },
+              "15": {
+                "type": "Modify",
+                "original": "          ans.append(remainingNumbers.pop(index))",
+                "modified": "                    ans.append(remainingNumbers.pop(index))"
+              },
+              "16": {
+                "type": "Modify",
+                "original": "          isLookingForEven = ans[-1] % 2 == 0",
+                "modified": "                    isLookingForEven = ans[-1] % 2 == 0"
+              },
+              "17": {
+                "type": "Modify",
+                "original": "          found = True",
+                "modified": "                    break"
+              },
+              "18": {
+                "type": "Modify",
+                "original": "          break",
+                "modified": "                k -= remainingPermutations"
+              },
+              "19": {
+                "type": "Modify",
+                "original": "        k -= remainingPermutations",
+                "modified": "            if not found:"
+              },
+              "20": {
+                "type": "Modify",
+                "original": "      if not found:",
+                "modified": "                return []"
+              },
+              "21": {
+                "type": "Delete",
+                "original": "        return []",
+                "modified": ""
+              }
+            },
+            "stride_before": 1,
+            "stride_after": 1,
+            "block_id": 1
+          },
+          "gt_blocks": [
+            {
+              "block_start": 13,
+              "block_end": 13,
+              "diff": {
+                "13": {
+                  "type": "Delete",
+                  "original": "        remainingPermutations = remainingPermutations // 2",
+                  "modified": ""
+                }
+              },
+              "stride_before": 3,
+              "stride_after": null,
+              "block_id": 1
+            },
+            {
+              "block_start": 10,
+              "block_end": 10,
+              "diff": {
+                "10": {
+                  "type": "Add",
+                  "original": "",
+                  "modified": "      found = False"
+                }
+              },
+              "stride_before": 9,
+              "stride_after": 3,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            1,
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {
+        "23": {
+          "type": "Modify",
+          "original": "    return ans",
+          "modified": "        return ans"
+        },
+        "2": {
+          "type": "Modify",
+          "original": "  def permute(self, n: int, k: int) -> list[int]:",
+          "modified": "    def permute(self, n: int, k: int) -> list[int]:"
+        },
+        "3": {
+          "type": "Modify",
+          "original": "    ans = []",
+          "modified": "        ans = []"
+        },
+        "4": {
+          "type": "Modify",
+          "original": "    isLookingForEven = True",
+          "modified": "        isLookingForEven = True"
+        },
+        "5": {
+          "type": "Modify",
+          "original": "    remainingNumbers = list(range(1, n + 1))",
+          "modified": "        remainingNumbers = list(range(1, n + 1))"
+        }
+      },
+      "unmatched_gt": {}
+    }
+  }
+}
