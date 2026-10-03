@@ -12,7 +12,7 @@ import os
 import sys
 
 EVAL_SET = sys.argv[1] if len(sys.argv) > 1 else "pdb_single_1k"
-ARMS = ["armA", "armB", "armC", "ar"]
+ARMS = ["armA", "armB", "armC", "armC_delta+2", "armC_delta-2", "armC_delta+25pct", "armC_delta-25pct", "armC_delta+50pct", "armC_delta-50pct", "ar"]
 MODELS = ["llada", "dream", "dream-coder", "qwen2.5-coder", "qwen2.5", "llama3.1"]
 DATASETS = [("bigcodebench", "bcb"), ("livecodebench", "lcb")]
 
