@@ -2,7 +2,7 @@ import json
 import subprocess
 from pathlib import Path
 
-from dataset.base import DatasetHandler
+from dataset.base import DatasetHandler, test_workers
 
 
 class LiveCodeBenchHandler(DatasetHandler):
@@ -59,6 +59,7 @@ class LiveCodeBenchHandler(DatasetHandler):
                 "lcb_runner.runner.custom_evaluator",
                 "--custom_output_file",
                 str(Path.cwd() / verify_file),
+                "--num_process_evaluate", test_workers(),
             ),
             cwd=workdir,
             check=True,

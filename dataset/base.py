@@ -1,10 +1,22 @@
 import inspect
+import os
 from abc import ABC, abstractmethod
 from pathlib import Path
 from typing import ClassVar
 
 from utils import get_indentation
 from module import SIMPLE_CODE_BLOCK_REGEX
+
+
+def test_workers() -> str:
+    """Processes the test harnesses run in parallel: 12 unless PDB_TEST_WORKERS says otherwise.
+
+    BigCodeBench's own default is cpu_count() // 2, which in a container counts the host's
+    cores (256 here) rather than the CPU quota (~54), so tests time out under load and pass
+    or fail with the load (2026-11-10: 114-183 timeouts of 487 at 128 workers, 2-7 at 24).
+    LiveCodeBench's default is already 12; it is passed explicitly so both match.
+    """
+    return os.environ.get("PDB_TEST_WORKERS", "12")
 
 
 # NOTE: We use an ABC rather than duck typing so that forgetting to implement

@@ -4,7 +4,7 @@ import os
 import subprocess
 from pathlib import Path
 
-from dataset.base import DatasetHandler
+from dataset.base import DatasetHandler, test_workers
 
 
 class BigCodeBenchHandler(DatasetHandler):
@@ -88,6 +88,7 @@ class BigCodeBenchHandler(DatasetHandler):
         ]
         if selected_ids is not None:
             eval_args += ["--selective_evaluate", selected_ids]
+        eval_args += ["--parallel", test_workers()]       # not the harness's cpu_count() // 2
         eval_args.append("--no_gt")
 
         try:

@@ -1,6 +1,8 @@
 # Scoring DLM_CodeEdit outputs with PDB
 
-Run everything from this directory (`/workspace/PDB`) with `.venv/bin/python`.
+Run everything from this directory with `.venv/bin/python`. It is DLM_CodeEdit's submodule
+`third_party/PDB` (`/workspace/DLM_CodeEdit/third_party/PDB`); until 2026-11-10 scoring ran in a
+separate clone at `/workspace/PDB`, whose `results/` still holds the scores made there.
 
 - `MODEL`: `llada`, `dream`, `dream-coder`
 - `ARM`: `armA`, `armB`, `armC` (the name used in the score file names)
@@ -21,6 +23,11 @@ sandbox on Python 3.10 (uv 0.9.0 was used). Two deviations from the upstream REA
 - BigCodeBench sandbox needs `--python 3.10` (its tensorflow 2.11 pin has only cp310 wheels).
 - LiveCodeBench's `lcb_runner/prompts/few_shot_examples/generation/{func,stdin}.json`
   are ignored by upstream's `.gitignore`; this fork commits them (import-time only, not used in scoring).
+
+Both test harnesses run 12 processes (`dataset/base.py` `test_workers`; set `PDB_TEST_WORKERS`
+to change it). BigCodeBench's own default, `cpu_count() // 2`, counts the host's 256 cores in
+this container (CPU quota ~54), and its tests then time out under load: BigCodeBench scores
+made before 2026-11-10 had 114-183 timeouts of 487 tasks and are too low; re-score them.
 
 ```bash
 uv sync
