@@ -1,0 +1,6 @@
+[project]
+name = "canitedit-tests"
+version = "0.1.0"
+description = "Runtime dependencies of CanItEdit's corrective-task tests (vllm is stubbed in stubs/)"
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "scipy", "scikit-learn", "z3-solver", "flask", "autograd"]

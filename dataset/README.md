@@ -206,5 +206,7 @@ python src/preprocess.py --dataset_name your_dataset_name \
 |---|---|---|---|
 | `bigcodebench` | Complete | `bigcodebench.evaluate` (vendored v0.2.5) | `dataset/bigcodebench/install/` — `uv sync --extra eval` |
 | `livecodebench` | Complete | `lcb_runner.runner.custom_evaluator` | `dataset/livecodebench/install/` — `uv sync` |
+| `humanevalfix` | Complete | `solution + test` in a subprocess (stdlib only) | none; records built by DLM_CodeEdit's `dlm.pdb.humanevalpack` |
+| `canitedit` | Complete | `solution + tests` in a subprocess | `dataset/canitedit/install/` — uv venv (numpy, pandas, scipy, scikit-learn, z3-solver, flask, autograd), vllm stubbed; records built by `dlm.pdb.canitedit` |
 
 See each dataset's own `README.md` for full install + verification instructions.
