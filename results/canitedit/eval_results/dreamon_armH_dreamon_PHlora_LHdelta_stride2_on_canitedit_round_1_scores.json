@@ -1,0 +1,1475 @@
+{
+  "Unit score": {
+    "CanItEdit/25": 0,
+    "CanItEdit/29": 0,
+    "CanItEdit/38": 0,
+    "CanItEdit/70": 1,
+    "CanItEdit/71": 1,
+    "CanItEdit/72": 0,
+    "CanItEdit/76": 0,
+    "CanItEdit/77": 0,
+    "CanItEdit/79": 0,
+    "CanItEdit/80": 1,
+    "CanItEdit/81": 0,
+    "CanItEdit/85": 0,
+    "CanItEdit/86": 0,
+    "CanItEdit/87": 0,
+    "CanItEdit/88": 0,
+    "CanItEdit/89": 0,
+    "CanItEdit/90": 1,
+    "CanItEdit/91": 1,
+    "CanItEdit/92": 1,
+    "CanItEdit/95": 0,
+    "CanItEdit/96": 0,
+    "CanItEdit/104": 0,
+    "CanItEdit/105": 0,
+    "CanItEdit/106": 0,
+    "CanItEdit/100": 0,
+    "CanItEdit/114": 0,
+    "CanItEdit/115": 1,
+    "CanItEdit/117": 0,
+    "CanItEdit/119": 1,
+    "CanItEdit/120": 1
+  },
+  "Symbolic block scores": {
+    "CanItEdit/25": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "61": {
+          "type": "Add",
+          "original": "",
+          "modified": "    for i in range(0, 9, 3):"
+        },
+        "61 ": {
+          "type": "Add",
+          "original": "",
+          "modified": "        for j in range(0, 9, 3):"
+        },
+        "61  ": {
+          "type": "Add",
+          "original": "",
+          "modified": "            square = [board[x][y]"
+        },
+        "61   ": {
+          "type": "Add",
+          "original": "",
+          "modified": "                      for x in range(i, i+3) for y in range(j, j+3)]"
+        },
+        "61    ": {
+          "type": "Add",
+          "original": "",
+          "modified": "            if len(set(square)) != 9:"
+        },
+        "61     ": {
+          "type": "Add",
+          "original": "",
+          "modified": "                return False"
+        },
+        "46": {
+          "type": "Add",
+          "original": "",
+          "modified": "    # Assert 3x3 squares unique"
+        },
+        "46 ": {
+          "type": "Add",
+          "original": "",
+          "modified": "    for i in range(0, 9, 3):"
+        },
+        "46  ": {
+          "type": "Add",
+          "original": "",
+          "modified": "        for j in range(0, 9, 3):"
+        },
+        "46   ": {
+          "type": "Add",
+          "original": "",
+          "modified": "            square = [z3_board[x][y]"
+        },
+        "46    ": {
+          "type": "Add",
+          "original": "",
+          "modified": "                      for x in range(i, i+3) for y in range(j, j+3)]"
+        },
+        "46     ": {
+          "type": "Add",
+          "original": "",
+          "modified": "            solver.add(Distinct(square))"
+        }
+      }
+    },
+    "CanItEdit/29": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "CanItEdit/29_0": {
+          "pred_block": {
+            "block_start": 22,
+            "block_end": 22,
+            "diff": {
+              "22": {
+                "type": "Modify",
+                "original": "        return self.__repr__().__hash__()",
+                "modified": "        return hash(str(self))"
+              }
+            },
+            "stride_before": 21,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 66,
+              "block_end": 67,
+              "diff": {
+                "66": {
+                  "type": "Modify",
+                  "original": "    child = parent1[:crossover_point] + parent2[crossover_point:]",
+                  "modified": "    child = parent1[:crossover_point]"
+                },
+                "67": {
+                  "type": "Add",
+                  "original": "",
+                  "modified": "    for city in parent2:"
+                },
+                "67 ": {
+                  "type": "Add",
+                  "original": "",
+                  "modified": "        if city not in child:"
+                },
+                "67  ": {
+                  "type": "Add",
+                  "original": "",
+                  "modified": "            child.append(city)"
+                }
+              },
+              "stride_before": 65,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "CanItEdit/38": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "CanItEdit/38_0": {
+          "pred_block": {
+            "block_start": 18,
+            "block_end": 18,
+            "diff": {
+              "18": {
+                "type": "Add",
+                "original": "",
+                "modified": "        total = 0"
+              }
+            },
+            "stride_before": 17,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 18,
+              "block_end": 21,
+              "diff": {
+                "18": {
+                  "type": "Modify",
+                  "original": "        for student in self.students:",
+                  "modified": "        if len(self.students) == 0:"
+                },
+                "19": {
+                  "type": "Modify",
+                  "original": "            total += student.gpa",
+                  "modified": "            return None"
+                },
+                "20": {
+                  "type": "Modify",
+                  "original": "",
+                  "modified": "        return functools.reduce(lambda a, b: a + b.gpa, self.students, 0) / len(self.students)"
+                },
+                "21": {
+                  "type": "Delete",
+                  "original": "        return total / len(self.students)",
+                  "modified": ""
+                }
+              },
+              "stride_before": 7,
+              "stride_after": 2,
+              "block_id": 2
+            }
+          ],
+          "gt_match_ids": [
+            2
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "34": {
+          "type": "Delete",
+          "original": "        return best",
+          "modified": ""
+        },
+        "28": {
+          "type": "Modify",
+          "original": "",
+          "modified": "        if len(self.students) == 0:"
+        },
+        "29": {
+          "type": "Modify",
+          "original": "        best = self.students[0]",
+          "modified": "            return None"
+        },
+        "30": {
+          "type": "Modify",
+          "original": "        for student in self.students:",
+          "modified": "        else:"
+        },
+        "31": {
+          "type": "Modify",
+          "original": "            if student.gpa > best.gpa:",
+          "modified": "            student_grades = functools.reduce(lambda a, b: a + [b.gpa], self.students, [])"
+        },
+        "32": {
+          "type": "Modify",
+          "original": "                best = student",
+          "modified": "            return self.students[np.argmax(student_grades)]"
+        },
+        "24": {
+          "type": "Modify",
+          "original": "        for student in self.students:",
+          "modified": "        self.students = functools.reduce(lambda a, b: a + [b.raise_grade()], self.students, [])"
+        },
+        "25": {
+          "type": "Delete",
+          "original": "            student.gpa += 1",
+          "modified": ""
+        },
+        "11": {
+          "type": "Add",
+          "original": "",
+          "modified": "    def raise_grade(self):"
+        },
+        "11 ": {
+          "type": "Add",
+          "original": "",
+          "modified": "        self.gpa += 1"
+        },
+        "11  ": {
+          "type": "Add",
+          "original": "",
+          "modified": "        return self"
+        },
+        "1": {
+          "type": "Add",
+          "original": "",
+          "modified": "import functools"
+        },
+        "1 ": {
+          "type": "Add",
+          "original": "",
+          "modified": "import numpy as np"
+        }
+      }
+    },
+    "CanItEdit/70": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "CanItEdit/70_em_0": {
+          "block_start": 6,
+          "block_end": 6,
+          "diff": {
+            "6": {
+              "type": "Modify",
+              "original": "    for num in range(1, int(end**0.5) + 1):",
+              "modified": "    for num in range(2, int(end**0.5) + 1):"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "CanItEdit/71": {
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "matched_blocks": {
+        "CanItEdit/71_0": {
+          "pred_block": {
+            "block_start": 2,
+            "block_end": 3,
+            "diff": {
+              "2": {
+                "type": "Modify",
+                "original": "    return a if b == 0 else gcd(a % b, b)",
+                "modified": "    while b:"
+              },
+              "3": {
+                "type": "Add",
+                "original": "",
+                "modified": "        a, b = b, a % b"
+              },
+              "3 ": {
+                "type": "Add",
+                "original": "",
+                "modified": "    return a"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 2,
+              "block_end": 2,
+              "diff": {
+                "2": {
+                  "type": "Modify",
+                  "original": "    return a if b == 0 else gcd(a % b, b)",
+                  "modified": "    return a if b == 0 else gcd(b, a % b)"
+                }
+              },
+              "stride_before": 1,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true,
+          "effective_starter": "2"
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "CanItEdit/72": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "CanItEdit/72_0": {
+          "pred_block": {
+            "block_start": 15,
+            "block_end": 15,
+            "diff": {
+              "15": {
+                "type": "Modify",
+                "original": "                current = permutation[current]",
+                "modified": "                current = permutation[current] - 1"
+              }
+            },
+            "stride_before": 14,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 3,
+              "block_end": 3,
+              "diff": {
+                "3": {
+                  "type": "Add",
+                  "original": "",
+                  "modified": "    permutation = [0] + permutation"
+                }
+              },
+              "stride_before": 2,
+              "stride_after": 17,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "20": {
+          "type": "Modify",
+          "original": "    return cycles",
+          "modified": "    return cycles[1:]"
+        }
+      }
+    },
+    "CanItEdit/76": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "23": {
+          "type": "Modify",
+          "original": "        for ex in data:",
+          "modified": "        for i in range(self.size):"
+        },
+        "24": {
+          "type": "Modify",
+          "original": "            self.buffer[self.address] = ex",
+          "modified": "            self.buffer[self.address + i] = data[i]"
+        },
+        "25": {
+          "type": "Delete",
+          "original": "            self.address += 1",
+          "modified": ""
+        }
+      }
+    },
+    "CanItEdit/77": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "CanItEdit/77_0": {
+          "pred_block": {
+            "block_start": 12,
+            "block_end": 12,
+            "diff": {
+              "12": {
+                "type": "Modify",
+                "original": "        self.distance = (self.steps - 1) // self.steps_per_km",
+                "modified": "        self.distance = self.steps / self.steps_per_km"
+              }
+            },
+            "stride_before": 11,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 12,
+              "block_end": 12,
+              "diff": {
+                "12": {
+                  "type": "Modify",
+                  "original": "        self.distance = (self.steps - 1) // self.steps_per_km",
+                  "modified": "        self.distance = self.steps // self.steps_per_km"
+                }
+              },
+              "stride_before": 11,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "CanItEdit/79": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "35": {
+          "type": "Modify",
+          "original": "            is_alpha = not is_alpha",
+          "modified": "            turn_count += 1"
+        },
+        "29": {
+          "type": "Modify",
+          "original": "            if is_alpha:",
+          "modified": "            if turn_count % 3 == 0:"
+        },
+        "27": {
+          "type": "Modify",
+          "original": "        is_alpha = True",
+          "modified": "        turn_count = 0"
+        }
+      }
+    },
+    "CanItEdit/80": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "CanItEdit/80_em_0": {
+          "block_start": 8,
+          "block_end": 8,
+          "diff": {
+            "8": {
+              "type": "Modify",
+              "original": "        if self.is_full() or not self.is_empty():",
+              "modified": "        if self.is_full():"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "CanItEdit/81": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "21": {
+          "type": "Modify",
+          "original": "        if current and current.value == value:",
+          "modified": "        while current:"
+        },
+        "22": {
+          "type": "Modify",
+          "original": "            return current",
+          "modified": "            if current.value == value:"
+        },
+        "23": {
+          "type": "Add",
+          "original": "",
+          "modified": "                return current"
+        },
+        "23 ": {
+          "type": "Add",
+          "original": "",
+          "modified": "            current = current.next"
+        }
+      }
+    },
+    "CanItEdit/85": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "82": {
+          "type": "Add",
+          "original": "",
+          "modified": "        # check for an empty clause (unsatisfiable)"
+        },
+        "82 ": {
+          "type": "Add",
+          "original": "",
+          "modified": "        if sum(len(clause) == 0 for clause in cnf):"
+        },
+        "82  ": {
+          "type": "Add",
+          "original": "",
+          "modified": "            # Undo assignments made in this decision level"
+        },
+        "82   ": {
+          "type": "Add",
+          "original": "",
+          "modified": "            for i in new_true:"
+        },
+        "82    ": {
+          "type": "Add",
+          "original": "",
+          "modified": "                self.assign_true.remove(i)"
+        },
+        "82     ": {
+          "type": "Add",
+          "original": "",
+          "modified": "            for i in new_false:"
+        },
+        "82      ": {
+          "type": "Add",
+          "original": "",
+          "modified": "                self.assign_false.remove(i)"
+        },
+        "82       ": {
+          "type": "Add",
+          "original": "",
+          "modified": "            return False"
+        }
+      }
+    },
+    "CanItEdit/86": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "CanItEdit/86_0": {
+          "pred_block": {
+            "block_start": 20,
+            "block_end": 20,
+            "diff": {
+              "20": {
+                "type": "Add",
+                "original": "",
+                "modified": "        else:"
+              }
+            },
+            "stride_before": 19,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 25,
+              "block_end": 25,
+              "diff": {
+                "25": {
+                  "type": "Add",
+                  "original": "",
+                  "modified": "        # traverse all the arguments"
+                },
+                "25 ": {
+                  "type": "Add",
+                  "original": "",
+                  "modified": "        for arg in node.args.args:"
+                },
+                "25  ": {
+                  "type": "Add",
+                  "original": "",
+                  "modified": "            if arg.arg not in self.usages:"
+                },
+                "25   ": {
+                  "type": "Add",
+                  "original": "",
+                  "modified": "                self.usages[arg.arg] = 0"
+                }
+              },
+              "stride_before": 24,
+              "stride_after": 3,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "36": {
+          "type": "Modify",
+          "original": "        if id_defined is not None:",
+          "modified": ""
+        },
+        "37": {
+          "type": "Modify",
+          "original": "            self.usages[id_defined] -= 1",
+          "modified": "        for i in ids_defined:"
+        },
+        "38": {
+          "type": "Add",
+          "original": "",
+          "modified": "            self.usages[i] -= 1"
+        },
+        "33": {
+          "type": "Modify",
+          "original": "                id_defined = target.id",
+          "modified": "                ids_defined.add(target.id)"
+        },
+        "34": {
+          "type": "Add",
+          "original": "",
+          "modified": "            elif isinstance(target, ast.Tuple):"
+        },
+        "34 ": {
+          "type": "Add",
+          "original": "",
+          "modified": "                for elt in target.elts:"
+        },
+        "34  ": {
+          "type": "Add",
+          "original": "",
+          "modified": "                    if isinstance(elt, ast.Name):"
+        },
+        "34   ": {
+          "type": "Add",
+          "original": "",
+          "modified": "                        if elt.id not in self.usages:"
+        },
+        "34    ": {
+          "type": "Add",
+          "original": "",
+          "modified": "                            self.usages[elt.id] = 0"
+        },
+        "34     ": {
+          "type": "Add",
+          "original": "",
+          "modified": "                        ids_defined.add(elt.id)"
+        },
+        "28": {
+          "type": "Modify",
+          "original": "        id_defined = None",
+          "modified": "        ids_defined = set()"
+        }
+      }
+    },
+    "CanItEdit/87": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "18": {
+          "type": "Modify",
+          "original": "            args.append(f\"{arg.arg}: {arg.annotation}\")",
+          "modified": "            type_annotation = arg.annotation if arg.annotation is not None else \"\""
+        },
+        "19": {
+          "type": "Add",
+          "original": "",
+          "modified": "            if type_annotation != \"\":"
+        },
+        "19 ": {
+          "type": "Add",
+          "original": "",
+          "modified": "                type_annotation = \": \" + type_annotation.id"
+        },
+        "19  ": {
+          "type": "Add",
+          "original": "",
+          "modified": "            args.append(f\"{arg.arg}{type_annotation}\")"
+        }
+      }
+    },
+    "CanItEdit/88": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "CanItEdit/88_1": {
+          "pred_block": {
+            "block_start": 20,
+            "block_end": 20,
+            "diff": {
+              "20": {
+                "type": "Modify",
+                "original": "        for i in range(1, len(corr)):",
+                "modified": "        for i in range(len(self.columns)):"
+              }
+            },
+            "stride_before": 19,
+            "stride_after": 2,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 19,
+              "block_end": 19,
+              "diff": {
+                "19": {
+                  "type": "Add",
+                  "original": "",
+                  "modified": "        corr.fillna(0, inplace=True)"
+                }
+              },
+              "stride_before": 18,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {
+        "23": {
+          "type": "Modify",
+          "original": "        labels = fcluster(Z, threshold, criterion='distance')",
+          "modified": "        labels = fcluster(Z, threshold)"
+        }
+      },
+      "unmatched_gt": {}
+    },
+    "CanItEdit/89": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "CanItEdit/89_0": {
+          "pred_block": {
+            "block_start": 3,
+            "block_end": 4,
+            "diff": {
+              "3": {
+                "type": "Modify",
+                "original": "    for i in range(0, len(originalString)):",
+                "modified": "    for i in range(len(originalString)):"
+              },
+              "4": {
+                "type": "Modify",
+                "original": "        reversedString += originalString[i]",
+                "modified": "        reversedString = reversedString        reversedString += originalString[i]"
+              }
+            },
+            "stride_before": 2,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 3,
+              "block_end": 3,
+              "diff": {
+                "3": {
+                  "type": "Modify",
+                  "original": "    for i in range(0, len(originalString)):",
+                  "modified": "    for i in range(len(originalString)-1, -1, -1):"
+                }
+              },
+              "stride_before": 2,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "CanItEdit/90": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "CanItEdit/90_em_0": {
+          "block_start": 13,
+          "block_end": 13,
+          "diff": {
+            "13": {
+              "type": "Modify",
+              "original": "    for i in range(len(dna)-1):",
+              "modified": "    for i in range(len(dna)):"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "CanItEdit/91": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "CanItEdit/91_0": {
+          "pred_block": {
+            "block_start": 5,
+            "block_end": 5,
+            "diff": {
+              "5": {
+                "type": "Modify",
+                "original": "    return principal * ((1 + (rate / compoundFreq)) * (compoundFreq * periods))",
+                "modified": "    return principal * (1 + rate / compoundFreq) ** (compoundFreq * periods)"
+              }
+            },
+            "stride_before": 4,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 5,
+              "block_end": 5,
+              "diff": {
+                "5": {
+                  "type": "Modify",
+                  "original": "    return principal * ((1 + (rate / compoundFreq)) * (compoundFreq * periods))",
+                  "modified": "    return principal * ((1 + (rate / compoundFreq)) ** (compoundFreq * periods))"
+                }
+              },
+              "stride_before": 4,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "CanItEdit/92": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "matched_blocks": {
+        "CanItEdit/92_0": {
+          "pred_block": {
+            "block_start": 5,
+            "block_end": 6,
+            "diff": {
+              "5": {
+                "type": "Modify",
+                "original": "    return math.sqrt(semiperimeter * (semiperimeter - sideLength1) * (semiperimeter - sideLength2) * semiperimeter - sideLength3)",
+                "modified": "    area = math.sqrt(semiperimeter * (semiperimeter - sideLength1) * (semiperimeter - sideLength2) * (semiperimeter - sideLength3))"
+              },
+              "6": {
+                "type": "Add",
+                "original": "",
+                "modified": "    return area"
+              }
+            },
+            "stride_before": 4,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 5,
+              "block_end": 5,
+              "diff": {
+                "5": {
+                  "type": "Modify",
+                  "original": "    return math.sqrt(semiperimeter * (semiperimeter - sideLength1) * (semiperimeter - sideLength2) * semiperimeter - sideLength3)",
+                  "modified": "    return math.sqrt(semiperimeter * (semiperimeter - sideLength1) * (semiperimeter - sideLength2) * (semiperimeter - sideLength3))"
+                }
+              },
+              "stride_before": 4,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true,
+          "effective_starter": "1"
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "CanItEdit/95": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "CanItEdit/95_0": {
+          "pred_block": {
+            "block_start": 28,
+            "block_end": 28,
+            "diff": {
+              "28": {
+                "type": "Modify",
+                "original": "            point_idx = queue.pop()",
+                "modified": "            point_idx = queue.popleft()"
+              }
+            },
+            "stride_before": 27,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 29,
+              "block_end": 32,
+              "diff": {
+                "29": {
+                  "type": "Modify",
+                  "original": "            point_neighbors = np.where(distance_matrix([X[point_idx]], X)[0] <= self.eps)[0]",
+                  "modified": "            if not visited[point_idx]:"
+                },
+                "30": {
+                  "type": "Modify",
+                  "original": "            if len(point_neighbors) >= self.min_samples:",
+                  "modified": "                visited[point_idx] = True"
+                },
+                "31": {
+                  "type": "Modify",
+                  "original": "                queue.extend(point_neighbors)",
+                  "modified": "                point_neighbors = np.where(distance_matrix([X[point_idx]], X)[0] <= self.eps)[0]"
+                },
+                "32": {
+                  "type": "Add",
+                  "original": "",
+                  "modified": "                if len(point_neighbors) >= self.min_samples:"
+                },
+                "32 ": {
+                  "type": "Add",
+                  "original": "",
+                  "modified": "                    queue.extend(point_neighbors)"
+                }
+              },
+              "stride_before": 3,
+              "stride_after": null,
+              "block_id": 4
+            }
+          ],
+          "gt_match_ids": [
+            4
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "25": {
+          "type": "Modify",
+          "original": "    def _expand_cluster(self, X: np.ndarray, neighbors: list, cluster_id: int) -> None:",
+          "modified": "    def _expand_cluster(self, X: np.ndarray, visited: np.ndarray, neighbors: list, cluster_id: int) -> None:"
+        },
+        "22": {
+          "type": "Modify",
+          "original": "                self._expand_cluster(X, neighbors, cluster_id)",
+          "modified": "                self._expand_cluster(X, visited, neighbors, cluster_id)"
+        },
+        "18": {
+          "type": "Add",
+          "original": "",
+          "modified": "            if visited[i]:"
+        },
+        "18 ": {
+          "type": "Add",
+          "original": "",
+          "modified": "                continue"
+        },
+        "18  ": {
+          "type": "Add",
+          "original": "",
+          "modified": "            visited[i] = True"
+        },
+        "15": {
+          "type": "Add",
+          "original": "",
+          "modified": "        visited = np.zeros(n_samples, dtype=bool)"
+        }
+      }
+    },
+    "CanItEdit/96": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "34": {
+          "type": "Add",
+          "original": "",
+          "modified": "            self.covariances[i] += self.reg_covar * np.eye(X.shape[1])"
+        }
+      }
+    },
+    "CanItEdit/104": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "CanItEdit/104_0": {
+          "pred_block": {
+            "block_start": 62,
+            "block_end": 62,
+            "diff": {
+              "62": {
+                "type": "Modify",
+                "original": "        return Directory(self.name, self.permissions, self.owner, [function(file) for file in self.files])",
+                "modified": "        return Directory(self.name, self.permissions, self.owner, self.files)"
+              }
+            },
+            "stride_before": 61,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 62,
+              "block_end": 62,
+              "diff": {
+                "62": {
+                  "type": "Modify",
+                  "original": "        return Directory(self.name, self.permissions, self.owner, [function(file) for file in self.files])",
+                  "modified": "        return Directory(self.name, self.permissions, self.owner, [f.map_content(function) for f in self.files])"
+                }
+              },
+              "stride_before": 61,
+              "stride_after": 3,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "66": {
+          "type": "Add",
+          "original": "",
+          "modified": "        for f in self.files:"
+        },
+        "66 ": {
+          "type": "Add",
+          "original": "",
+          "modified": "            f.map_files(function)"
+        }
+      }
+    },
+    "CanItEdit/105": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "CanItEdit/105_1": {
+          "pred_block": {
+            "block_start": 80,
+            "block_end": 80,
+            "diff": {
+              "80": {
+                "type": "Modify",
+                "original": "        Hessian_k = 1",
+                "modified": "        Hessian_k = 2 * test_function(x_n_minus_one, 2)"
+              }
+            },
+            "stride_before": 79,
+            "stride_after": 11,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 52,
+              "block_end": 54,
+              "diff": {
+                "52": {
+                  "type": "Modify",
+                  "original": "            x_new = x_n - \\",
+                  "modified": "            x_new = x_n - grad(test_function)(x_n) / \\"
+                },
+                "53": {
+                  "type": "Modify",
+                  "original": "                test_function(",
+                  "modified": "                grad(grad(test_function))(x_n)"
+                },
+                "54": {
+                  "type": "Delete",
+                  "original": "                    x_n)/((test_function(x_n + self.dx) - test_function(x_n))/self.dx)",
+                  "modified": ""
+                }
+              },
+              "stride_before": 51,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {
+        "92": {
+          "type": "Add",
+          "original": "",
+          "modified": "            a += 1"
+        }
+      },
+      "unmatched_gt": {}
+    },
+    "CanItEdit/106": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "44": {
+          "type": "Modify",
+          "original": "                count += 1 if self.grid[x][y] else 0",
+          "modified": "                if 0 <= x < len(self.grid) and 0 <= y < len(self.grid[0]):"
+        },
+        "45": {
+          "type": "Add",
+          "original": "",
+          "modified": "                    count += 1 if self.grid[x][y] else 0"
+        }
+      }
+    },
+    "CanItEdit/100": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {
+        "29": {
+          "type": "Modify",
+          "original": "    properties = data[col].apply(calculate_all_properties)",
+          "modified": "    properties = data[col].map(calculate_all_properties)"
+        },
+        "25": {
+          "type": "Modify",
+          "original": "    properties = [StringOperations.remove_vowels(text), StringOperations.word_reversal(text), StringOperations.remove_duplicates(text)]",
+          "modified": "    properties = [StringOperations.remove_duplicates(text), StringOperations.word_reversal(text), StringOperations.remove_vowels(text)]"
+        },
+        "16": {
+          "type": "Modify",
+          "original": "        sentences = text.split(' ')",
+          "modified": "        sentences = text.split()"
+        }
+      },
+      "unmatched_gt": {
+        "28": {
+          "type": "Modify",
+          "original": "def multi_apply(data, col, colnames):",
+          "modified": "def multi_apply(data, col, colnames, functions):"
+        },
+        "29": {
+          "type": "Modify",
+          "original": "    properties = data[col].apply(calculate_all_properties)",
+          "modified": "    properties = data[col].apply(calculate_all_properties, args=(functions,))"
+        },
+        "24": {
+          "type": "Modify",
+          "original": "def calculate_all_properties(text):",
+          "modified": "def calculate_all_properties(text, functions):"
+        },
+        "25": {
+          "type": "Modify",
+          "original": "    properties = [StringOperations.remove_vowels(text), StringOperations.word_reversal(text), StringOperations.remove_duplicates(text)]",
+          "modified": "    properties = [func(text) for func in functions]"
+        }
+      }
+    },
+    "CanItEdit/114": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "100": {
+          "type": "Modify",
+          "original": "                max_a_val = 0",
+          "modified": "                max_a_val = float(\"-inf\")"
+        },
+        "79": {
+          "type": "Modify",
+          "original": "                    max_a_val = 0",
+          "modified": "                    max_a_val = float(\"-inf\")"
+        }
+      }
+    },
+    "CanItEdit/115": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "CanItEdit/115_0": {
+          "pred_block": {
+            "block_start": 14,
+            "block_end": 14,
+            "diff": {
+              "14": {
+                "type": "Modify",
+                "original": "    return int(combination(n + r - 1, r))",
+                "modified": "    return combination(n + r - 1, n)"
+              }
+            },
+            "stride_before": 13,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 14,
+              "block_end": 14,
+              "diff": {
+                "14": {
+                  "type": "Modify",
+                  "original": "    return int(combination(n + r - 1, r))",
+                  "modified": "    return int(combination(n + r - 1, n))"
+                }
+              },
+              "stride_before": 13,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "CanItEdit/117": {
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1": 0.4,
+      "matched_blocks": {
+        "CanItEdit/117_em_0": {
+          "block_start": 30,
+          "block_end": 30,
+          "diff": {
+            "30": {
+              "type": "Modify",
+              "original": "                - self.content[0][1] * self.content[1][1]",
+              "modified": "                - self.content[0][1] * self.content[1][0]"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {
+        "17": {
+          "type": "Modify",
+          "original": "            [0 for i in range(len(self.content))] for i in range(len(self.content[0]))",
+          "modified": "            [0] * len(self.content)"
+        },
+        "18": {
+          "type": "Add",
+          "original": "",
+          "modified": "            for _ in range(len(self.content[0]))"
+        },
+        "18 ": {
+          "type": "Add",
+          "original": "",
+          "modified": "            ]"
+        }
+      },
+      "unmatched_gt": {}
+    },
+    "CanItEdit/119": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "CanItEdit/119_em_0": {
+          "block_start": 20,
+          "block_end": 20,
+          "diff": {
+            "20": {
+              "type": "Modify",
+              "original": "            y = self.pollards_rho_polynomial(y)",
+              "modified": "            y = self.pollards_rho_polynomial(self.pollards_rho_polynomial(y))"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "CanItEdit/120": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8,
+      "matched_blocks": {
+        "CanItEdit/120_em_0": {
+          "block_start": 56,
+          "block_end": 56,
+          "diff": {
+            "56": {
+              "type": "Modify",
+              "original": "        elif val > q3:",
+              "modified": "        elif val >= q3:"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        },
+        "CanItEdit/120_em_1": {
+          "block_start": 52,
+          "block_end": 52,
+          "diff": {
+            "52": {
+              "type": "Modify",
+              "original": "        if val < q1:",
+              "modified": "        if val <= q1:"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {
+        "30": {
+          "type": "Modify",
+          "original": "        middleNum2 = sorted_data[(len(sorted_data)//2)-1]",
+          "modified": "        middleNum2 = sorted_data[len(sorted_data)//2 - 1]"
+        }
+      },
+      "unmatched_gt": {}
+    }
+  }
+}

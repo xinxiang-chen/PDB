@@ -1,0 +1,6050 @@
+{
+  "Unit score": {
+    "Python/0": 1,
+    "Python/1": 1,
+    "Python/2": 1,
+    "Python/3": 1,
+    "Python/4": 0,
+    "Python/5": 0,
+    "Python/6": 0,
+    "Python/7": 1,
+    "Python/8": 1,
+    "Python/9": 0,
+    "Python/10": 0,
+    "Python/11": 1,
+    "Python/12": 1,
+    "Python/13": 1,
+    "Python/14": 1,
+    "Python/15": 1,
+    "Python/16": 1,
+    "Python/17": 1,
+    "Python/18": 1,
+    "Python/19": 1,
+    "Python/20": 1,
+    "Python/21": 0,
+    "Python/22": 1,
+    "Python/23": 1,
+    "Python/24": 1,
+    "Python/25": 1,
+    "Python/26": 1,
+    "Python/27": 0,
+    "Python/28": 1,
+    "Python/29": 1,
+    "Python/30": 1,
+    "Python/31": 1,
+    "Python/32": 0,
+    "Python/33": 0,
+    "Python/34": 1,
+    "Python/35": 1,
+    "Python/36": 1,
+    "Python/37": 0,
+    "Python/38": 0,
+    "Python/39": 1,
+    "Python/40": 1,
+    "Python/41": 1,
+    "Python/42": 1,
+    "Python/43": 1,
+    "Python/44": 1,
+    "Python/45": 1,
+    "Python/46": 0,
+    "Python/47": 0,
+    "Python/48": 1,
+    "Python/49": 1,
+    "Python/50": 1,
+    "Python/51": 0,
+    "Python/52": 0,
+    "Python/53": 0,
+    "Python/54": 0,
+    "Python/55": 1,
+    "Python/56": 1,
+    "Python/57": 0,
+    "Python/58": 0,
+    "Python/59": 1,
+    "Python/60": 1,
+    "Python/61": 1,
+    "Python/62": 0,
+    "Python/63": 1,
+    "Python/64": 0,
+    "Python/65": 1,
+    "Python/66": 1,
+    "Python/67": 1,
+    "Python/68": 1,
+    "Python/69": 0,
+    "Python/70": 0,
+    "Python/71": 1,
+    "Python/72": 1,
+    "Python/73": 0,
+    "Python/74": 0,
+    "Python/75": 1,
+    "Python/76": 1,
+    "Python/77": 0,
+    "Python/78": 1,
+    "Python/79": 1,
+    "Python/80": 0,
+    "Python/81": 1,
+    "Python/82": 0,
+    "Python/83": 0,
+    "Python/84": 1,
+    "Python/85": 1,
+    "Python/86": 0,
+    "Python/87": 0,
+    "Python/88": 1,
+    "Python/89": 1,
+    "Python/90": 1,
+    "Python/91": 0,
+    "Python/92": 0,
+    "Python/93": 0,
+    "Python/94": 0,
+    "Python/95": 1,
+    "Python/96": 1,
+    "Python/97": 0,
+    "Python/98": 1,
+    "Python/99": 0,
+    "Python/100": 0,
+    "Python/101": 1,
+    "Python/102": 0,
+    "Python/103": 1,
+    "Python/104": 1,
+    "Python/105": 0,
+    "Python/106": 0,
+    "Python/107": 1,
+    "Python/108": 0,
+    "Python/109": 0,
+    "Python/110": 0,
+    "Python/111": 0,
+    "Python/112": 0,
+    "Python/113": 1,
+    "Python/114": 0,
+    "Python/115": 0,
+    "Python/116": 0,
+    "Python/117": 0,
+    "Python/118": 0,
+    "Python/119": 0,
+    "Python/120": 1,
+    "Python/121": 1,
+    "Python/122": 0,
+    "Python/123": 1,
+    "Python/124": 0,
+    "Python/125": 0,
+    "Python/126": 0,
+    "Python/127": 0,
+    "Python/128": 1,
+    "Python/129": 0,
+    "Python/130": 0,
+    "Python/131": 1,
+    "Python/132": 0,
+    "Python/133": 1,
+    "Python/134": 1,
+    "Python/135": 1,
+    "Python/136": 0,
+    "Python/137": 0,
+    "Python/138": 0,
+    "Python/139": 1,
+    "Python/140": 0,
+    "Python/141": 1,
+    "Python/142": 1,
+    "Python/143": 0,
+    "Python/144": 0,
+    "Python/145": 0,
+    "Python/146": 1,
+    "Python/147": 0,
+    "Python/148": 1,
+    "Python/149": 0,
+    "Python/150": 1,
+    "Python/151": 0,
+    "Python/152": 1,
+    "Python/153": 1,
+    "Python/154": 1,
+    "Python/155": 1,
+    "Python/156": 1,
+    "Python/157": 0,
+    "Python/158": 0,
+    "Python/159": 0,
+    "Python/160": 0,
+    "Python/161": 0,
+    "Python/162": 0,
+    "Python/163": 1
+  },
+  "Symbolic block scores": {
+    "Python/0": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/0_em_0": {
+          "block_start": 8,
+          "block_end": 8,
+          "diff": {
+            "8": {
+              "type": "Modify",
+              "original": "                distance = elem - elem2",
+              "modified": "                distance = abs(elem - elem2)"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/1": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/1_em_0": {
+          "block_start": 17,
+          "block_end": 17,
+          "diff": {
+            "17": {
+              "type": "Modify",
+              "original": "            if current_depth < 0:",
+              "modified": "            if current_depth == 0:"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/2": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/2_em_0": {
+          "block_start": 2,
+          "block_end": 2,
+          "diff": {
+            "2": {
+              "type": "Modify",
+              "original": "    return number % 1.0 + 1.0",
+              "modified": "    return number % 1.0"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/3": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/3_em_0": {
+          "block_start": 9,
+          "block_end": 9,
+          "diff": {
+            "9": {
+              "type": "Modify",
+              "original": "        if balance == 0:",
+              "modified": "        if balance < 0:"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/4": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/4_0": {
+          "pred_block": {
+            "block_start": 6,
+            "block_end": 7,
+            "diff": {
+              "6": {
+                "type": "Modify",
+                "original": "    return sum(abs(x - mean) for x in numbers) / mean",
+                "modified": "    return sum(abs(x - mean) for x in numbers) / len(numbers)"
+              },
+              "7": {
+                "type": "Add",
+                "original": "",
+                "modified": "``"
+              }
+            },
+            "stride_before": 5,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 6,
+              "block_end": 6,
+              "diff": {
+                "6": {
+                  "type": "Modify",
+                  "original": "    return sum(abs(x - mean) for x in numbers) / mean",
+                  "modified": "    return sum(abs(x - mean) for x in numbers) / len(numbers)"
+                }
+              },
+              "stride_before": 5,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/5": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {
+        "10": {
+          "type": "Modify",
+          "original": "    for n in numbers[:-1]:",
+          "modified": "    for n in numbers[:-"
+        }
+      },
+      "unmatched_gt": {
+        "14": {
+          "type": "Add",
+          "original": "",
+          "modified": "    result.append(numbers[-1])"
+        }
+      }
+    },
+    "Python/6": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "13": {
+          "type": "Modify",
+          "original": "                max_depth -= 1",
+          "modified": "                depth -= 1"
+        }
+      }
+    },
+    "Python/7": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/7_em_0": {
+          "block_start": 5,
+          "block_end": 5,
+          "diff": {
+            "5": {
+              "type": "Modify",
+              "original": "    return [x for x in strings if x in substring]",
+              "modified": "    return [x for x in strings if substring in x]"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/8": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/8_em_0": {
+          "block_start": 6,
+          "block_end": 6,
+          "diff": {
+            "6": {
+              "type": "Modify",
+              "original": "    prod_value = 0",
+              "modified": "    prod_value = 1"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/9": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/9_0": {
+          "pred_block": {
+            "block_start": 12,
+            "block_end": 12,
+            "diff": {
+              "12": {
+                "type": "Modify",
+                "original": "            running_max = max(numbers)",
+                "modified": "            running_max = max(n)"
+              }
+            },
+            "stride_before": 11,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 12,
+              "block_end": 12,
+              "diff": {
+                "12": {
+                  "type": "Modify",
+                  "original": "            running_max = max(numbers)",
+                  "modified": "            running_max = max(running_max, n)"
+                }
+              },
+              "stride_before": 11,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/10": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/10_1": {
+          "pred_block": {
+            "block_start": 12,
+            "block_end": 12,
+            "diff": {
+              "12": {
+                "type": "Modify",
+                "original": "    while not is_palindrome(string):",
+                "modified": "    while not is_palindrome(string(beginning_of_suffix)):"
+              }
+            },
+            "stride_before": 11,
+            "stride_after": 2,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 12,
+              "block_end": 12,
+              "diff": {
+                "12": {
+                  "type": "Modify",
+                  "original": "    while not is_palindrome(string):",
+                  "modified": "    while not is_palindrome(string[beginning_of_suffix:]):"
+                }
+              },
+              "stride_before": 11,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {
+        "15": {
+          "type": "Modify",
+          "original": "    return string + string[:beginning_of_suffix][::-1]",
+          "modified": "    return string + string[:len(string)-beginning_of_suffix][::-1]"
+        }
+      },
+      "unmatched_gt": {}
+    },
+    "Python/11": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/11_0": {
+          "pred_block": {
+            "block_start": 6,
+            "block_end": 6,
+            "diff": {
+              "6": {
+                "type": "Modify",
+                "original": "        if i == j:",
+                "modified": "        if i != j:"
+              }
+            },
+            "stride_before": 5,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 8,
+              "block_end": 9,
+              "diff": {
+                "8": {
+                  "type": "Delete",
+                  "original": "        else:",
+                  "modified": ""
+                },
+                "9": {
+                  "type": "Delete",
+                  "original": "            return '0'",
+                  "modified": ""
+                }
+              },
+              "stride_before": 1,
+              "stride_after": null,
+              "block_id": 1
+            }
+          ],
+          "gt_match_ids": [
+            1
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "7": {
+          "type": "Add",
+          "original": "",
+          "modified": "            return '0'"
+        },
+        "7 ": {
+          "type": "Add",
+          "original": "",
+          "modified": "        else:"
+        }
+      }
+    },
+    "Python/12": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/12_em_0": {
+          "block_start": 10,
+          "block_end": 10,
+          "diff": {
+            "10": {
+              "type": "Modify",
+              "original": "        if len(s) > maxlen:",
+              "modified": "        if len(s) == maxlen:"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/13": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/13_0": {
+          "pred_block": {
+            "block_start": 4,
+            "block_end": 4,
+            "diff": {
+              "4": {
+                "type": "Modify",
+                "original": "    return b",
+                "modified": "    return abs(a)"
+              }
+            },
+            "stride_before": 3,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 4,
+              "block_end": 4,
+              "diff": {
+                "4": {
+                  "type": "Modify",
+                  "original": "    return b",
+                  "modified": "    return a"
+                }
+              },
+              "stride_before": 3,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/14": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/14_em_0": {
+          "block_start": 7,
+          "block_end": 7,
+          "diff": {
+            "7": {
+              "type": "Modify",
+              "original": "    for i in range(len(string)-1):",
+              "modified": "    for i in range(len(string)):"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/15": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/15_0": {
+          "pred_block": {
+            "block_start": 2,
+            "block_end": 2,
+            "diff": {
+              "2": {
+                "type": "Modify",
+                "original": "    return ' '.join([str(x) for x in range(n)])",
+                "modified": "    return ' '.join(str(x) for x in range(n+1))"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 2,
+              "block_end": 2,
+              "diff": {
+                "2": {
+                  "type": "Modify",
+                  "original": "    return ' '.join([str(x) for x in range(n)])",
+                  "modified": "    return ' '.join([str(x) for x in range(n + 1)])"
+                }
+              },
+              "stride_before": 1,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/16": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/16_em_0": {
+          "block_start": 2,
+          "block_end": 2,
+          "diff": {
+            "2": {
+              "type": "Modify",
+              "original": "    return len(set(string))",
+              "modified": "    return len(set(string.lower()))"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/17": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/17_em_0": {
+          "block_start": 5,
+          "block_end": 5,
+          "diff": {
+            "5": {
+              "type": "Modify",
+              "original": "    note_map = {'o': 3, 'o|': 2, '.|': 1}",
+              "modified": "    note_map = {'o': 4, 'o|': 2, '.|': 1}"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/18": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/18_0": {
+          "pred_block": {
+            "block_start": 4,
+            "block_end": 4,
+            "diff": {
+              "4": {
+                "type": "Modify",
+                "original": "    for i in range(len(string) - len(substring)):",
+                "modified": "    for i in range(len(string)):"
+              }
+            },
+            "stride_before": 3,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 4,
+              "block_end": 4,
+              "diff": {
+                "4": {
+                  "type": "Modify",
+                  "original": "    for i in range(len(string) - len(substring)):",
+                  "modified": "    for i in range(len(string) - len(substring) + 1):"
+                }
+              },
+              "stride_before": 3,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/19": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/19_0": {
+          "pred_block": {
+            "block_start": 17,
+            "block_end": 17,
+            "diff": {
+              "17": {
+                "type": "Add",
+                "original": "",
+                "modified": "    numbers = ' '.join(sorted(numbers.split(), key=value_map.get))"
+              }
+            },
+            "stride_before": 16,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 17,
+              "block_end": 17,
+              "diff": {
+                "17": {
+                  "type": "Modify",
+                  "original": "    return ' '.join([x for x in numbers.split(' ') if x])",
+                  "modified": "    return ' '.join(sorted([x for x in numbers.split(' ') if x], key=lambda x: value_map[x]))"
+                }
+              },
+              "stride_before": 16,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/20": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/20_em_0": {
+          "block_start": 16,
+          "block_end": 16,
+          "diff": {
+            "16": {
+              "type": "Modify",
+              "original": "                    if new_distance > distance:",
+              "modified": "                    if new_distance < distance:"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/21": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/21_0": {
+          "pred_block": {
+            "block_start": 7,
+            "block_end": 7,
+            "diff": {
+              "7": {
+                "type": "Modify",
+                "original": "    return [(x - min_number) / (max_number + min_number) for x in numbers]",
+                "modified": "    return [(x - min_number) / max_number for x in numbers]"
+              }
+            },
+            "stride_before": 6,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 7,
+              "block_end": 7,
+              "diff": {
+                "7": {
+                  "type": "Modify",
+                  "original": "    return [(x - min_number) / (max_number + min_number) for x in numbers]",
+                  "modified": "    return [(x - min_number) / (max_number - min_number) for x in numbers]"
+                }
+              },
+              "stride_before": 6,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/22": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/22_0": {
+          "pred_block": {
+            "block_start": 6,
+            "block_end": 6,
+            "diff": {
+              "6": {
+                "type": "Modify",
+                "original": "    return values",
+                "modified": "    return out"
+              }
+            },
+            "stride_before": 5,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 5,
+              "block_end": 6,
+              "diff": {
+                "5": {
+                  "type": "Modify",
+                  "original": "    out = [x for x in values if isinstance(x, int)]",
+                  "modified": "    return [x for x in values if isinstance(x, int)]"
+                },
+                "6": {
+                  "type": "Delete",
+                  "original": "    return values",
+                  "modified": ""
+                }
+              },
+              "stride_before": 4,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/23": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/23_em_0": {
+          "block_start": 2,
+          "block_end": 2,
+          "diff": {
+            "2": {
+              "type": "Modify",
+              "original": "    return len(string) - 1",
+              "modified": "    return len(string)"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/24": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/24_em_0": {
+          "block_start": 3,
+          "block_end": 3,
+          "diff": {
+            "3": {
+              "type": "Modify",
+              "original": "        if n - i == 0:",
+              "modified": "        if n % i == 0:"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/25": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/25_em_0": {
+          "block_start": 7,
+          "block_end": 7,
+          "diff": {
+            "7": {
+              "type": "Modify",
+              "original": "    i = 0",
+              "modified": "    i = 2"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/26": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/26_0": {
+          "pred_block": {
+            "block_start": 7,
+            "block_end": 7,
+            "diff": {
+              "7": {
+                "type": "Modify",
+                "original": "    return [n for n in numbers if c[n] < 1]",
+                "modified": "    return [n for n in numbers if c[n] == 1]"
+              }
+            },
+            "stride_before": 6,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 7,
+              "block_end": 7,
+              "diff": {
+                "7": {
+                  "type": "Modify",
+                  "original": "    return [n for n in numbers if c[n] < 1]",
+                  "modified": "    return [n for n in numbers if c[n] <= 1]"
+                }
+              },
+              "stride_before": 6,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/27": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/27_0": {
+          "pred_block": {
+            "block_start": 2,
+            "block_end": 2,
+            "diff": {
+              "2": {
+                "type": "Modify",
+                "original": "    return string.lower()",
+                "modified": "    return string.swap()"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 2,
+              "block_end": 2,
+              "diff": {
+                "2": {
+                  "type": "Modify",
+                  "original": "    return string.lower()",
+                  "modified": "    return string.swapcase()"
+                }
+              },
+              "stride_before": 1,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/28": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/28_em_0": {
+          "block_start": 5,
+          "block_end": 5,
+          "diff": {
+            "5": {
+              "type": "Modify",
+              "original": "    return ' '.join(strings)",
+              "modified": "    return ''.join(strings)"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/29": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/29_em_0": {
+          "block_start": 5,
+          "block_end": 5,
+          "diff": {
+            "5": {
+              "type": "Modify",
+              "original": "    return [x for x in strings if x.endswith(prefix)]",
+              "modified": "    return [x for x in strings if x.startswith(prefix)]"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/30": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/30_em_0": {
+          "block_start": 2,
+          "block_end": 2,
+          "diff": {
+            "2": {
+              "type": "Modify",
+              "original": "    return [e for e in l if e < 0]",
+              "modified": "    return [e for e in l if e > 0]"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/31": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/31_em_0": {
+          "block_start": 4,
+          "block_end": 4,
+          "diff": {
+            "4": {
+              "type": "Modify",
+              "original": "    for k in range(1, n - 1):",
+              "modified": "    for k in range(2, n - 1):"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        },
+        "Python/31_em_1": {
+          "block_start": 2,
+          "block_end": 2,
+          "diff": {
+            "2": {
+              "type": "Modify",
+              "original": "    if n < 1:",
+              "modified": "    if n < 2:"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/32": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "17": {
+          "type": "Modify",
+          "original": "    while begin - end > 1e-10:",
+          "modified": "    while end - begin > 1e-10:"
+        }
+      }
+    },
+    "Python/33": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {
+        "2": {
+          "type": "Delete",
+          "original": "    l = list(l)",
+          "modified": ""
+        }
+      },
+      "unmatched_gt": {
+        "3": {
+          "type": "Add",
+          "original": "",
+          "modified": "    l[::3] = sorted(l[::3])"
+        }
+      }
+    },
+    "Python/34": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/34_0": {
+          "pred_block": {
+            "block_start": 2,
+            "block_end": 2,
+            "diff": {
+              "2": {
+                "type": "Modify",
+                "original": "    return sorted(l)",
+                "modified": "    return sorted(set(l))"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 2,
+              "block_end": 2,
+              "diff": {
+                "2": {
+                  "type": "Modify",
+                  "original": "    return sorted(l)",
+                  "modified": "    return sorted(list(set(l)))"
+                }
+              },
+              "stride_before": 1,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/35": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/35_em_0": {
+          "block_start": 4,
+          "block_end": 4,
+          "diff": {
+            "4": {
+              "type": "Modify",
+              "original": "        if e < m:",
+              "modified": "        if e > m:"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/36": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/36_em_0": {
+          "block_start": 4,
+          "block_end": 4,
+          "diff": {
+            "4": {
+              "type": "Modify",
+              "original": "        if i % 11 == 0 and i % 13 == 0:",
+              "modified": "        if i % 11 == 0 or i % 13 == 0:"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/37": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/37_0": {
+          "pred_block": {
+            "block_start": 4,
+            "block_end": 4,
+            "diff": {
+              "4": {
+                "type": "Delete",
+                "original": "    odds.sort()",
+                "modified": ""
+              }
+            },
+            "stride_before": 3,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 4,
+              "block_end": 4,
+              "diff": {
+                "4": {
+                  "type": "Modify",
+                  "original": "    odds.sort()",
+                  "modified": "    evens.sort()"
+                }
+              },
+              "stride_before": 3,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/38": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "13": {
+          "type": "Modify",
+          "original": "    return encode_cyclic(s)",
+          "modified": "    return encode_cyclic(encode_cyclic(s))"
+        }
+      }
+    },
+    "Python/39": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/39_0": {
+          "pred_block": {
+            "block_start": 7,
+            "block_end": 7,
+            "diff": {
+              "7": {
+                "type": "Modify",
+                "original": "        for k in range(2, min(int(math.sqrt(p)), p)):",
+                "modified": "        for k in range(2, min(int(math.sqrt(p)), p) + 1):"
+              }
+            },
+            "stride_before": 6,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 7,
+              "block_end": 7,
+              "diff": {
+                "7": {
+                  "type": "Modify",
+                  "original": "        for k in range(2, min(int(math.sqrt(p)), p)):",
+                  "modified": "        for k in range(2, min(int(math.sqrt(p)) + 1, p - 1)):"
+                }
+              },
+              "stride_before": 6,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/40": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/40_em_0": {
+          "block_start": 2,
+          "block_end": 2,
+          "diff": {
+            "2": {
+              "type": "Modify",
+              "original": "    for i in range(1, len(l)):",
+              "modified": "    for i in range(len(l)):"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/41": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/41_0": {
+          "pred_block": {
+            "block_start": 2,
+            "block_end": 2,
+            "diff": {
+              "2": {
+                "type": "Modify",
+                "original": "    return n**3",
+                "modified": "    return n * n"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 2,
+              "block_end": 2,
+              "diff": {
+                "2": {
+                  "type": "Modify",
+                  "original": "    return n**3",
+                  "modified": "    return n**2"
+                }
+              },
+              "stride_before": 1,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/42": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/42_em_0": {
+          "block_start": 2,
+          "block_end": 2,
+          "diff": {
+            "2": {
+              "type": "Modify",
+              "original": "    return [(e + 2) for e in l]",
+              "modified": "    return [(e + 1) for e in l]"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/43": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/43_em_0": {
+          "block_start": 3,
+          "block_end": 3,
+          "diff": {
+            "3": {
+              "type": "Modify",
+              "original": "        for j in range(i, len(l)):",
+              "modified": "        for j in range(i + 1, len(l)):"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/44": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/44_em_0": {
+          "block_start": 5,
+          "block_end": 5,
+          "diff": {
+            "5": {
+              "type": "Modify",
+              "original": "        x -= base",
+              "modified": "        x //= base"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/45": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/45_0": {
+          "pred_block": {
+            "block_start": 2,
+            "block_end": 2,
+            "diff": {
+              "2": {
+                "type": "Modify",
+                "original": "    return a * h / 0.5",
+                "modified": "    return a*h/2"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 2,
+              "block_end": 2,
+              "diff": {
+                "2": {
+                  "type": "Modify",
+                  "original": "    return a * h / 0.5",
+                  "modified": "    return a * h / 2.0"
+                }
+              },
+              "stride_before": 1,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/46": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "matched_blocks": {
+        "Python/46_em_0": {
+          "block_start": 10,
+          "block_end": 10,
+          "diff": {
+            "10": {
+              "type": "Modify",
+              "original": "    return results[-2]",
+              "modified": "    return results[-1]"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {
+        "8": {
+          "type": "Modify",
+          "original": "        results.pop(0)",
+          "modified": "        results.pop()"
+        }
+      },
+      "unmatched_gt": {}
+    },
+    "Python/47": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "6": {
+          "type": "Modify",
+          "original": "        return (l[len(l) - 1 // 2] + l[len(l) // 2]) / 2.0",
+          "modified": "        return (l[len(l) // 2 - 1] + l[len(l) // 2]) / 2.0"
+        }
+      }
+    },
+    "Python/48": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/48_em_0": {
+          "block_start": 3,
+          "block_end": 3,
+          "diff": {
+            "3": {
+              "type": "Modify",
+              "original": "        if text[i] != text[len(text) - i]:",
+              "modified": "        if text[i] != text[len(text) - 1 - i]:"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/49": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/49_em_0": {
+          "block_start": 2,
+          "block_end": 2,
+          "diff": {
+            "2": {
+              "type": "Modify",
+              "original": "    ret = 0",
+              "modified": "    ret = 1"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/50": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/50_0": {
+          "pred_block": {
+            "block_start": 9,
+            "block_end": 9,
+            "diff": {
+              "9": {
+                "type": "Modify",
+                "original": "    return \"\".join([chr(((ord(ch) - 5 - ord(\"a\")) % 26) + ord(ch)) for ch in s])",
+                "modified": "    return \"\".join([chr(((ord(ch) - 5 - ord(\"a\")) % 26 + ord(\"a\"))) for ch in s])"
+              }
+            },
+            "stride_before": 8,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 9,
+              "block_end": 9,
+              "diff": {
+                "9": {
+                  "type": "Modify",
+                  "original": "    return \"\".join([chr(((ord(ch) - 5 - ord(\"a\")) % 26) + ord(ch)) for ch in s])",
+                  "modified": "    return \"\".join([chr(((ord(ch) - 5 - ord(\"a\")) % 26) + ord(\"a\")) for ch in s])"
+                }
+              },
+              "stride_before": 8,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/51": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/51_0": {
+          "pred_block": {
+            "block_start": 2,
+            "block_end": 2,
+            "diff": {
+              "2": {
+                "type": "Modify",
+                "original": "    return \"\".join([s for s in text if s.lower() not in [\"a\", \"e\", \"i\", \"o\", \"u\", \"w\", \"y\"]])",
+                "modified": "    return \"\".join([s for s in text if s.lower() not in [\"a\", \"e\", \"i\", \"o\", \"u\", \"y\"]])"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 2,
+              "block_end": 2,
+              "diff": {
+                "2": {
+                  "type": "Modify",
+                  "original": "    return \"\".join([s for s in text if s.lower() not in [\"a\", \"e\", \"i\", \"o\", \"u\", \"w\", \"y\"]])",
+                  "modified": "    return \"\".join([s for s in text if s.lower() not in [\"a\", \"e\", \"i\", \"o\", \"u\"]])"
+                }
+              },
+              "stride_before": 1,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/52": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "4": {
+          "type": "Modify",
+          "original": "            return True",
+          "modified": "            return False"
+        },
+        "5": {
+          "type": "Modify",
+          "original": "    return False",
+          "modified": "    return True"
+        }
+      }
+    },
+    "Python/53": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/53_0": {
+          "pred_block": {
+            "block_start": 2,
+            "block_end": 3,
+            "diff": {
+              "2": {
+                "type": "Modify",
+                "original": "    return x + y + y + x",
+                "modified": "    return x + y"
+              },
+              "3": {
+                "type": "Add",
+                "original": "",
+                "modified": "```"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 2,
+              "block_end": 2,
+              "diff": {
+                "2": {
+                  "type": "Modify",
+                  "original": "    return x + y + y + x",
+                  "modified": "    return x + y"
+                }
+              },
+              "stride_before": 1,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/54": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/54_0": {
+          "pred_block": {
+            "block_start": 2,
+            "block_end": 3,
+            "diff": {
+              "2": {
+                "type": "Modify",
+                "original": "    return s0 == s1",
+                "modified": "    return sorted(s0) == sorted(s1)"
+              },
+              "3": {
+                "type": "Add",
+                "original": "",
+                "modified": "```"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 2,
+              "block_end": 2,
+              "diff": {
+                "2": {
+                  "type": "Modify",
+                  "original": "    return s0 == s1",
+                  "modified": "    return set(s0) == set(s1)"
+                }
+              },
+              "stride_before": 1,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/55": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {
+        "7": {
+          "type": "Modify",
+          "original": "        return 2",
+          "modified": "        return 1"
+        }
+      },
+      "unmatched_gt": {
+        "6": {
+          "type": "Delete",
+          "original": "    if n == 2:",
+          "modified": ""
+        },
+        "7": {
+          "type": "Delete",
+          "original": "        return 2",
+          "modified": ""
+        }
+      }
+    },
+    "Python/56": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/56_em_0": {
+          "block_start": 4,
+          "block_end": 4,
+          "diff": {
+            "4": {
+              "type": "Modify",
+              "original": "        if b == \">\":",
+              "modified": "        if b == \"<\":"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/57": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "3": {
+          "type": "Modify",
+          "original": "        return False",
+          "modified": "        return True"
+        },
+        "4": {
+          "type": "Modify",
+          "original": "    return True",
+          "modified": "    return False"
+        }
+      }
+    },
+    "Python/58": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "5": {
+          "type": "Modify",
+          "original": "            ret.add(e1)",
+          "modified": "            if e1 == e2:"
+        },
+        "6": {
+          "type": "Add",
+          "original": "",
+          "modified": "                ret.add(e1)"
+        }
+      }
+    },
+    "Python/59": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "matched_blocks": {
+        "Python/59_em_0": {
+          "block_start": 11,
+          "block_end": 11,
+          "diff": {
+            "11": {
+              "type": "Modify",
+              "original": "        if n % j == 0 and is_prime(n):",
+              "modified": "        if n % j == 0 and is_prime(j):"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {
+        "5": {
+          "type": "Modify",
+          "original": "        for i in range(2, k - 1):",
+          "modified": "        for i in range(2, k):"
+        }
+      },
+      "unmatched_gt": {}
+    },
+    "Python/60": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/60_0": {
+          "pred_block": {
+            "block_start": 2,
+            "block_end": 2,
+            "diff": {
+              "2": {
+                "type": "Modify",
+                "original": "    return sum(range(n))",
+                "modified": "    return sum(range(n+1))"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 2,
+              "block_end": 2,
+              "diff": {
+                "2": {
+                  "type": "Modify",
+                  "original": "    return sum(range(n))",
+                  "modified": "    return sum(range(n + 1))"
+                }
+              },
+              "stride_before": 1,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/61": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/61_em_0": {
+          "block_start": 9,
+          "block_end": 9,
+          "diff": {
+            "9": {
+              "type": "Modify",
+              "original": "            return True",
+              "modified": "            return False"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/62": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/62_0": {
+          "pred_block": {
+            "block_start": 2,
+            "block_end": 2,
+            "diff": {
+              "2": {
+                "type": "Modify",
+                "original": "    return [(i * x) for i, x in enumerate(xs)]",
+                "modified": "    return [(i * x) for i, x in enumerate(xs) if i*x]"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 2,
+              "block_end": 2,
+              "diff": {
+                "2": {
+                  "type": "Modify",
+                  "original": "    return [(i * x) for i, x in enumerate(xs)]",
+                  "modified": "    return [(i * x) for i, x in enumerate(xs)][1:]"
+                }
+              },
+              "stride_before": 1,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/63": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/63_em_0": {
+          "block_start": 6,
+          "block_end": 7,
+          "diff": {
+            "6": {
+              "type": "Delete",
+              "original": "    if n == 2:",
+              "modified": ""
+            },
+            "7": {
+              "type": "Delete",
+              "original": "        return 2",
+              "modified": ""
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        },
+        "Python/63_em_1": {
+          "block_start": 5,
+          "block_end": 5,
+          "diff": {
+            "5": {
+              "type": "Add",
+              "original": "",
+              "modified": "        return 0"
+            },
+            "5 ": {
+              "type": "Add",
+              "original": "",
+              "modified": "    if n == 2:"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/64": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "matched_blocks": {
+        "Python/64_0": {
+          "pred_block": {
+            "block_start": 7,
+            "block_end": 7,
+            "diff": {
+              "7": {
+                "type": "Modify",
+                "original": "    n_vowels = sum(c in vowels for c in s)",
+                "modified": "    n_vowels = sum(c in vowels or (c == s[-1]) for c in s)"
+              }
+            },
+            "stride_before": 6,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 8,
+              "block_end": 8,
+              "diff": {
+                "8": {
+                  "type": "Add",
+                  "original": "",
+                  "modified": "    if s[-1] == 'y' or s[-1] == 'Y':"
+                },
+                "8 ": {
+                  "type": "Add",
+                  "original": "",
+                  "modified": "        n_vowels += 1"
+                }
+              },
+              "stride_before": 1,
+              "stride_after": null,
+              "block_id": 1
+            }
+          ],
+          "gt_match_ids": [
+            1
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "6": {
+          "type": "Modify",
+          "original": "    vowels = \"aeiouyAEIOUY\"",
+          "modified": "    vowels = \"aeiouAEIOU\""
+        }
+      }
+    },
+    "Python/65": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/65_em_0": {
+          "block_start": 6,
+          "block_end": 6,
+          "diff": {
+            "6": {
+              "type": "Modify",
+              "original": "        return s[:len(s) - shift] + s[len(s) - shift:]",
+              "modified": "        return s[len(s) - shift:] + s[:len(s) - shift]"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/66": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/66_em_0": {
+          "block_start": 3,
+          "block_end": 3,
+          "diff": {
+            "3": {
+              "type": "Modify",
+              "original": "    return sum(ord(char) if char.islower() else 0 for char in s)",
+              "modified": "    return sum(ord(char) if char.isupper() else 0 for char in s)"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/67": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/67_em_0": {
+          "block_start": 6,
+          "block_end": 6,
+          "diff": {
+            "6": {
+              "type": "Modify",
+              "original": "    return n - sum(lis) - 1",
+              "modified": "    return n - sum(lis)"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/68": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "matched_blocks": {
+        "Python/68_em_0": {
+          "block_start": 5,
+          "block_end": 5,
+          "diff": {
+            "5": {
+              "type": "Modify",
+              "original": "    return [arr.index(min(evens)), min(evens)]",
+              "modified": "    return [min(evens), arr.index(min(evens))]"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {
+        "2": {
+          "type": "Delete",
+          "original": "    if(len(arr) == 0): return []",
+          "modified": ""
+        }
+      },
+      "unmatched_gt": {}
+    },
+    "Python/69": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "6": {
+          "type": "Modify",
+          "original": "    ans = 0",
+          "modified": "    ans = -1"
+        }
+      }
+    },
+    "Python/70": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "2": {
+          "type": "Modify",
+          "original": "    res, switch = [], False",
+          "modified": "    res, switch = [], True"
+        }
+      }
+    },
+    "Python/71": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/71_0": {
+          "pred_block": {
+            "block_start": 4,
+            "block_end": 4,
+            "diff": {
+              "4": {
+                "type": "Modify",
+                "original": "    s = (a + b + c)",
+                "modified": "    s = (a + b + c) / 2"
+              }
+            },
+            "stride_before": 3,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 4,
+              "block_end": 4,
+              "diff": {
+                "4": {
+                  "type": "Modify",
+                  "original": "    s = (a + b + c)",
+                  "modified": "    s = (a + b + c)/2"
+                }
+              },
+              "stride_before": 3,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/72": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/72_em_0": {
+          "block_start": 7,
+          "block_end": 7,
+          "diff": {
+            "7": {
+              "type": "Modify",
+              "original": "        if q[i] == q[j]:",
+              "modified": "        if q[i] != q[j]:"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/73": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/73_0": {
+          "pred_block": {
+            "block_start": 4,
+            "block_end": 4,
+            "diff": {
+              "4": {
+                "type": "Add",
+                "original": "",
+                "modified": "        # Compare the current element with its corresponding element from the end"
+              }
+            },
+            "stride_before": 3,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 4,
+              "block_end": 4,
+              "diff": {
+                "4": {
+                  "type": "Modify",
+                  "original": "        if ans != arr[len(arr) - i - 1]:",
+                  "modified": "        if arr[i] != arr[len(arr) - i - 1]:"
+                }
+              },
+              "stride_before": 3,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/74": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {
+        "10": {
+          "type": "Modify",
+          "original": "    if l1 <= l2:",
+          "modified": "    if l1 < l2:"
+        }
+      },
+      "unmatched_gt": {
+        "12": {
+          "type": "Delete",
+          "original": "    else:",
+          "modified": ""
+        },
+        "13": {
+          "type": "Delete",
+          "original": "        return lst1",
+          "modified": ""
+        },
+        "11": {
+          "type": "Add",
+          "original": "",
+          "modified": "        return lst1"
+        },
+        "11 ": {
+          "type": "Add",
+          "original": "",
+          "modified": "    else:"
+        }
+      }
+    },
+    "Python/75": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/75_0": {
+          "pred_block": {
+            "block_start": 3,
+            "block_end": 3,
+            "diff": {
+              "3": {
+                "type": "Modify",
+                "original": "        for j in range(0,n):",
+                "modified": "        for j in range(2, n-1):"
+              }
+            },
+            "stride_before": 2,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 3,
+              "block_end": 3,
+              "diff": {
+                "3": {
+                  "type": "Modify",
+                  "original": "        for j in range(0,n):",
+                  "modified": "        for j in range(2,n):"
+                }
+              },
+              "stride_before": 2,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/76": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/76_em_0": {
+          "block_start": 5,
+          "block_end": 5,
+          "diff": {
+            "5": {
+              "type": "Modify",
+              "original": "    while (n < x):",
+              "modified": "    while (power < x):"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/77": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/77_0": {
+          "pred_block": {
+            "block_start": 2,
+            "block_end": 3,
+            "diff": {
+              "2": {
+                "type": "Modify",
+                "original": "    a = abs(a)",
+                "modified": "    return round(a ** (1/3)) ** 3 == a"
+              },
+              "3": {
+                "type": "Delete",
+                "original": "    return int(round(a ** (1. / 3))) == a",
+                "modified": ""
+              }
+            },
+            "stride_before": 1,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 3,
+              "block_end": 3,
+              "diff": {
+                "3": {
+                  "type": "Modify",
+                  "original": "    return int(round(a ** (1. / 3))) == a",
+                  "modified": "    return int(round(a ** (1. / 3))) ** 3 == a"
+                }
+              },
+              "stride_before": 2,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/78": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/78_em_0": {
+          "block_start": 3,
+          "block_end": 3,
+          "diff": {
+            "3": {
+              "type": "Modify",
+              "original": "    total = 1",
+              "modified": "    total = 0"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/79": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/79_em_0": {
+          "block_start": 2,
+          "block_end": 2,
+          "diff": {
+            "2": {
+              "type": "Modify",
+              "original": "    return \"db\" + bin(decimal)[2:] + \"d\"",
+              "modified": "    return \"db\" + bin(decimal)[2:] + \"db\""
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/80": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "7": {
+          "type": "Modify",
+          "original": "      if s[i] == s[i+1] and s[i+1] == s[i+2] and s[i] == s[i+2]:",
+          "modified": "      if s[i] == s[i+1] or s[i+1] == s[i+2] or s[i] == s[i+2]:"
+        }
+      }
+    },
+    "Python/81": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/81_em_0": {
+          "block_start": 31,
+          "block_end": 31,
+          "diff": {
+            "31": {
+              "type": "Modify",
+              "original": "            letter_grade.append(\"E+\")",
+              "modified": "            letter_grade.append(\"E\")"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/82": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/82_0": {
+          "pred_block": {
+            "block_start": 5,
+            "block_end": 5,
+            "diff": {
+              "5": {
+                "type": "Modify",
+                "original": "    for i in range(3, l):",
+                "modified": "    for i in range(2, l // 2):"
+              }
+            },
+            "stride_before": 4,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 5,
+              "block_end": 5,
+              "diff": {
+                "5": {
+                  "type": "Modify",
+                  "original": "    for i in range(3, l):",
+                  "modified": "    for i in range(2, l):"
+                }
+              },
+              "stride_before": 4,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/83": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/83_0": {
+          "pred_block": {
+            "block_start": 2,
+            "block_end": 3,
+            "diff": {
+              "2": {
+                "type": "Modify",
+                "original": "    if n == 1: return 1",
+                "modified": "    return 18 * 10**(n-1) + n"
+              },
+              "3": {
+                "type": "Delete",
+                "original": "    return 18 * n * (10 ** (n - 2))",
+                "modified": ""
+              }
+            },
+            "stride_before": 1,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 3,
+              "block_end": 3,
+              "diff": {
+                "3": {
+                  "type": "Modify",
+                  "original": "    return 18 * n * (10 ** (n - 2))",
+                  "modified": "    return 18 * (10 ** (n - 2))"
+                }
+              },
+              "stride_before": 2,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/84": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/84_0": {
+          "pred_block": {
+            "block_start": 2,
+            "block_end": 2,
+            "diff": {
+              "2": {
+                "type": "Modify",
+                "original": "    return bin([int(i) for i in str(N)][-1])[2:]",
+                "modified": "    return bin(sum(int(digit) for digit in str(abs(N))))[2:]"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 2,
+              "block_end": 2,
+              "diff": {
+                "2": {
+                  "type": "Modify",
+                  "original": "    return bin([int(i) for i in str(N)][-1])[2:]",
+                  "modified": "    return bin(sum(int(i) for i in str(N)))[2:]"
+                }
+              },
+              "stride_before": 1,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/85": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/85_0": {
+          "pred_block": {
+            "block_start": 2,
+            "block_end": 2,
+            "diff": {
+              "2": {
+                "type": "Modify",
+                "original": "    return sum([lst[i] for i in range(1, len(lst), 1) if lst[i]%2 == 0])",
+                "modified": "    return sum(lst[i] for i in range(1, len(lst), 2) if lst[i] % 2 ==0)"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 2,
+              "block_end": 2,
+              "diff": {
+                "2": {
+                  "type": "Modify",
+                  "original": "    return sum([lst[i] for i in range(1, len(lst), 1) if lst[i]%2 == 0])",
+                  "modified": "    return sum([lst[i] for i in range(1, len(lst), 2) if lst[i]%2 == 0])"
+                }
+              },
+              "stride_before": 1,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/86": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/86_0": {
+          "pred_block": {
+            "block_start": 2,
+            "block_end": 2,
+            "diff": {
+              "2": {
+                "type": "Modify",
+                "original": "    return ''.join([''.join(sorted(list(i))) for i in s.split(' ')])",
+                "modified": "    return ' '.join(sorted(list(word)) for word in s.split(' '))"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 2,
+              "block_end": 2,
+              "diff": {
+                "2": {
+                  "type": "Modify",
+                  "original": "    return ''.join([''.join(sorted(list(i))) for i in s.split(' ')])",
+                  "modified": "    return ' '.join([''.join(sorted(list(i))) for i in s.split(' ')])"
+                }
+              },
+              "stride_before": 1,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/87": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/87_0": {
+          "pred_block": {
+            "block_start": 3,
+            "block_end": 3,
+            "diff": {
+              "3": {
+                "type": "Modify",
+                "original": "    return sorted(sorted(coords, key=lambda x: x[1], reverse=True), key=lambda x: x[0])",
+                "modified": "    return sorted(coords, key=lambda x: (x, -x))"
+              }
+            },
+            "stride_before": 2,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 2,
+              "block_end": 2,
+              "diff": {
+                "2": {
+                  "type": "Modify",
+                  "original": "    coords = [(j, i) for i in range(len(lst)) for j in range(len(lst[i])) if lst[i][j] == x]",
+                  "modified": "    coords = [(i, j) for i in range(len(lst)) for j in range(len(lst[i])) if lst[i][j] == x]"
+                }
+              },
+              "stride_before": 1,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/88": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/88_0": {
+          "pred_block": {
+            "block_start": 2,
+            "block_end": 2,
+            "diff": {
+              "2": {
+                "type": "Modify",
+                "original": "    return [] if len(array) == 0 else sorted(array, reverse= (array[0]+array[-1]) % 2 != 0)",
+                "modified": "    return [] if len(array) == 0 else sorted(array, reverse=(array[0] + array[-1]) % 2 == 0)"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 2,
+              "block_end": 2,
+              "diff": {
+                "2": {
+                  "type": "Modify",
+                  "original": "    return [] if len(array) == 0 else sorted(array, reverse= (array[0]+array[-1]) % 2 != 0)",
+                  "modified": "    return [] if len(array) == 0 else sorted(array, reverse= (array[0]+array[-1]) % 2 == 0)"
+                }
+              },
+              "stride_before": 1,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/89": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/89_0": {
+          "pred_block": {
+            "block_start": 6,
+            "block_end": 6,
+            "diff": {
+              "6": {
+                "type": "Modify",
+                "original": "            out += d[(d.index(c)+2*2) % 24]",
+                "modified": "            out += d[(d.index(c) + 4) % 26]"
+              }
+            },
+            "stride_before": 5,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 6,
+              "block_end": 6,
+              "diff": {
+                "6": {
+                  "type": "Modify",
+                  "original": "            out += d[(d.index(c)+2*2) % 24]",
+                  "modified": "            out += d[(d.index(c)+2*2) % 26]"
+                }
+              },
+              "stride_before": 5,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/90": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/90_em_0": {
+          "block_start": 3,
+          "block_end": 3,
+          "diff": {
+            "3": {
+              "type": "Modify",
+              "original": "    return None if len(lst) < 3 else lst[1]",
+              "modified": "    return None if len(lst) < 2 else lst[1]"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/91": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/91_0": {
+          "pred_block": {
+            "block_start": 4,
+            "block_end": 4,
+            "diff": {
+              "4": {
+                "type": "Modify",
+                "original": "    return sum(sentence[0:2] == ' I' for sentence in sentences)",
+                "modified": "    return sum(sentence.strip().startswith('I') for sentence in sentences if sentence.strip())"
+              }
+            },
+            "stride_before": 3,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 4,
+              "block_end": 4,
+              "diff": {
+                "4": {
+                  "type": "Modify",
+                  "original": "    return sum(sentence[0:2] == ' I' for sentence in sentences)",
+                  "modified": "    return sum(sentence[0:2] == 'I ' for sentence in sentences)"
+                }
+              },
+              "stride_before": 3,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/92": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/92_0": {
+          "pred_block": {
+            "block_start": 4,
+            "block_end": 4,
+            "diff": {
+              "4": {
+                "type": "Modify",
+                "original": "        if (x+y==z) or (y+z==x):",
+                "modified": "        if (x + y == z) or (y + z == x):"
+              }
+            },
+            "stride_before": 3,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 4,
+              "block_end": 4,
+              "diff": {
+                "4": {
+                  "type": "Modify",
+                  "original": "        if (x+y==z) or (y+z==x):",
+                  "modified": "        if (x+y==z) or (x+z==y) or (y+z==x):"
+                }
+              },
+              "stride_before": 3,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/93": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/93_0": {
+          "pred_block": {
+            "block_start": 3,
+            "block_end": 3,
+            "diff": {
+              "3": {
+                "type": "Modify",
+                "original": "    vowels_replace = dict([(i, chr(ord(i) + 2)) for i in vowels])",
+                "modified": "    vowels_replace = {vowel: chr(ord(vowel.upper()) + 2).swapcase() for vowel in vowels}"
+              }
+            },
+            "stride_before": 2,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 2,
+              "block_end": 2,
+              "diff": {
+                "2": {
+                  "type": "Modify",
+                  "original": "    vowels = \"aeiou\"",
+                  "modified": "    vowels = \"aeiouAEIOU\""
+                }
+              },
+              "stride_before": 1,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/94": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/94_0": {
+          "pred_block": {
+            "block_start": 4,
+            "block_end": 4,
+            "diff": {
+              "4": {
+                "type": "Modify",
+                "original": "            if n%i==0:",
+                "modified": "            if n % i == 0:"
+              }
+            },
+            "stride_before": 3,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 7,
+              "block_end": 7,
+              "diff": {
+                "7": {
+                  "type": "Modify",
+                  "original": "        return False",
+                  "modified": "        return True"
+                }
+              },
+              "stride_before": 1,
+              "stride_after": null,
+              "block_id": 1
+            }
+          ],
+          "gt_match_ids": [
+            1
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "5": {
+          "type": "Modify",
+          "original": "                return True",
+          "modified": "                return False"
+        }
+      }
+    },
+    "Python/95": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/95_em_0": {
+          "block_start": 18,
+          "block_end": 18,
+          "diff": {
+            "18": {
+              "type": "Modify",
+              "original": "            elif (state == \"upper\" and not key.isupper()) and (state == \"lower\" and not key.islower()):",
+              "modified": "            elif (state == \"upper\" and not key.isupper()) or (state == \"lower\" and not key.islower()):"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/96": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/96_em_0": {
+          "block_start": 6,
+          "block_end": 6,
+          "diff": {
+            "6": {
+              "type": "Modify",
+              "original": "            if j % i == 0:",
+              "modified": "            if i % j == 0:"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/97": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/97_0": {
+          "pred_block": {
+            "block_start": 2,
+            "block_end": 3,
+            "diff": {
+              "2": {
+                "type": "Modify",
+                "original": "    return abs(a % 10) * abs(b % 10) * a * b",
+                "modified": "    unit_a = a % 10"
+              },
+              "3": {
+                "type": "Add",
+                "original": "",
+                "modified": "    return unit_a * abs(b % 10) * abs(b)"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 2,
+              "block_end": 2,
+              "diff": {
+                "2": {
+                  "type": "Modify",
+                  "original": "    return abs(a % 10) * abs(b % 10) * a * b",
+                  "modified": "    return abs(a % 10) * abs(b % 10)"
+                }
+              },
+              "stride_before": 1,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/98": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/98_em_0": {
+          "block_start": 5,
+          "block_end": 5,
+          "diff": {
+            "5": {
+              "type": "Modify",
+              "original": "            count += 2",
+              "modified": "            count += 1"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/99": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/99_0": {
+          "pred_block": {
+            "block_start": 15,
+            "block_end": 15,
+            "diff": {
+              "15": {
+                "type": "Modify",
+                "original": "    elif len(value) > 0:",
+                "modified": "    elif value:"
+              }
+            },
+            "stride_before": 14,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 13,
+              "block_end": 14,
+              "diff": {
+                "13": {
+                  "type": "Delete",
+                  "original": "        else:",
+                  "modified": ""
+                },
+                "14": {
+                  "type": "Delete",
+                  "original": "            res = ceil(num)",
+                  "modified": ""
+                }
+              },
+              "stride_before": 1,
+              "stride_after": null,
+              "block_id": 1
+            }
+          ],
+          "gt_match_ids": [
+            1
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "12": {
+          "type": "Add",
+          "original": "",
+          "modified": "            res = ceil(num)"
+        },
+        "12 ": {
+          "type": "Add",
+          "original": "",
+          "modified": "        else:"
+        }
+      }
+    },
+    "Python/100": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/100_0": {
+          "pred_block": {
+            "block_start": 2,
+            "block_end": 2,
+            "diff": {
+              "2": {
+                "type": "Modify",
+                "original": "    return [n + 2*i + i for i in range(n)]",
+                "modified": "    return [n + i  for i in range(n)]"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 2,
+              "block_end": 2,
+              "diff": {
+                "2": {
+                  "type": "Modify",
+                  "original": "    return [n + 2*i + i for i in range(n)]",
+                  "modified": "    return [n + 2*i for i in range(n)]"
+                }
+              },
+              "stride_before": 1,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/101": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/101_em_0": {
+          "block_start": 9,
+          "block_end": 9,
+          "diff": {
+            "9": {
+              "type": "Modify",
+              "original": "            s_list.append(',')",
+              "modified": "            s_list.append(' ')"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/102": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/102_0": {
+          "pred_block": {
+            "block_start": 8,
+            "block_end": 8,
+            "diff": {
+              "8": {
+                "type": "Modify",
+                "original": "    return x - 1",
+                "modified": "    return x"
+              }
+            },
+            "stride_before": 7,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 8,
+              "block_end": 8,
+              "diff": {
+                "8": {
+                  "type": "Modify",
+                  "original": "    return x - 1",
+                  "modified": "    return y - 1"
+                }
+              },
+              "stride_before": 7,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/103": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/103_em_0": {
+          "block_start": 7,
+          "block_end": 7,
+          "diff": {
+            "7": {
+              "type": "Modify",
+              "original": "    return bin(round(summation/(m - n)))",
+              "modified": "    return bin(round(summation/(m - n + 1)))"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/104": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "matched_blocks": {
+        "Python/104_em_0": {
+          "block_start": 6,
+          "block_end": 6,
+          "diff": {
+            "6": {
+              "type": "Delete",
+              "original": "            odd_digit_elements.append(j)",
+              "modified": ""
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "3": {
+          "type": "Modify",
+          "original": "    for j, i in enumerate(x):",
+          "modified": "    for i in x:"
+        }
+      }
+    },
+    "Python/105": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "13": {
+          "type": "Modify",
+          "original": "    sorted_arr = sorted(arr)",
+          "modified": "    sorted_arr = sorted(arr, reverse=True)"
+        }
+      }
+    },
+    "Python/106": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "6": {
+          "type": "Modify",
+          "original": "            for j in range(1,i+1): x *= i",
+          "modified": "            for j in range(1,i+1): x *= j"
+        }
+      }
+    },
+    "Python/107": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/107_0": {
+          "pred_block": {
+            "block_start": 8,
+            "block_end": 8,
+            "diff": {
+              "8": {
+                "type": "Modify",
+                "original": "    for i in range(1, n):",
+                "modified": "    for i in range(1, n + 1):"
+              }
+            },
+            "stride_before": 7,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 8,
+              "block_end": 8,
+              "diff": {
+                "8": {
+                  "type": "Modify",
+                  "original": "    for i in range(1, n):",
+                  "modified": "    for i in range(1, n+1):"
+                }
+              },
+              "stride_before": 7,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/108": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/108_0": {
+          "pred_block": {
+            "block_start": 6,
+            "block_end": 6,
+            "diff": {
+              "6": {
+                "type": "Delete",
+                "original": "        n[0] = n[0] * neg * -1",
+                "modified": ""
+              }
+            },
+            "stride_before": 5,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 6,
+              "block_end": 6,
+              "diff": {
+                "6": {
+                  "type": "Modify",
+                  "original": "        n[0] = n[0] * neg * -1",
+                  "modified": "        n[0] = n[0] * neg"
+                }
+              },
+              "stride_before": 5,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/109": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "8": {
+          "type": "Modify",
+          "original": "    min_index=sorted_array.index(min_value)",
+          "modified": "    min_index=arr.index(min_value)"
+        }
+      }
+    },
+    "Python/110": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/110_0": {
+          "pred_block": {
+            "block_start": 6,
+            "block_end": 6,
+            "diff": {
+              "6": {
+                "type": "Modify",
+                "original": "            even -= 1",
+                "modified": "            even += 1"
+              }
+            },
+            "stride_before": 5,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 6,
+              "block_end": 6,
+              "diff": {
+                "6": {
+                  "type": "Modify",
+                  "original": "            even -= 1",
+                  "modified": "            odd += 1"
+                }
+              },
+              "stride_before": 5,
+              "stride_after": 2,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "9": {
+          "type": "Modify",
+          "original": "            odd += 1",
+          "modified": "            even += 1"
+        }
+      }
+    },
+    "Python/111": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/111_0": {
+          "pred_block": {
+            "block_start": 7,
+            "block_end": 7,
+            "diff": {
+              "7": {
+                "type": "Modify",
+                "original": "        if(list1.count(i)>t) and i!='':",
+                "modified": "        if(list1.count(i) > t) and i!='':"
+              }
+            },
+            "stride_before": 6,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 4,
+              "block_end": 4,
+              "diff": {
+                "4": {
+                  "type": "Modify",
+                  "original": "    t=1",
+                  "modified": "    t=0"
+                }
+              },
+              "stride_before": 3,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/112": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/112_0": {
+          "pred_block": {
+            "block_start": 3,
+            "block_end": 3,
+            "diff": {
+              "3": {
+                "type": "Modify",
+                "original": "    return (s,s[::-1] != s)",
+                "modified": "    return (s, s[::-1])"
+              }
+            },
+            "stride_before": 2,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 3,
+              "block_end": 3,
+              "diff": {
+                "3": {
+                  "type": "Modify",
+                  "original": "    return (s,s[::-1] != s)",
+                  "modified": "    return (s,s[::-1] == s)"
+                }
+              },
+              "stride_before": 2,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/113": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/113_0": {
+          "pred_block": {
+            "block_start": 5,
+            "block_end": 5,
+            "diff": {
+              "5": {
+                "type": "Modify",
+                "original": "        res.append(\"the number of odd elements \" + str(n) + \"n the str\"+ str(n) +\"ng \"+ str(n) +\" of \"+ str(n) +\" the \"+ str(n) +\"nput.\")",
+                "modified": "        res.append(f\"the number of odd elements {n}n the str{n}ng {n} of the {n}nput.\")  # Use f-string for better formatting of the number of odd digits"
+              }
+            },
+            "stride_before": 4,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 5,
+              "block_end": 5,
+              "diff": {
+                "5": {
+                  "type": "Modify",
+                  "original": "        res.append(\"the number of odd elements \" + str(n) + \"n the str\"+ str(n) +\"ng \"+ str(n) +\" of \"+ str(n) +\" the \"+ str(n) +\"nput.\")",
+                  "modified": "        res.append(\"the number of odd elements \" + str(n) + \"n the str\"+ str(n) +\"ng \"+ str(n) +\" of the \"+ str(n) +\"nput.\")"
+                }
+              },
+              "stride_before": 4,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/114": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/114_0": {
+          "pred_block": {
+            "block_start": 11,
+            "block_end": 11,
+            "diff": {
+              "11": {
+                "type": "Modify",
+                "original": "    min_sum = min(-i for i in nums)",
+                "modified": "    min_sum = s"
+              }
+            },
+            "stride_before": 2,
+            "stride_after": null,
+            "block_id": 1
+          },
+          "gt_blocks": [
+            {
+              "block_start": 11,
+              "block_end": 11,
+              "diff": {
+                "11": {
+                  "type": "Modify",
+                  "original": "    min_sum = min(-i for i in nums)",
+                  "modified": "    min_sum = -max_sum"
+                }
+              },
+              "stride_before": 10,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {
+        "8": {
+          "type": "Modify",
+          "original": "        max_sum = max(s, max_sum)",
+          "modified": "        max_sum = max(s, s)"
+        }
+      },
+      "unmatched_gt": {}
+    },
+    "Python/115": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/115_0": {
+          "pred_block": {
+            "block_start": 3,
+            "block_end": 3,
+            "diff": {
+              "3": {
+                "type": "Modify",
+                "original": "    return sum([math.floor(sum(arr)/capacity) for arr in grid])",
+                "modified": "    return sum(math.ceil(sum(arr)/capacity for arr in grid))"
+              }
+            },
+            "stride_before": 2,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 3,
+              "block_end": 3,
+              "diff": {
+                "3": {
+                  "type": "Modify",
+                  "original": "    return sum([math.floor(sum(arr)/capacity) for arr in grid])",
+                  "modified": "    return sum([math.ceil(sum(arr)/capacity) for arr in grid])"
+                }
+              },
+              "stride_before": 2,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/116": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/116_0": {
+          "pred_block": {
+            "block_start": 2,
+            "block_end": 2,
+            "diff": {
+              "2": {
+                "type": "Modify",
+                "original": "    return sorted(sorted(arr), key=lambda x: arr.count('1'))",
+                "modified": "    return sorted(arr, key=lambda x: bin(x))"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 2,
+              "block_end": 2,
+              "diff": {
+                "2": {
+                  "type": "Modify",
+                  "original": "    return sorted(sorted(arr), key=lambda x: arr.count('1'))",
+                  "modified": "    return sorted(sorted(arr), key=lambda x: bin(x)[2:].count('1'))"
+                }
+              },
+              "stride_before": 1,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/117": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/117_0": {
+          "pred_block": {
+            "block_start": 5,
+            "block_end": 5,
+            "diff": {
+              "5": {
+                "type": "Modify",
+                "original": "        for i in range(0, len(word)):",
+                "modified": "        for i in range(len(word)):"
+              }
+            },
+            "stride_before": 4,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 6,
+              "block_end": 6,
+              "diff": {
+                "6": {
+                  "type": "Modify",
+                  "original": "            if word[i].lower() in [\"a\",\"e\",\"i\",\"o\",\"u\"]:",
+                  "modified": "            if word[i].lower() not in [\"a\",\"e\",\"i\",\"o\",\"u\"]:"
+                }
+              },
+              "stride_before": 5,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/118": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "10": {
+          "type": "Modify",
+          "original": "    return \" \"",
+          "modified": "    return \"\""
+        },
+        "3": {
+          "type": "Modify",
+          "original": "        return \" \"",
+          "modified": "        return \"\""
+        }
+      }
+    },
+    "Python/119": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "15": {
+          "type": "Modify",
+          "original": "    return 'yes' if check(S1) or check(S2) else 'no'",
+          "modified": "    return 'Yes' if check(S1) or check(S2) else 'No'"
+        }
+      }
+    },
+    "Python/120": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/120_0": {
+          "pred_block": {
+            "block_start": 6,
+            "block_end": 6,
+            "diff": {
+              "6": {
+                "type": "Modify",
+                "original": "    return ans.sort(reverse=True)",
+                "modified": "    return sorted(ans)"
+              }
+            },
+            "stride_before": 5,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 6,
+              "block_end": 6,
+              "diff": {
+                "6": {
+                  "type": "Modify",
+                  "original": "    return ans.sort(reverse=True)",
+                  "modified": "    return ans"
+                }
+              },
+              "stride_before": 5,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/121": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/121_em_0": {
+          "block_start": 2,
+          "block_end": 2,
+          "diff": {
+            "2": {
+              "type": "Modify",
+              "original": "    return sum([x for idx, x in enumerate(lst) if idx%2==1 and x%2==1])",
+              "modified": "    return sum([x for idx, x in enumerate(lst) if idx%2==0 and x%2==1])"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/122": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/122_0": {
+          "pred_block": {
+            "block_start": 2,
+            "block_end": 2,
+            "diff": {
+              "2": {
+                "type": "Add",
+                "original": "",
+                "modified": "    arr = arr[k:]"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 2,
+              "block_end": 2,
+              "diff": {
+                "2": {
+                  "type": "Modify",
+                  "original": "    return sum(elem for elem in arr if len(str(elem)) <= 2)",
+                  "modified": "    return sum(elem for elem in arr[:k] if len(str(elem)) <= 2)"
+                }
+              },
+              "stride_before": 1,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/123": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/123_em_0": {
+          "block_start": 10,
+          "block_end": 10,
+          "diff": {
+            "10": {
+              "type": "Modify",
+              "original": "            n = n*2 + 1",
+              "modified": "            n = n*3 + 1"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/124": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/124_0": {
+          "pred_block": {
+            "block_start": 3,
+            "block_end": 3,
+            "diff": {
+              "3": {
+                "type": "Delete",
+                "original": "        date = date.strip()",
+                "modified": ""
+              }
+            },
+            "stride_before": 2,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 4,
+              "block_end": 5,
+              "diff": {
+                "4": {
+                  "type": "Modify",
+                  "original": "        day, month, year = date.split('-')",
+                  "modified": "        month, day, year = date.split('-')"
+                },
+                "5": {
+                  "type": "Modify",
+                  "original": "        day, month, year = int(day), int(month), int(year)",
+                  "modified": "        month, day, year = int(month), int(day), int(year)"
+                }
+              },
+              "stride_before": 3,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/125": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "matched_blocks": {
+        "Python/125_1": {
+          "pred_block": {
+            "block_start": 5,
+            "block_end": 5,
+            "diff": {
+              "5": {
+                "type": "Modify",
+                "original": "        return txt.replace(' ',',').split()",
+                "modified": "        return txt.replace(',', ' ').split()"
+              }
+            },
+            "stride_before": 4,
+            "stride_after": 1,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 5,
+              "block_end": 5,
+              "diff": {
+                "5": {
+                  "type": "Modify",
+                  "original": "        return txt.replace(' ',',').split()",
+                  "modified": "        return txt.replace(',',' ').split()"
+                }
+              },
+              "stride_before": 4,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {
+        "7": {
+          "type": "Modify",
+          "original": "        return len([i for i in txt if i.islower() and ord(i)%2 == 0])",
+          "modified": "        return len([i for i in txt if i.islower() and ord(i)%2 != 0])"
+        }
+      },
+      "unmatched_gt": {}
+    },
+    "Python/126": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "5": {
+          "type": "Add",
+          "original": "",
+          "modified": "    if any(count_digit[i] > 2 for i in lst):"
+        },
+        "5 ": {
+          "type": "Add",
+          "original": "",
+          "modified": "        return False"
+        }
+      }
+    },
+    "Python/127": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/127_0": {
+          "pred_block": {
+            "block_start": 7,
+            "block_end": 7,
+            "diff": {
+              "7": {
+                "type": "Modify",
+                "original": "        for i in range(2, num):",
+                "modified": "        for i in range(2, num + 1):"
+              }
+            },
+            "stride_before": 6,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 15,
+              "block_end": 15,
+              "diff": {
+                "15": {
+                  "type": "Modify",
+                  "original": "    if length > 0:",
+                  "modified": "    if length > 0 and is_prime(length):"
+                }
+              },
+              "stride_before": 14,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/128": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/128_0": {
+          "pred_block": {
+            "block_start": 3,
+            "block_end": 3,
+            "diff": {
+              "3": {
+                "type": "Modify",
+                "original": "    prod = 0 if 0 in arr else (-1) ** 2 * len(list(filter(lambda x: x < 0, arr)))",
+                "modified": "    prod = 0 if 0 in arr else (-1) ** (len(list(filter(lambda x: x<0, arr))))"
+              }
+            },
+            "stride_before": 2,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 3,
+              "block_end": 3,
+              "diff": {
+                "3": {
+                  "type": "Modify",
+                  "original": "    prod = 0 if 0 in arr else (-1) ** 2 * len(list(filter(lambda x: x < 0, arr)))",
+                  "modified": "    prod = 0 if 0 in arr else (-1) ** len(list(filter(lambda x: x < 0, arr)))"
+                }
+              },
+              "stride_before": 2,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/129": {
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1": 0.4,
+      "matched_blocks": {
+        "Python/129_em_0": {
+          "block_start": 9,
+          "block_end": 9,
+          "diff": {
+            "9": {
+              "type": "Modify",
+              "original": "                    temp.append(grid[i][j])",
+              "modified": "                    temp.append(grid[i - 1][j])"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "18": {
+          "type": "Modify",
+          "original": "                    temp.append(grid[i][j])",
+          "modified": "                    temp.append(grid[i][j + 1])"
+        },
+        "15": {
+          "type": "Modify",
+          "original": "                    temp.append(grid[i][j])",
+          "modified": "                    temp.append(grid[i + 1][j])"
+        },
+        "12": {
+          "type": "Modify",
+          "original": "                    temp.append(grid[i][j])",
+          "modified": "                    temp.append(grid[i][j - 1])"
+        }
+      }
+    },
+    "Python/130": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/130_0": {
+          "pred_block": {
+            "block_start": 9,
+            "block_end": 9,
+            "diff": {
+              "9": {
+                "type": "Modify",
+                "original": "            my_tri.append(my_tri[i - 1] + my_tri[i - 2] + i + (i + 3) / 2)",
+                "modified": "            my_tri.append(my_tri[i - 1] + my_tri[i - 2] + my_tri.get(i + 1, tri(1)))"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": null,
+            "block_id": 1
+          },
+          "gt_blocks": [
+            {
+              "block_start": 9,
+              "block_end": 9,
+              "diff": {
+                "9": {
+                  "type": "Modify",
+                  "original": "            my_tri.append(my_tri[i - 1] + my_tri[i - 2] + i + (i + 3) / 2)",
+                  "modified": "            my_tri.append(my_tri[i - 1] + my_tri[i - 2] + (i + 3) / 2)"
+                }
+              },
+              "stride_before": 8,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {
+        "7": {
+          "type": "Modify",
+          "original": "            my_tri.append(i / 2 + 1)",
+          "modified": "            my_tri.append(i + 1)"
+        }
+      },
+      "unmatched_gt": {}
+    },
+    "Python/131": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/131_0": {
+          "pred_block": {
+            "block_start": 7,
+            "block_end": 7,
+            "diff": {
+              "7": {
+                "type": "Modify",
+                "original": "            product*= product*int_digit",
+                "modified": "            product *= int_digit"
+              }
+            },
+            "stride_before": 6,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 7,
+              "block_end": 7,
+              "diff": {
+                "7": {
+                  "type": "Modify",
+                  "original": "            product*= product*int_digit",
+                  "modified": "            product= product*int_digit"
+                }
+              },
+              "stride_before": 6,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/132": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "matched_blocks": {
+        "Python/132_em_0": {
+          "block_start": 5,
+          "block_end": 5,
+          "diff": {
+            "5": {
+              "type": "Modify",
+              "original": "        if string[i] == '(':",
+              "modified": "        if string[i] == '[':"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {
+        "9": {
+          "type": "Delete",
+          "original": "    closing_bracket_index.reverse()",
+          "modified": ""
+        }
+      },
+      "unmatched_gt": {}
+    },
+    "Python/133": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/133_em_0": {
+          "block_start": 5,
+          "block_end": 5,
+          "diff": {
+            "5": {
+              "type": "Modify",
+              "original": "        squared += math.ceil(i)*2",
+              "modified": "        squared += math.ceil(i)**2"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/134": {
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "matched_blocks": {
+        "Python/134_0": {
+          "pred_block": {
+            "block_start": 4,
+            "block_end": 5,
+            "diff": {
+              "4": {
+                "type": "Modify",
+                "original": "    return True if len(check) == 1 and (97 <= ord(check.upper()) <= 122) else False",
+                "modified": "    if len(check) == 1 and (97 <= ord(check.lower()) <= 122):"
+              },
+              "5": {
+                "type": "Add",
+                "original": "",
+                "modified": "        return True"
+              },
+              "5 ": {
+                "type": "Add",
+                "original": "",
+                "modified": "    return False"
+              }
+            },
+            "stride_before": 3,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 4,
+              "block_end": 4,
+              "diff": {
+                "4": {
+                  "type": "Modify",
+                  "original": "    return True if len(check) == 1 and (97 <= ord(check.upper()) <= 122) else False",
+                  "modified": "    return True if len(check) == 1 and (97 <= ord(check.lower()) <= 122) else False"
+                }
+              },
+              "stride_before": 3,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true,
+          "effective_starter": "2"
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/135": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/135_em_0": {
+          "block_start": 8,
+          "block_end": 8,
+          "diff": {
+            "8": {
+              "type": "Delete",
+              "original": "      ind-=1",
+              "modified": ""
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/136": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/136_0": {
+          "pred_block": {
+            "block_start": 4,
+            "block_end": 4,
+            "diff": {
+              "4": {
+                "type": "Delete",
+                "original": "    largest = list(filter(lambda x: x > 0, smallest))",
+                "modified": ""
+              }
+            },
+            "stride_before": 3,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 4,
+              "block_end": 5,
+              "diff": {
+                "4": {
+                  "type": "Delete",
+                  "original": "    largest = list(filter(lambda x: x > 0, smallest))",
+                  "modified": ""
+                },
+                "5": {
+                  "type": "Delete",
+                  "original": "    smallest = list(filter(lambda x: x > 0, largest))",
+                  "modified": ""
+                }
+              },
+              "stride_before": 3,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/137": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/137_0": {
+          "pred_block": {
+            "block_start": 3,
+            "block_end": 3,
+            "diff": {
+              "3": {
+                "type": "Modify",
+                "original": "    if isinstance(temp_a, str): temp_a = temp_a.replace(',','.').replace('.',',')",
+                "modified": "    if isinstance(temp_a, str): temp_a = temp_a.replace(',','.').replace('.', '')"
+              }
+            },
+            "stride_before": 2,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 3,
+              "block_end": 3,
+              "diff": {
+                "3": {
+                  "type": "Modify",
+                  "original": "    if isinstance(temp_a, str): temp_a = temp_a.replace(',','.').replace('.',',')",
+                  "modified": "    if isinstance(temp_a, str): temp_a = temp_a.replace(',','.')"
+                }
+              },
+              "stride_before": 2,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/138": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/138_0": {
+          "pred_block": {
+            "block_start": 2,
+            "block_end": 2,
+            "diff": {
+              "2": {
+                "type": "Modify",
+                "original": "    return n%2 == 0 and n >= 8 and n <= 8",
+                "modified": "    return n%2 == 0"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 2,
+              "block_end": 2,
+              "diff": {
+                "2": {
+                  "type": "Modify",
+                  "original": "    return n%2 == 0 and n >= 8 and n <= 8",
+                  "modified": "    return n%2 == 0 and n >= 8"
+                }
+              },
+              "stride_before": 1,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/139": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/139_em_0": {
+          "block_start": 5,
+          "block_end": 5,
+          "diff": {
+            "5": {
+              "type": "Delete",
+              "original": "        i *= n",
+              "modified": ""
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/140": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "20": {
+          "type": "Modify",
+          "original": "        new_text += \"__\"",
+          "modified": "        new_text += \"_\""
+        }
+      }
+    },
+    "Python/141": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {
+        "13": {
+          "type": "Add",
+          "original": "",
+          "modified": "    if len(lst[1]) == 0:"
+        },
+        "13 ": {
+          "type": "Add",
+          "original": "",
+          "modified": "        return 'No'"
+        },
+        "13  ": {
+          "type": "Add",
+          "original": "",
+          "modified": "    if lst[1].lower() not in suf:"
+        },
+        "13   ": {
+          "type": "Add",
+          "original": "",
+          "modified": "        return 'No'"
+        }
+      },
+      "unmatched_gt": {
+        "5": {
+          "type": "Add",
+          "original": "",
+          "modified": "        return 'No'"
+        },
+        "5 ": {
+          "type": "Add",
+          "original": "",
+          "modified": "    if not lst[1] in suf:"
+        }
+      }
+    },
+    "Python/142": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/142_0": {
+          "pred_block": {
+            "block_start": 6,
+            "block_end": 6,
+            "diff": {
+              "6": {
+                "type": "Modify",
+                "original": "        elif i%3 != 0:",
+                "modified": "        elif i %4 == 0:"
+              }
+            },
+            "stride_before": 5,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 6,
+              "block_end": 6,
+              "diff": {
+                "6": {
+                  "type": "Modify",
+                  "original": "        elif i%3 != 0:",
+                  "modified": "        elif i % 4 == 0 and i%3 != 0:"
+                }
+              },
+              "stride_before": 5,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/143": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "5": {
+          "type": "Add",
+          "original": "",
+          "modified": "        if len(word) == 1:"
+        },
+        "5 ": {
+          "type": "Add",
+          "original": "",
+          "modified": "            flg = 1"
+        }
+      }
+    },
+    "Python/144": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/144_0": {
+          "pred_block": {
+            "block_start": 4,
+            "block_end": 4,
+            "diff": {
+              "4": {
+                "type": "Modify",
+                "original": "    a = int(b) * int(c)",
+                "modified": "    a = int(a)"
+              }
+            },
+            "stride_before": 3,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 4,
+              "block_end": 5,
+              "diff": {
+                "4": {
+                  "type": "Delete",
+                  "original": "    a = int(b) * int(c)",
+                  "modified": ""
+                },
+                "5": {
+                  "type": "Delete",
+                  "original": "    d = int(c) * int(b)",
+                  "modified": ""
+                }
+              },
+              "stride_before": 3,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/145": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/145_1": {
+          "pred_block": {
+            "block_start": 4,
+            "block_end": 5,
+            "diff": {
+              "4": {
+                "type": "Modify",
+                "original": "        if n < 0: n, neg = -1 * n, -1 + n",
+                "modified": "        if n < 0:"
+              },
+              "5": {
+                "type": "Add",
+                "original": "",
+                "modified": "            n = -n"
+              }
+            },
+            "stride_before": 3,
+            "stride_after": 0,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 4,
+              "block_end": 4,
+              "diff": {
+                "4": {
+                  "type": "Modify",
+                  "original": "        if n < 0: n, neg = -1 * n, -1 + n",
+                  "modified": "        if n < 0: n, neg = -1 * n, -1"
+                }
+              },
+              "stride_before": 3,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {
+        "6": {
+          "type": "Delete",
+          "original": "        n[0] = n[0] * neg",
+          "modified": ""
+        }
+      },
+      "unmatched_gt": {}
+    },
+    "Python/146": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/146_0": {
+          "pred_block": {
+            "block_start": 6,
+            "block_end": 6,
+            "diff": {
+              "6": {
+                "type": "Modify",
+                "original": "            odd_digits = (1, 2, 3, 5, 7, 9)",
+                "modified": "            odd_digits = (1, 3, 5, 7, 9, -1)"
+              }
+            },
+            "stride_before": 5,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 6,
+              "block_end": 6,
+              "diff": {
+                "6": {
+                  "type": "Modify",
+                  "original": "            odd_digits = (1, 2, 3, 5, 7, 9)",
+                  "modified": "            odd_digits = (1, 3, 5, 7, 9)"
+                }
+              },
+              "stride_before": 5,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/147": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/147_1": {
+          "pred_block": {
+            "block_start": 2,
+            "block_end": 2,
+            "diff": {
+              "2": {
+                "type": "Modify",
+                "original": "    A = [i*i for i in range(1,n+1)]",
+                "modified": "    A = [i*i - i + 1 for i in range(n)]"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": 5,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 2,
+              "block_end": 2,
+              "diff": {
+                "2": {
+                  "type": "Modify",
+                  "original": "    A = [i*i for i in range(1,n+1)]",
+                  "modified": "    A = [i*i - i + 1 for i in range(1,n+1)]"
+                }
+              },
+              "stride_before": 1,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {
+        "8": {
+          "type": "Modify",
+          "original": "                    ans += [(A[i],A[j],A[k])]",
+          "modified": "                    ans.append((A[i],A[j],A[k]))"
+        }
+      },
+      "unmatched_gt": {}
+    },
+    "Python/148": {
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "matched_blocks": {
+        "Python/148_em_0": {
+          "block_start": 2,
+          "block_end": 2,
+          "diff": {
+            "2": {
+              "type": "Modify",
+              "original": "    planet_names = (\"Mercury\", \"Venus\", \"Earth\", \"Mars\", \"Jupyter\", \"Saturn\", \"Uranus\", \"Neptune\")",
+              "modified": "    planet_names = (\"Mercury\", \"Venus\", \"Earth\", \"Mars\", \"Jupiter\", \"Saturn\", \"Uranus\", \"Neptune\")"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {
+        "10": {
+          "type": "Modify",
+          "original": "        return (planet_names[planet2_index + 1 : planet1_index])",
+          "modified": "        return tuple(planet_names[planet2_index+1:planet1_index])"
+        },
+        "8": {
+          "type": "Modify",
+          "original": "        return (planet_names[planet1_index + 1: planet2_index])",
+          "modified": "        return tuple(planet_names[planet1_index+1:planet2_index])"
+        }
+      },
+      "unmatched_gt": {}
+    },
+    "Python/149": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "7": {
+          "type": "Modify",
+          "original": "    return new_lst",
+          "modified": "    return sorted(new_lst, key=len)"
+        }
+      }
+    },
+    "Python/150": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/150_em_0": {
+          "block_start": 5,
+          "block_end": 5,
+          "diff": {
+            "5": {
+              "type": "Modify",
+              "original": "        if n % i - 1 == 0:",
+              "modified": "        if n % i == 0:"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/151": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/151_0": {
+          "pred_block": {
+            "block_start": 2,
+            "block_end": 2,
+            "diff": {
+              "2": {
+                "type": "Modify",
+                "original": "    return sum([i**2 for i in lst if i > 0 and \".\" not in str(i)])",
+                "modified": "    return sum(i**2 for i in lst if isinstance(i, int) and i%2!=0)"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 2,
+              "block_end": 2,
+              "diff": {
+                "2": {
+                  "type": "Modify",
+                  "original": "    return sum([i**2 for i in lst if i > 0 and \".\" not in str(i)])",
+                  "modified": "    return sum([i**2 for i in lst if i > 0 and i%2!=0 and \".\" not in str(i)])"
+                }
+              },
+              "stride_before": 1,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/152": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/152_0": {
+          "pred_block": {
+            "block_start": 2,
+            "block_end": 2,
+            "diff": {
+              "2": {
+                "type": "Modify",
+                "original": "    return [abs(x-y)+abs(y-x) for x,y in zip(game,guess)]",
+                "modified": "    return [abs(x - y) for x, y in zip(game,guess)]"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 2,
+              "block_end": 2,
+              "diff": {
+                "2": {
+                  "type": "Modify",
+                  "original": "    return [abs(x-y)+abs(y-x) for x,y in zip(game,guess)]",
+                  "modified": "    return [abs(x-y) for x,y in zip(game,guess)]"
+                }
+              },
+              "stride_before": 1,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/153": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/153_0": {
+          "pred_block": {
+            "block_start": 10,
+            "block_end": 10,
+            "diff": {
+              "10": {
+                "type": "Modify",
+                "original": "    ans = class_name + strong",
+                "modified": "    ans = f\"{class_name}.{strong}\""
+              }
+            },
+            "stride_before": 9,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 10,
+              "block_end": 10,
+              "diff": {
+                "10": {
+                  "type": "Modify",
+                  "original": "    ans = class_name + strong",
+                  "modified": "    ans = class_name + \".\" + strong"
+                }
+              },
+              "stride_before": 9,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/154": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/154_0": {
+          "pred_block": {
+            "block_start": 5,
+            "block_end": 5,
+            "diff": {
+              "5": {
+                "type": "Modify",
+                "original": "        for j in range(len(b) - l + 1):",
+                "modified": "        for j in range(len(pat)):"
+              }
+            },
+            "stride_before": 4,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 5,
+              "block_end": 5,
+              "diff": {
+                "5": {
+                  "type": "Modify",
+                  "original": "        for j in range(len(b) - l + 1):",
+                  "modified": "        for j in range(l + 1):"
+                }
+              },
+              "stride_before": 4,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/155": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/155_0": {
+          "pred_block": {
+            "block_start": 7,
+            "block_end": 7,
+            "diff": {
+              "7": {
+                "type": "Add",
+                "original": "",
+                "modified": "        else:  # Odd case"
+              },
+              "7 ": {
+                "type": "Add",
+                "original": "",
+                "modified": "            odd_count +=1"
+              }
+            },
+            "stride_before": 6,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 7,
+              "block_end": 7,
+              "diff": {
+                "7": {
+                  "type": "Add",
+                  "original": "",
+                  "modified": "        else:"
+                },
+                "7 ": {
+                  "type": "Add",
+                  "original": "",
+                  "modified": "            odd_count +=1"
+                }
+              },
+              "stride_before": 6,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/156": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched_blocks": {
+        "Python/156_em_0": {
+          "block_start": 13,
+          "block_end": 13,
+          "diff": {
+            "13": {
+              "type": "Add",
+              "original": "",
+              "modified": "            div -= 1"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/157": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "2": {
+          "type": "Modify",
+          "original": "    return c*c == a*a + b*b",
+          "modified": "    return a*a == b*b + c*c or b*b == a*a + c*c or c*c == a*a + b*b"
+        }
+      }
+    },
+    "Python/158": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {},
+      "unmatched_gt": {
+        "2": {
+          "type": "Modify",
+          "original": "    return sorted(words)[0]",
+          "modified": "    return sorted(words, key = lambda x: (-len(set(x)), x))[0]"
+        }
+      }
+    },
+    "Python/159": {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5,
+      "matched_blocks": {
+        "Python/159_em_0": {
+          "block_start": 5,
+          "block_end": 5,
+          "diff": {
+            "5": {
+              "type": "Modify",
+              "original": "        return [ number + need + remaining , 0]",
+              "modified": "        return [ number + remaining , 0]"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        },
+        "Python/159_0": {
+          "pred_block": {
+            "block_start": 3,
+            "block_end": 3,
+            "diff": {
+              "3": {
+                "type": "Modify",
+                "original": "        return [ number + need , number + remaining-need ]",
+                "modified": "        return [ number + need , 0 ]"
+              }
+            },
+            "stride_before": 2,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 3,
+              "block_end": 3,
+              "diff": {
+                "3": {
+                  "type": "Modify",
+                  "original": "        return [ number + need , number + remaining-need ]",
+                  "modified": "        return [ number + need , remaining-need ]"
+                }
+              },
+              "stride_before": 2,
+              "stride_after": 1,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/160": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {},
+      "unmatched_pred": {
+        "3": {
+          "type": "Add",
+          "original": "",
+          "modified": "    index = 1"
+        }
+      },
+      "unmatched_gt": {
+        "4": {
+          "type": "Modify",
+          "original": "        expression+=expression + oprt + str(oprn)",
+          "modified": "        expression+= oprt + str(oprn)"
+        }
+      }
+    },
+    "Python/161": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "matched_blocks": {
+        "Python/161_em_0": {
+          "block_start": 7,
+          "block_end": 7,
+          "diff": {
+            "7": {
+              "type": "Modify",
+              "original": "            new_str[idx] = i",
+              "modified": "            new_str[idx] = i.swapcase()"
+            }
+          },
+          "block_id": -1,
+          "success": true,
+          "gt_match_count": 1,
+          "tolerance": 0
+        }
+      },
+      "unmatched_pred": {
+        "14": {
+          "type": "Modify",
+          "original": "        return s[len(s)::-1]",
+          "modified": "        return s[::-()"
+        }
+      },
+      "unmatched_gt": {}
+    },
+    "Python/162": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "matched_blocks": {
+        "Python/162_0": {
+          "pred_block": {
+            "block_start": 3,
+            "block_end": 3,
+            "diff": {
+              "3": {
+                "type": "Modify",
+                "original": "    return hashlib.md5('text').hexdigest() if text else None",
+                "modified": "    return hashlib.md5(text).hexdigest() if text else None"
+              }
+            },
+            "stride_before": 2,
+            "stride_after": null,
+            "block_id": 0
+          },
+          "gt_blocks": [
+            {
+              "block_start": 3,
+              "block_end": 3,
+              "diff": {
+                "3": {
+                  "type": "Modify",
+                  "original": "    return hashlib.md5('text').hexdigest() if text else None",
+                  "modified": "    return hashlib.md5(text.encode('ascii')).hexdigest() if text else None"
+                }
+              },
+              "stride_before": 2,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 0,
+          "tolerance": 0,
+          "success": false
+        }
+      },
+      "unmatched_pred": {},
+      "unmatched_gt": {}
+    },
+    "Python/163": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "matched_blocks": {
+        "Python/163_0": {
+          "pred_block": {
+            "block_start": 5,
+            "block_end": 5,
+            "diff": {
+              "5": {
+                "type": "Modify",
+                "original": "    return [i for i in range(lower, upper) if i % 2 == 0]",
+                "modified": "    return [i for i in range(lower, upper + 1) if i % 2 == 0]"
+              }
+            },
+            "stride_before": 1,
+            "stride_after": null,
+            "block_id": 1
+          },
+          "gt_blocks": [
+            {
+              "block_start": 5,
+              "block_end": 5,
+              "diff": {
+                "5": {
+                  "type": "Modify",
+                  "original": "    return [i for i in range(lower, upper) if i % 2 == 0]",
+                  "modified": "    return [i for i in range(lower, upper+1) if i % 2 == 0]"
+                }
+              },
+              "stride_before": 4,
+              "stride_after": null,
+              "block_id": 0
+            }
+          ],
+          "gt_match_ids": [
+            0
+          ],
+          "gt_match_count": 1,
+          "tolerance": 0,
+          "success": true
+        }
+      },
+      "unmatched_pred": {
+        "3": {
+          "type": "Modify",
+          "original": "    upper = min(8, max(a, b))",
+          "modified": "    upper = min(9, max(a, b))"
+        }
+      },
+      "unmatched_gt": {}
+    }
+  }
+}
